@@ -1,0 +1,972 @@
+2026-05-04 16:18:26.913 +05:30 [INF] Loading proxy data from config.
+2026-05-04 16:18:27.110 +05:30 [INF] Now listening on: http://localhost:5000
+2026-05-04 16:18:27.114 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 16:18:27.116 +05:30 [INF] Hosting environment: Development
+2026-05-04 16:18:27.117 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\ApiGateway
+2026-05-04 16:18:51.500 +05:30 [INF] HTTP GET / responded 302 in 38.5742 ms
+2026-05-04 16:18:51.819 +05:30 [INF] HTTP GET /swagger/index.html responded 304 in 252.9537 ms
+2026-05-04 16:18:51.995 +05:30 [INF] HTTP GET /swagger/index.js responded 304 in 1.0555 ms
+2026-05-04 16:18:52.021 +05:30 [INF] HTTP GET /swagger/index.css responded 304 in 27.8781 ms
+2026-05-04 16:18:52.021 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 27.1761 ms
+2026-05-04 16:18:52.021 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 28.0482 ms
+2026-05-04 16:18:52.034 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 40.2044 ms
+2026-05-04 16:18:53.469 +05:30 [INF] Proxying to http://localhost:5295/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:18:54.073 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:18:54.100 +05:30 [INF] HTTP GET /swagger-auth/v1/swagger.json responded 200 in 736.5587 ms
+2026-05-04 16:18:57.766 +05:30 [INF] Proxying to http://localhost:5296/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:18:58.432 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:18:58.458 +05:30 [INF] HTTP GET /swagger-posts/v1/swagger.json responded 200 in 694.4601 ms
+2026-05-04 16:19:00.464 +05:30 [INF] Proxying to http://localhost:5299/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:01.055 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:19:01.084 +05:30 [INF] HTTP GET /swagger-comments/v1/swagger.json responded 200 in 620.7591 ms
+2026-05-04 16:19:03.045 +05:30 [INF] Proxying to http://localhost:5001/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:03.530 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:19:03.559 +05:30 [INF] HTTP GET /swagger-feed/v1/swagger.json responded 200 in 514.9179 ms
+2026-05-04 16:19:06.234 +05:30 [INF] Proxying to http://localhost:5177/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:06.827 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:19:06.856 +05:30 [INF] HTTP GET /swagger-follows/v1/swagger.json responded 200 in 622.7211 ms
+2026-05-04 16:19:08.964 +05:30 [INF] Proxying to http://localhost:5298/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:09.514 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:19:09.540 +05:30 [INF] HTTP GET /swagger-likes/v1/swagger.json responded 200 in 577.0084 ms
+2026-05-04 16:19:38.637 +05:30 [INF] HTTP OPTIONS /api/auth/users/recommendations responded 204 in 5.7480 ms
+2026-05-04 16:19:38.653 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/recommendations HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:38.669 +05:30 [INF] HTTP OPTIONS /api/feed/explore responded 204 in 0.6324 ms
+2026-05-04 16:19:38.786 +05:30 [INF] Proxying to http://localhost:5001/api/feed/explore HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:44.641 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:19:44.651 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 6000.5211 ms
+2026-05-04 16:19:44.666 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/6 responded 204 in 0.1357 ms
+2026-05-04 16:19:44.667 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/5 responded 204 in 0.0797 ms
+2026-05-04 16:19:44.670 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/3 responded 204 in 0.1490 ms
+2026-05-04 16:19:44.671 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/1 responded 204 in 0.5159 ms
+2026-05-04 16:19:44.682 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/6 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:44.688 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/5 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:44.691 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/3 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:44.694 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/1 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:47.633 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:19:47.648 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 8868.3004 ms
+2026-05-04 16:19:47.663 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/16 responded 204 in 0.0975 ms
+2026-05-04 16:19:47.664 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/12 responded 204 in 0.1194 ms
+2026-05-04 16:19:47.671 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/11 responded 204 in 0.1680 ms
+2026-05-04 16:19:47.679 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/10 responded 204 in 0.1006 ms
+2026-05-04 16:19:47.688 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/9 responded 204 in 0.2178 ms
+2026-05-04 16:19:47.695 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/8 responded 204 in 0.0914 ms
+2026-05-04 16:19:47.702 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/7 responded 204 in 0.1304 ms
+2026-05-04 16:19:47.709 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/6 responded 204 in 0.1316 ms
+2026-05-04 16:19:47.715 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/5 responded 204 in 0.0953 ms
+2026-05-04 16:19:47.723 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/16?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:47.725 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/12?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:50.084 +05:30 [INF] Received HTTP/1.1 response 204.
+2026-05-04 16:19:50.090 +05:30 [INF] Received HTTP/1.1 response 204.
+2026-05-04 16:19:50.094 +05:30 [INF] Received HTTP/1.1 response 204.
+2026-05-04 16:19:50.097 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 204 in 5406.1486 ms
+2026-05-04 16:19:50.101 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 204 in 5419.7492 ms
+2026-05-04 16:19:50.105 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 204 in 5411.9709 ms
+2026-05-04 16:19:50.116 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/11?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:50.121 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/10?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:50.123 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/9?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:50.359 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:19:50.368 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 5680.8337 ms
+2026-05-04 16:19:50.375 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/8?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:52.965 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:19:52.965 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:19:52.965 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:19:52.965 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:19:52.965 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:19:52.965 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:19:52.979 +05:30 [INF] HTTP GET /api/likes/has-liked/9 responded 200 in 2855.8158 ms
+2026-05-04 16:19:52.983 +05:30 [INF] HTTP GET /api/likes/has-liked/12 responded 200 in 5258.7072 ms
+2026-05-04 16:19:52.988 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/7?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:52.990 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/6?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:52.994 +05:30 [INF] HTTP GET /api/likes/has-liked/11 responded 200 in 2878.5752 ms
+2026-05-04 16:19:53.005 +05:30 [INF] HTTP GET /api/likes/has-liked/10 responded 200 in 2883.8345 ms
+2026-05-04 16:19:53.010 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/5?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:19:53.013 +05:30 [INF] HTTP GET /api/likes/has-liked/16 responded 200 in 5290.5022 ms
+2026-05-04 16:19:53.018 +05:30 [INF] HTTP GET /api/likes/has-liked/8 responded 200 in 2642.8818 ms
+2026-05-04 16:19:53.180 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:19:53.180 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:19:53.182 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:19:53.269 +05:30 [INF] HTTP GET /api/likes/has-liked/7 responded 200 in 282.0879 ms
+2026-05-04 16:19:53.270 +05:30 [INF] HTTP GET /api/likes/has-liked/6 responded 200 in 279.8812 ms
+2026-05-04 16:19:53.274 +05:30 [INF] HTTP GET /api/likes/has-liked/5 responded 200 in 264.6991 ms
+2026-05-04 16:20:03.495 +05:30 [INF] HTTP OPTIONS /api/feed/following responded 204 in 0.3595 ms
+2026-05-04 16:20:03.505 +05:30 [INF] Proxying to http://localhost:5001/api/feed/following HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:05.726 +05:30 [INF] HTTP OPTIONS /api/feed/explore responded 204 in 0.1274 ms
+2026-05-04 16:20:05.736 +05:30 [INF] Proxying to http://localhost:5001/api/feed/explore HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:05.996 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:06.004 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 268.1830 ms
+2026-05-04 16:20:06.019 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/16 responded 204 in 0.1557 ms
+2026-05-04 16:20:06.020 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/12 responded 204 in 0.0541 ms
+2026-05-04 16:20:06.021 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/11 responded 204 in 0.0522 ms
+2026-05-04 16:20:06.021 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/10 responded 204 in 0.0299 ms
+2026-05-04 16:20:06.021 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/9 responded 204 in 0.0576 ms
+2026-05-04 16:20:06.027 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/8 responded 204 in 0.0789 ms
+2026-05-04 16:20:06.032 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/7 responded 204 in 0.0719 ms
+2026-05-04 16:20:06.033 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/6 responded 204 in 0.0588 ms
+2026-05-04 16:20:06.039 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/5 responded 204 in 0.1535 ms
+2026-05-04 16:20:06.043 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/16?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:06.048 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/12?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:06.054 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/11?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:06.060 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/10?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:06.067 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/9?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:06.101 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:06.299 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:06.419 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:06.438 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:06.438 +05:30 [INF] HTTP GET /api/likes/has-liked/16 responded 200 in 394.8301 ms
+2026-05-04 16:20:06.441 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:06.490 +05:30 [INF] HTTP GET /api/likes/has-liked/12 responded 200 in 443.2394 ms
+2026-05-04 16:20:06.496 +05:30 [INF] HTTP GET /api/likes/has-liked/11 responded 200 in 443.1005 ms
+2026-05-04 16:20:06.502 +05:30 [INF] HTTP GET /api/likes/has-liked/10 responded 200 in 442.9644 ms
+2026-05-04 16:20:06.506 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/8?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:06.513 +05:30 [INF] HTTP GET /api/likes/has-liked/9 responded 200 in 445.7368 ms
+2026-05-04 16:20:06.515 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/7?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:06.522 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/6?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:06.524 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/5?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:06.534 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:06.546 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:06.550 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:06.552 +05:30 [INF] HTTP GET /api/likes/has-liked/8 responded 200 in 46.0238 ms
+2026-05-04 16:20:06.556 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:06.557 +05:30 [INF] HTTP GET /api/likes/has-liked/7 responded 200 in 42.1094 ms
+2026-05-04 16:20:06.560 +05:30 [INF] HTTP GET /api/likes/has-liked/6 responded 200 in 38.7759 ms
+2026-05-04 16:20:06.569 +05:30 [INF] HTTP GET /api/likes/has-liked/5 responded 200 in 44.6926 ms
+2026-05-04 16:20:08.086 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:08.094 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 4589.5405 ms
+2026-05-04 16:20:08.105 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/15 responded 204 in 0.0605 ms
+2026-05-04 16:20:08.106 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/16?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:08.107 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/14 responded 204 in 0.0554 ms
+2026-05-04 16:20:08.107 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/13 responded 204 in 0.0353 ms
+2026-05-04 16:20:08.108 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/11?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:08.108 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/12?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:08.114 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/10?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:08.124 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/7?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:08.126 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/6?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:08.126 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:08.135 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:08.138 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:08.139 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:08.142 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:08.143 +05:30 [INF] HTTP GET /api/likes/has-liked/16 responded 200 in 37.4207 ms
+2026-05-04 16:20:08.146 +05:30 [INF] HTTP GET /api/likes/has-liked/11 responded 200 in 38.3142 ms
+2026-05-04 16:20:08.148 +05:30 [INF] HTTP GET /api/likes/has-liked/10 responded 200 in 34.1498 ms
+2026-05-04 16:20:08.148 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:08.150 +05:30 [INF] HTTP GET /api/likes/has-liked/12 responded 200 in 42.6610 ms
+2026-05-04 16:20:08.154 +05:30 [INF] HTTP GET /api/likes/has-liked/7 responded 200 in 30.4264 ms
+2026-05-04 16:20:08.159 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/5?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:08.165 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/15?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:08.168 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/14?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:08.173 +05:30 [INF] HTTP GET /api/likes/has-liked/6 responded 200 in 47.6092 ms
+2026-05-04 16:20:08.178 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/13?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:08.218 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:08.219 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:08.229 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:08.236 +05:30 [INF] HTTP GET /api/likes/has-liked/5 responded 200 in 76.8365 ms
+2026-05-04 16:20:08.239 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:08.239 +05:30 [INF] HTTP GET /api/likes/has-liked/15 responded 200 in 74.6434 ms
+2026-05-04 16:20:08.241 +05:30 [INF] HTTP GET /api/likes/has-liked/14 responded 200 in 73.2767 ms
+2026-05-04 16:20:08.248 +05:30 [INF] HTTP GET /api/likes/has-liked/13 responded 200 in 70.2396 ms
+2026-05-04 16:20:13.425 +05:30 [INF] HTTP OPTIONS /api/auth/users/search-users responded 204 in 0.0740 ms
+2026-05-04 16:20:13.435 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/search-users?q=imsks12 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:13.557 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:13.561 +05:30 [INF] HTTP GET /api/auth/users/search-users responded 200 in 126.4744 ms
+2026-05-04 16:20:19.103 +05:30 [INF] HTTP OPTIONS /api/auth/users/get-user-by-id/4 responded 204 in 0.0535 ms
+2026-05-04 16:20:19.103 +05:30 [INF] HTTP OPTIONS /api/follows/pending responded 204 in 0.0401 ms
+2026-05-04 16:20:19.113 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/get-user-by-id/4 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:19.114 +05:30 [INF] Proxying to http://localhost:5177/api/follows/pending HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:19.165 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:19.291 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 177.7217 ms
+2026-05-04 16:20:19.378 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:19.388 +05:30 [INF] HTTP GET /api/follows/pending responded 200 in 274.5084 ms
+2026-05-04 16:20:19.388 +05:30 [INF] HTTP OPTIONS /api/posts/user/4 responded 204 in 0.0476 ms
+2026-05-04 16:20:19.389 +05:30 [INF] HTTP OPTIONS /api/follows/4/follower-count responded 204 in 0.1532 ms
+2026-05-04 16:20:19.390 +05:30 [INF] HTTP OPTIONS /api/follows/4/following-count responded 204 in 0.0405 ms
+2026-05-04 16:20:19.400 +05:30 [INF] Proxying to http://localhost:5296/api/posts/user/4 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:19.407 +05:30 [INF] Proxying to http://localhost:5177/api/follows/4/following-count HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:19.403 +05:30 [INF] Proxying to http://localhost:5177/api/follows/4/follower-count HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:19.610 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:19.610 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:19.617 +05:30 [INF] HTTP GET /api/follows/4/follower-count responded 200 in 213.8086 ms
+2026-05-04 16:20:19.617 +05:30 [INF] HTTP GET /api/follows/4/following-count responded 200 in 210.2825 ms
+2026-05-04 16:20:19.672 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:19.679 +05:30 [INF] HTTP GET /api/posts/user/4 responded 200 in 278.6834 ms
+2026-05-04 16:20:19.687 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/15 responded 204 in 0.0343 ms
+2026-05-04 16:20:19.687 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/14 responded 204 in 0.0400 ms
+2026-05-04 16:20:19.687 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/13 responded 204 in 0.0203 ms
+2026-05-04 16:20:19.695 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/15?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:19.696 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/14?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:19.700 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/13?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:19.708 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:19.712 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:19.715 +05:30 [INF] HTTP GET /api/likes/has-liked/15 responded 200 in 20.5257 ms
+2026-05-04 16:20:19.716 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:19.718 +05:30 [INF] HTTP GET /api/likes/has-liked/14 responded 200 in 21.9801 ms
+2026-05-04 16:20:19.723 +05:30 [INF] HTTP GET /api/likes/has-liked/13 responded 200 in 22.4878 ms
+2026-05-04 16:20:43.997 +05:30 [INF] HTTP OPTIONS /api/auth/users/toggle-privacy responded 204 in 0.8135 ms
+2026-05-04 16:20:44.007 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/toggle-privacy HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:44.330 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:44.337 +05:30 [INF] HTTP PUT /api/auth/users/toggle-privacy responded 200 in 331.9769 ms
+2026-05-04 16:20:46.018 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/toggle-privacy HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:46.041 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:46.047 +05:30 [INF] HTTP PUT /api/auth/users/toggle-privacy responded 200 in 29.4550 ms
+2026-05-04 16:20:50.602 +05:30 [INF] HTTP OPTIONS /api/feed/explore responded 204 in 0.0384 ms
+2026-05-04 16:20:50.609 +05:30 [INF] Proxying to http://localhost:5001/api/feed/explore HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:50.659 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:50.673 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 63.3778 ms
+2026-05-04 16:20:50.680 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/16 responded 204 in 0.0543 ms
+2026-05-04 16:20:50.681 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/12 responded 204 in 0.0401 ms
+2026-05-04 16:20:50.684 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/11 responded 204 in 0.0287 ms
+2026-05-04 16:20:50.686 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/10 responded 204 in 0.0316 ms
+2026-05-04 16:20:50.688 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/9 responded 204 in 0.0451 ms
+2026-05-04 16:20:50.690 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/8 responded 204 in 0.0313 ms
+2026-05-04 16:20:50.693 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/7 responded 204 in 0.0522 ms
+2026-05-04 16:20:50.698 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/6 responded 204 in 0.0304 ms
+2026-05-04 16:20:50.701 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/5 responded 204 in 0.0315 ms
+2026-05-04 16:20:50.708 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/16?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:50.710 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/12?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:50.712 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/11?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:50.717 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/10?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:50.719 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/9?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:50.721 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/8?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:50.739 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:50.749 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:50.751 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:50.764 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:50.769 +05:30 [INF] HTTP GET /api/likes/has-liked/16 responded 200 in 61.6096 ms
+2026-05-04 16:20:50.772 +05:30 [INF] HTTP GET /api/likes/has-liked/12 responded 200 in 61.7063 ms
+2026-05-04 16:20:50.773 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:50.773 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:50.774 +05:30 [INF] HTTP GET /api/likes/has-liked/11 responded 200 in 61.9804 ms
+2026-05-04 16:20:50.781 +05:30 [INF] HTTP GET /api/likes/has-liked/10 responded 200 in 64.0868 ms
+2026-05-04 16:20:50.782 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/7?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:50.787 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/6?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:50.788 +05:30 [INF] HTTP GET /api/likes/has-liked/8 responded 200 in 67.5836 ms
+2026-05-04 16:20:50.797 +05:30 [INF] HTTP GET /api/likes/has-liked/9 responded 200 in 78.1959 ms
+2026-05-04 16:20:50.798 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/5?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:20:50.812 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:50.817 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:50.838 +05:30 [INF] HTTP GET /api/likes/has-liked/7 responded 200 in 56.4134 ms
+2026-05-04 16:20:50.841 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:20:50.853 +05:30 [INF] HTTP GET /api/likes/has-liked/6 responded 200 in 67.1650 ms
+2026-05-04 16:20:50.872 +05:30 [INF] HTTP GET /api/likes/has-liked/5 responded 200 in 75.4059 ms
+2026-05-04 16:21:20.410 +05:30 [INF] HTTP OPTIONS /api/auth/users/get-user-by-id/6 responded 204 in 0.0623 ms
+2026-05-04 16:21:20.419 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/get-user-by-id/6 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:20.444 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:20.450 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/6 responded 200 in 31.0204 ms
+2026-05-04 16:21:20.458 +05:30 [INF] HTTP OPTIONS /api/posts/user/6 responded 204 in 0.0349 ms
+2026-05-04 16:21:20.459 +05:30 [INF] HTTP OPTIONS /api/follows/6/follower-count responded 204 in 0.0495 ms
+2026-05-04 16:21:20.459 +05:30 [INF] HTTP OPTIONS /api/follows/6/following-count responded 204 in 0.0156 ms
+2026-05-04 16:21:20.460 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/6 responded 204 in 0.0108 ms
+2026-05-04 16:21:20.478 +05:30 [INF] Proxying to http://localhost:5177/api/follows/6/follower-count HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:20.478 +05:30 [INF] Proxying to http://localhost:5296/api/posts/user/6 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:20.478 +05:30 [INF] Proxying to http://localhost:5177/api/follows/6/following-count HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:20.479 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/6 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:20.500 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:20.500 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:20.508 +05:30 [INF] HTTP GET /api/follows/6/follower-count responded 200 in 30.6574 ms
+2026-05-04 16:21:20.514 +05:30 [INF] HTTP GET /api/follows/6/following-count responded 200 in 36.1808 ms
+2026-05-04 16:21:20.519 +05:30 [INF] Received HTTP/1.1 response 204.
+2026-05-04 16:21:20.521 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 204 in 41.8847 ms
+2026-05-04 16:21:20.638 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:20.643 +05:30 [INF] HTTP GET /api/posts/user/6 responded 200 in 164.7949 ms
+2026-05-04 16:21:20.649 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/8 responded 204 in 0.0392 ms
+2026-05-04 16:21:20.655 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/8?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:20.669 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:20.674 +05:30 [INF] HTTP GET /api/likes/has-liked/8 responded 200 in 18.4846 ms
+2026-05-04 16:21:29.499 +05:30 [INF] HTTP OPTIONS /api/feed/explore responded 204 in 0.0741 ms
+2026-05-04 16:21:29.506 +05:30 [INF] Proxying to http://localhost:5001/api/feed/explore HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:29.652 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:29.790 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 284.2119 ms
+2026-05-04 16:21:29.800 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/16 responded 204 in 0.0323 ms
+2026-05-04 16:21:29.801 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/11 responded 204 in 0.0184 ms
+2026-05-04 16:21:29.801 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/12 responded 204 in 0.0494 ms
+2026-05-04 16:21:29.802 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/10 responded 204 in 0.0219 ms
+2026-05-04 16:21:29.802 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/9 responded 204 in 0.0068 ms
+2026-05-04 16:21:29.802 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/8 responded 204 in 0.0229 ms
+2026-05-04 16:21:29.807 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/7 responded 204 in 0.0732 ms
+2026-05-04 16:21:29.812 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/6 responded 204 in 0.0285 ms
+2026-05-04 16:21:29.815 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/5 responded 204 in 0.0617 ms
+2026-05-04 16:21:29.816 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/16?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:29.821 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/11?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:29.823 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/12?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:29.826 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/10?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:29.828 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/9?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:29.832 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/8?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:29.843 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:29.874 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:29.885 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:29.890 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:29.891 +05:30 [INF] HTTP GET /api/likes/has-liked/16 responded 200 in 75.1225 ms
+2026-05-04 16:21:29.900 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:29.902 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:29.918 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/7?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:29.935 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:29.939 +05:30 [INF] HTTP GET /api/likes/has-liked/11 responded 200 in 118.8995 ms
+2026-05-04 16:21:29.942 +05:30 [INF] HTTP GET /api/likes/has-liked/12 responded 200 in 119.4139 ms
+2026-05-04 16:21:29.944 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/6?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:29.947 +05:30 [INF] HTTP GET /api/likes/has-liked/10 responded 200 in 120.7243 ms
+2026-05-04 16:21:29.949 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/5?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:29.951 +05:30 [INF] HTTP GET /api/likes/has-liked/8 responded 200 in 118.4781 ms
+2026-05-04 16:21:29.955 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:29.956 +05:30 [INF] HTTP GET /api/likes/has-liked/9 responded 200 in 128.0863 ms
+2026-05-04 16:21:29.960 +05:30 [INF] HTTP GET /api/likes/has-liked/7 responded 200 in 43.1545 ms
+2026-05-04 16:21:29.965 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:29.967 +05:30 [INF] HTTP GET /api/likes/has-liked/6 responded 200 in 23.3870 ms
+2026-05-04 16:21:29.978 +05:30 [INF] HTTP GET /api/likes/has-liked/5 responded 200 in 28.6795 ms
+2026-05-04 16:21:33.922 +05:30 [INF] HTTP OPTIONS /api/comments/post/10 responded 204 in 0.0474 ms
+2026-05-04 16:21:33.943 +05:30 [INF] Proxying to http://localhost:5299/api/comments/post/10 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:37.478 +05:30 [INF] HTTP OPTIONS /api/likes/toggle responded 204 in 0.0795 ms
+2026-05-04 16:21:37.486 +05:30 [INF] Proxying to http://localhost:5298/api/likes/toggle HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:38.540 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:38.545 +05:30 [INF] HTTP POST /api/likes/toggle responded 200 in 1059.5401 ms
+2026-05-04 16:21:39.272 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:39.289 +05:30 [INF] HTTP GET /api/comments/post/10 responded 200 in 5346.0739 ms
+2026-05-04 16:21:40.832 +05:30 [INF] Proxying to http://localhost:5298/api/likes/toggle HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:41.115 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:41.121 +05:30 [INF] HTTP POST /api/likes/toggle responded 200 in 289.9802 ms
+2026-05-04 16:21:44.038 +05:30 [INF] HTTP OPTIONS /api/comments/post/10 responded 204 in 0.0631 ms
+2026-05-04 16:21:44.045 +05:30 [INF] Proxying to http://localhost:5299/api/comments/post/10 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:44.134 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:44.155 +05:30 [INF] HTTP GET /api/comments/post/10 responded 200 in 110.3646 ms
+2026-05-04 16:21:51.085 +05:30 [INF] HTTP OPTIONS /api/comments responded 204 in 0.0408 ms
+2026-05-04 16:21:51.094 +05:30 [INF] Proxying to http://localhost:5299/api/comments HTTP/2 RequestVersionOrLower 
+2026-05-04 16:21:52.351 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:21:52.491 +05:30 [INF] HTTP POST /api/comments responded 200 in 1397.4851 ms
+2026-05-04 16:22:27.194 +05:30 [INF] HTTP OPTIONS /api/feed/following responded 204 in 0.0636 ms
+2026-05-04 16:22:27.201 +05:30 [INF] Proxying to http://localhost:5001/api/feed/following HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:27.376 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:27.382 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 180.2379 ms
+2026-05-04 16:22:27.388 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/16 responded 204 in 0.0536 ms
+2026-05-04 16:22:27.390 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/15 responded 204 in 0.0286 ms
+2026-05-04 16:22:27.391 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/14 responded 204 in 0.0530 ms
+2026-05-04 16:22:27.393 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/13 responded 204 in 0.0500 ms
+2026-05-04 16:22:27.393 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/12 responded 204 in 0.0647 ms
+2026-05-04 16:22:27.393 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/11 responded 204 in 0.0614 ms
+2026-05-04 16:22:27.396 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/10 responded 204 in 0.0964 ms
+2026-05-04 16:22:27.397 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/7 responded 204 in 0.0190 ms
+2026-05-04 16:22:27.400 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/6 responded 204 in 0.0287 ms
+2026-05-04 16:22:27.402 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/5 responded 204 in 0.0385 ms
+2026-05-04 16:22:27.405 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/16?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:27.411 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/15?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:27.414 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/14?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:27.417 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/13?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:27.419 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/12?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:27.423 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/11?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:27.431 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:27.434 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:27.439 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:27.441 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:27.450 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:27.455 +05:30 [INF] HTTP GET /api/likes/has-liked/16 responded 200 in 49.9068 ms
+2026-05-04 16:22:27.458 +05:30 [INF] HTTP GET /api/likes/has-liked/15 responded 200 in 47.0138 ms
+2026-05-04 16:22:27.458 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:27.462 +05:30 [INF] HTTP GET /api/likes/has-liked/14 responded 200 in 48.1088 ms
+2026-05-04 16:22:27.464 +05:30 [INF] HTTP GET /api/likes/has-liked/13 responded 200 in 47.5047 ms
+2026-05-04 16:22:27.465 +05:30 [INF] HTTP GET /api/likes/has-liked/12 responded 200 in 46.3032 ms
+2026-05-04 16:22:27.469 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/10?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:27.475 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/7?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:27.477 +05:30 [INF] HTTP GET /api/likes/has-liked/11 responded 200 in 54.8278 ms
+2026-05-04 16:22:27.484 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/6?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:27.489 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/5?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:27.501 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:27.507 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:27.516 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:27.517 +05:30 [INF] HTTP GET /api/likes/has-liked/10 responded 200 in 48.2679 ms
+2026-05-04 16:22:27.519 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:27.520 +05:30 [INF] HTTP GET /api/likes/has-liked/7 responded 200 in 45.2882 ms
+2026-05-04 16:22:27.522 +05:30 [INF] HTTP GET /api/likes/has-liked/6 responded 200 in 38.1442 ms
+2026-05-04 16:22:27.529 +05:30 [INF] HTTP GET /api/likes/has-liked/5 responded 200 in 39.6199 ms
+2026-05-04 16:22:32.826 +05:30 [INF] HTTP OPTIONS /api/feed/explore responded 204 in 0.2728 ms
+2026-05-04 16:22:32.834 +05:30 [INF] Proxying to http://localhost:5001/api/feed/explore HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:32.894 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:32.902 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 68.4810 ms
+2026-05-04 16:22:32.912 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/16 responded 204 in 0.0344 ms
+2026-05-04 16:22:32.913 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/12 responded 204 in 0.0311 ms
+2026-05-04 16:22:32.913 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/11 responded 204 in 0.0202 ms
+2026-05-04 16:22:32.914 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/10 responded 204 in 0.0307 ms
+2026-05-04 16:22:32.914 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/9 responded 204 in 0.0156 ms
+2026-05-04 16:22:32.914 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/8 responded 204 in 0.0095 ms
+2026-05-04 16:22:32.917 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/7 responded 204 in 0.0351 ms
+2026-05-04 16:22:32.923 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/6 responded 204 in 0.0999 ms
+2026-05-04 16:22:32.925 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/5 responded 204 in 0.0391 ms
+2026-05-04 16:22:32.929 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/16?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:32.931 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/12?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:32.934 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/11?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:32.940 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/10?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:32.941 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/9?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:32.945 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/8?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:32.953 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:32.956 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:32.962 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:32.971 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:32.975 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:32.978 +05:30 [INF] HTTP GET /api/likes/has-liked/16 responded 200 in 48.3306 ms
+2026-05-04 16:22:32.980 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:32.981 +05:30 [INF] HTTP GET /api/likes/has-liked/12 responded 200 in 50.2261 ms
+2026-05-04 16:22:32.984 +05:30 [INF] HTTP GET /api/likes/has-liked/11 responded 200 in 49.7183 ms
+2026-05-04 16:22:32.986 +05:30 [INF] HTTP GET /api/likes/has-liked/10 responded 200 in 46.4935 ms
+2026-05-04 16:22:32.990 +05:30 [INF] HTTP GET /api/likes/has-liked/9 responded 200 in 48.6163 ms
+2026-05-04 16:22:32.996 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/7?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:32.998 +05:30 [INF] HTTP GET /api/likes/has-liked/8 responded 200 in 53.0269 ms
+2026-05-04 16:22:33.004 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/6?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:33.008 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/5?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:33.024 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:33.033 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:33.036 +05:30 [INF] HTTP GET /api/likes/has-liked/7 responded 200 in 40.6784 ms
+2026-05-04 16:22:33.037 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:33.039 +05:30 [INF] HTTP GET /api/likes/has-liked/6 responded 200 in 34.9627 ms
+2026-05-04 16:22:33.045 +05:30 [INF] HTTP GET /api/likes/has-liked/5 responded 200 in 37.6984 ms
+2026-05-04 16:22:34.791 +05:30 [INF] HTTP OPTIONS /api/auth/logout responded 204 in 0.7012 ms
+2026-05-04 16:22:34.799 +05:30 [INF] Proxying to http://localhost:5295/api/auth/logout HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:35.021 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:22:35.025 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 226.3486 ms
+2026-05-04 16:22:35.363 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/recommendations HTTP/2 RequestVersionOrLower 
+2026-05-04 16:22:35.386 +05:30 [INF] Received HTTP/1.1 response 401.
+2026-05-04 16:22:35.388 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 24.9174 ms
+2026-05-04 16:23:09.548 +05:30 [INF] HTTP OPTIONS /api/auth/register responded 204 in 0.0662 ms
+2026-05-04 16:23:09.554 +05:30 [INF] Proxying to http://localhost:5295/api/auth/register HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:10.682 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:10.690 +05:30 [INF] HTTP POST /api/auth/register responded 200 in 1135.6909 ms
+2026-05-04 16:23:10.978 +05:30 [INF] HTTP OPTIONS /api/auth/users/recommendations responded 204 in 0.2129 ms
+2026-05-04 16:23:10.988 +05:30 [INF] HTTP OPTIONS /api/feed/explore responded 204 in 0.0424 ms
+2026-05-04 16:23:10.989 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/recommendations HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:10.997 +05:30 [INF] Proxying to http://localhost:5001/api/feed/explore HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:11.013 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:11.026 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 37.6886 ms
+2026-05-04 16:23:11.044 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:11.049 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 52.1124 ms
+2026-05-04 16:23:11.086 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/6 responded 204 in 0.0359 ms
+2026-05-04 16:23:11.088 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/5 responded 204 in 0.0475 ms
+2026-05-04 16:23:11.095 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/3 responded 204 in 0.0408 ms
+2026-05-04 16:23:11.103 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/1 responded 204 in 0.8908 ms
+2026-05-04 16:23:11.112 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/12 responded 204 in 0.0385 ms
+2026-05-04 16:23:11.112 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/16 responded 204 in 0.0771 ms
+2026-05-04 16:23:11.116 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/11 responded 204 in 0.0573 ms
+2026-05-04 16:23:11.118 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/10 responded 204 in 0.0546 ms
+2026-05-04 16:23:11.131 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/9 responded 204 in 0.1343 ms
+2026-05-04 16:23:11.134 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/8 responded 204 in 0.0495 ms
+2026-05-04 16:23:11.137 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/7 responded 204 in 0.0330 ms
+2026-05-04 16:23:11.162 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/1 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:11.145 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/5 responded 204 in 0.0334 ms
+2026-05-04 16:23:11.147 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/6 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:11.149 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/5 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:11.143 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/6 responded 204 in 0.0376 ms
+2026-05-04 16:23:11.156 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/3 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:11.223 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/12?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:11.237 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/16?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:11.238 +05:30 [INF] Received HTTP/1.1 response 204.
+2026-05-04 16:23:11.251 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:11.252 +05:30 [INF] Received HTTP/1.1 response 204.
+2026-05-04 16:23:11.255 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 204 in 92.6392 ms
+2026-05-04 16:23:11.262 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:11.264 +05:30 [INF] HTTP GET /api/likes/has-liked/12 responded 200 in 41.3144 ms
+2026-05-04 16:23:11.276 +05:30 [INF] Received HTTP/1.1 response 204.
+2026-05-04 16:23:11.335 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 204 in 187.7728 ms
+2026-05-04 16:23:11.527 +05:30 [INF] Received HTTP/1.1 response 204.
+2026-05-04 16:23:11.533 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/11?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:11.535 +05:30 [INF] HTTP GET /api/likes/has-liked/16 responded 200 in 298.2675 ms
+2026-05-04 16:23:11.547 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/10?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:11.548 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 204 in 398.6407 ms
+2026-05-04 16:23:11.554 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 204 in 397.7730 ms
+2026-05-04 16:23:11.554 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/9?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:11.560 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:11.614 +05:30 [INF] HTTP GET /api/likes/has-liked/11 responded 200 in 80.3403 ms
+2026-05-04 16:23:11.586 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:11.604 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/7?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:11.609 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/5?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:11.563 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/8?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:11.614 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:11.618 +05:30 [INF] HTTP GET /api/likes/has-liked/10 responded 200 in 71.4564 ms
+2026-05-04 16:23:11.619 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/6?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:11.630 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:11.631 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:11.634 +05:30 [INF] HTTP GET /api/likes/has-liked/9 responded 200 in 80.5127 ms
+2026-05-04 16:23:11.638 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:11.645 +05:30 [INF] HTTP GET /api/likes/has-liked/7 responded 200 in 41.0887 ms
+2026-05-04 16:23:11.646 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:11.650 +05:30 [INF] HTTP GET /api/likes/has-liked/5 responded 200 in 40.8944 ms
+2026-05-04 16:23:11.657 +05:30 [INF] HTTP GET /api/likes/has-liked/8 responded 200 in 94.7512 ms
+2026-05-04 16:23:11.661 +05:30 [INF] HTTP GET /api/likes/has-liked/6 responded 200 in 42.8878 ms
+2026-05-04 16:23:18.235 +05:30 [INF] HTTP OPTIONS /api/feed/following responded 204 in 0.0423 ms
+2026-05-04 16:23:18.242 +05:30 [INF] Proxying to http://localhost:5001/api/feed/following HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:18.517 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:18.525 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 282.9370 ms
+2026-05-04 16:23:19.575 +05:30 [INF] HTTP OPTIONS /api/feed/explore responded 204 in 0.0431 ms
+2026-05-04 16:23:19.586 +05:30 [INF] Proxying to http://localhost:5001/api/feed/explore HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:19.618 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:19.624 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 38.1063 ms
+2026-05-04 16:23:19.633 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/16 responded 204 in 0.0316 ms
+2026-05-04 16:23:19.634 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/12 responded 204 in 0.0406 ms
+2026-05-04 16:23:19.634 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/11 responded 204 in 0.0482 ms
+2026-05-04 16:23:19.635 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/10 responded 204 in 0.1020 ms
+2026-05-04 16:23:19.635 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/9 responded 204 in 0.0099 ms
+2026-05-04 16:23:19.635 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/8 responded 204 in 0.0281 ms
+2026-05-04 16:23:19.641 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/7 responded 204 in 0.0320 ms
+2026-05-04 16:23:19.642 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/6 responded 204 in 0.0264 ms
+2026-05-04 16:23:19.645 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/5 responded 204 in 0.0317 ms
+2026-05-04 16:23:19.648 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/16?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:19.651 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/12?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:19.654 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/11?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:19.658 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/10?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:19.661 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/9?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:19.664 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/8?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:19.669 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:19.672 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:19.678 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:19.692 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:19.698 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:19.699 +05:30 [INF] HTTP GET /api/likes/has-liked/16 responded 200 in 51.3644 ms
+2026-05-04 16:23:19.701 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:19.703 +05:30 [INF] HTTP GET /api/likes/has-liked/12 responded 200 in 52.6887 ms
+2026-05-04 16:23:19.710 +05:30 [INF] HTTP GET /api/likes/has-liked/11 responded 200 in 55.7031 ms
+2026-05-04 16:23:19.713 +05:30 [INF] HTTP GET /api/likes/has-liked/10 responded 200 in 55.0496 ms
+2026-05-04 16:23:19.717 +05:30 [INF] HTTP GET /api/likes/has-liked/9 responded 200 in 55.2571 ms
+2026-05-04 16:23:19.722 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/7?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:19.724 +05:30 [INF] HTTP GET /api/likes/has-liked/8 responded 200 in 59.6447 ms
+2026-05-04 16:23:19.730 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/6?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:19.736 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/5?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:19.750 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:19.758 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:19.762 +05:30 [INF] HTTP GET /api/likes/has-liked/7 responded 200 in 40.6745 ms
+2026-05-04 16:23:19.763 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:19.765 +05:30 [INF] HTTP GET /api/likes/has-liked/6 responded 200 in 35.2816 ms
+2026-05-04 16:23:19.771 +05:30 [INF] HTTP GET /api/likes/has-liked/5 responded 200 in 35.8658 ms
+2026-05-04 16:23:41.675 +05:30 [INF] HTTP OPTIONS /api/feed/following responded 204 in 0.0696 ms
+2026-05-04 16:23:41.685 +05:30 [INF] Proxying to http://localhost:5001/api/feed/following HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:41.744 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:41.749 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 64.7681 ms
+2026-05-04 16:23:57.903 +05:30 [INF] HTTP OPTIONS /api/auth/users/search-users responded 204 in 0.0590 ms
+2026-05-04 16:23:57.913 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/search-users?q=luna HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:57.929 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:23:57.938 +05:30 [INF] HTTP GET /api/auth/users/search-users responded 200 in 25.2237 ms
+2026-05-04 16:23:57.945 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/4 responded 204 in 0.0278 ms
+2026-05-04 16:23:57.953 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/4 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:23:57.967 +05:30 [INF] Received HTTP/1.1 response 204.
+2026-05-04 16:23:57.971 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 204 in 17.2865 ms
+2026-05-04 16:24:00.706 +05:30 [INF] HTTP OPTIONS /api/follows responded 204 in 0.0950 ms
+2026-05-04 16:24:00.713 +05:30 [INF] Proxying to http://localhost:5177/api/follows HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:01.076 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:01.080 +05:30 [INF] HTTP POST /api/follows responded 200 in 367.1520 ms
+2026-05-04 16:24:02.843 +05:30 [INF] HTTP OPTIONS /api/auth/users/get-user-by-id/4 responded 204 in 0.0367 ms
+2026-05-04 16:24:02.849 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/get-user-by-id/4 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:02.865 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:02.870 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 20.9891 ms
+2026-05-04 16:24:02.878 +05:30 [INF] HTTP OPTIONS /api/posts/user/4 responded 204 in 0.0394 ms
+2026-05-04 16:24:02.879 +05:30 [INF] HTTP OPTIONS /api/follows/4/follower-count responded 204 in 0.0167 ms
+2026-05-04 16:24:02.879 +05:30 [INF] HTTP OPTIONS /api/follows/4/following-count responded 204 in 0.0135 ms
+2026-05-04 16:24:02.880 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/4 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:02.885 +05:30 [INF] Proxying to http://localhost:5296/api/posts/user/4 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:02.886 +05:30 [INF] Proxying to http://localhost:5177/api/follows/4/follower-count HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:02.891 +05:30 [INF] Proxying to http://localhost:5177/api/follows/4/following-count HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:02.901 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:02.907 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:02.909 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 29.0452 ms
+2026-05-04 16:24:02.910 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:02.913 +05:30 [INF] HTTP GET /api/follows/4/follower-count responded 200 in 26.5128 ms
+2026-05-04 16:24:02.918 +05:30 [INF] HTTP GET /api/follows/4/following-count responded 200 in 27.2957 ms
+2026-05-04 16:24:02.942 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:02.949 +05:30 [INF] HTTP GET /api/posts/user/4 responded 200 in 64.4935 ms
+2026-05-04 16:24:08.873 +05:30 [INF] HTTP OPTIONS /api/follows/4/followers responded 204 in 0.0481 ms
+2026-05-04 16:24:08.883 +05:30 [INF] Proxying to http://localhost:5177/api/follows/4/followers HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:08.932 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:08.938 +05:30 [INF] HTTP GET /api/follows/4/followers responded 200 in 55.7441 ms
+2026-05-04 16:24:37.091 +05:30 [INF] HTTP OPTIONS /api/feed/explore responded 204 in 0.0353 ms
+2026-05-04 16:24:37.098 +05:30 [INF] Proxying to http://localhost:5001/api/feed/explore HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:37.169 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:37.174 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 76.7964 ms
+2026-05-04 16:24:37.182 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/16 responded 204 in 0.0392 ms
+2026-05-04 16:24:37.183 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/12 responded 204 in 0.0270 ms
+2026-05-04 16:24:37.183 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/11 responded 204 in 0.0198 ms
+2026-05-04 16:24:37.185 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/9 responded 204 in 0.0116 ms
+2026-05-04 16:24:37.185 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/10 responded 204 in 0.0643 ms
+2026-05-04 16:24:37.185 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/8 responded 204 in 0.0302 ms
+2026-05-04 16:24:37.188 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/7 responded 204 in 0.0401 ms
+2026-05-04 16:24:37.190 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/6 responded 204 in 0.0330 ms
+2026-05-04 16:24:37.195 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/5 responded 204 in 0.1148 ms
+2026-05-04 16:24:37.198 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/16?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:37.203 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/12?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:37.206 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/11?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:37.207 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/9?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:37.211 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/10?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:37.216 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/8?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:37.233 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:37.236 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:37.243 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:37.247 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:37.258 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:37.262 +05:30 [INF] HTTP GET /api/likes/has-liked/16 responded 200 in 64.2301 ms
+2026-05-04 16:24:37.263 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:37.264 +05:30 [INF] HTTP GET /api/likes/has-liked/12 responded 200 in 61.9701 ms
+2026-05-04 16:24:37.267 +05:30 [INF] HTTP GET /api/likes/has-liked/11 responded 200 in 61.1681 ms
+2026-05-04 16:24:37.270 +05:30 [INF] HTTP GET /api/likes/has-liked/9 responded 200 in 62.3090 ms
+2026-05-04 16:24:37.273 +05:30 [INF] HTTP GET /api/likes/has-liked/10 responded 200 in 61.9062 ms
+2026-05-04 16:24:37.279 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/7?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:37.282 +05:30 [INF] HTTP GET /api/likes/has-liked/8 responded 200 in 65.9394 ms
+2026-05-04 16:24:37.288 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/6?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:37.293 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/5?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:37.309 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:37.319 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:37.322 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:37.323 +05:30 [INF] HTTP GET /api/likes/has-liked/7 responded 200 in 44.0958 ms
+2026-05-04 16:24:37.326 +05:30 [INF] HTTP GET /api/likes/has-liked/6 responded 200 in 37.7740 ms
+2026-05-04 16:24:37.328 +05:30 [INF] HTTP GET /api/likes/has-liked/5 responded 200 in 35.3099 ms
+2026-05-04 16:24:41.329 +05:30 [INF] HTTP OPTIONS /api/follows/pending responded 204 in 0.0325 ms
+2026-05-04 16:24:41.329 +05:30 [INF] HTTP OPTIONS /api/auth/users/get-user-by-id/8 responded 204 in 0.2212 ms
+2026-05-04 16:24:41.334 +05:30 [INF] Proxying to http://localhost:5177/api/follows/pending HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:41.336 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/get-user-by-id/8 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:41.351 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:41.360 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/8 responded 200 in 23.2535 ms
+2026-05-04 16:24:41.367 +05:30 [INF] HTTP OPTIONS /api/posts/user/8 responded 204 in 0.0407 ms
+2026-05-04 16:24:41.367 +05:30 [INF] HTTP OPTIONS /api/follows/8/follower-count responded 204 in 0.0085 ms
+2026-05-04 16:24:41.367 +05:30 [INF] HTTP OPTIONS /api/follows/8/following-count responded 204 in 0.0142 ms
+2026-05-04 16:24:41.369 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:41.376 +05:30 [INF] Proxying to http://localhost:5296/api/posts/user/8 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:41.376 +05:30 [INF] Proxying to http://localhost:5177/api/follows/8/follower-count HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:41.377 +05:30 [INF] Proxying to http://localhost:5177/api/follows/8/following-count HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:41.378 +05:30 [INF] HTTP GET /api/follows/pending responded 200 in 43.5464 ms
+2026-05-04 16:24:41.392 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:41.394 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:41.397 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:41.400 +05:30 [INF] HTTP GET /api/posts/user/8 responded 200 in 24.6214 ms
+2026-05-04 16:24:41.406 +05:30 [INF] HTTP GET /api/follows/8/follower-count responded 200 in 30.1453 ms
+2026-05-04 16:24:41.409 +05:30 [INF] HTTP GET /api/follows/8/following-count responded 200 in 31.7090 ms
+2026-05-04 16:24:51.746 +05:30 [INF] HTTP OPTIONS /api/follows responded 204 in 0.0724 ms
+2026-05-04 16:24:51.755 +05:30 [INF] Proxying to http://localhost:5177/api/follows HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:52.121 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:52.126 +05:30 [INF] HTTP POST /api/follows responded 200 in 371.6717 ms
+2026-05-04 16:24:56.182 +05:30 [INF] HTTP OPTIONS /api/feed/explore responded 204 in 0.1194 ms
+2026-05-04 16:24:56.188 +05:30 [INF] Proxying to http://localhost:5001/api/feed/explore HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:56.389 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:56.394 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 206.7273 ms
+2026-05-04 16:24:56.402 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/16 responded 204 in 0.0331 ms
+2026-05-04 16:24:56.403 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/11 responded 204 in 0.0132 ms
+2026-05-04 16:24:56.403 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/12 responded 204 in 0.0252 ms
+2026-05-04 16:24:56.404 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/10 responded 204 in 0.0158 ms
+2026-05-04 16:24:56.404 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/9 responded 204 in 0.0111 ms
+2026-05-04 16:24:56.405 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/8 responded 204 in 0.1087 ms
+2026-05-04 16:24:56.407 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/7 responded 204 in 0.0283 ms
+2026-05-04 16:24:56.410 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/6 responded 204 in 0.0514 ms
+2026-05-04 16:24:56.413 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/5 responded 204 in 0.0361 ms
+2026-05-04 16:24:56.415 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/16?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:56.420 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/11?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:56.421 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/12?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:56.423 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/10?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:56.428 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/9?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:56.431 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/8?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:56.515 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:56.522 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:56.529 +05:30 [INF] HTTP GET /api/likes/has-liked/16 responded 200 in 114.1078 ms
+2026-05-04 16:24:56.522 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:56.531 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:56.534 +05:30 [INF] HTTP GET /api/likes/has-liked/12 responded 200 in 112.9556 ms
+2026-05-04 16:24:56.534 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/7?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:56.536 +05:30 [INF] HTTP GET /api/likes/has-liked/11 responded 200 in 116.2700 ms
+2026-05-04 16:24:56.545 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/6?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:56.546 +05:30 [INF] HTTP GET /api/likes/has-liked/10 responded 200 in 123.7646 ms
+2026-05-04 16:24:56.548 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:56.550 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:56.555 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/5?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:56.564 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:56.565 +05:30 [INF] HTTP GET /api/likes/has-liked/9 responded 200 in 136.8502 ms
+2026-05-04 16:24:56.566 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:56.568 +05:30 [INF] HTTP GET /api/likes/has-liked/7 responded 200 in 33.9693 ms
+2026-05-04 16:24:56.577 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:56.588 +05:30 [INF] HTTP GET /api/likes/has-liked/6 responded 200 in 43.4350 ms
+2026-05-04 16:24:56.595 +05:30 [INF] HTTP GET /api/likes/has-liked/8 responded 200 in 164.0983 ms
+2026-05-04 16:24:56.599 +05:30 [INF] HTTP GET /api/likes/has-liked/5 responded 200 in 45.1112 ms
+2026-05-04 16:24:57.849 +05:30 [INF] HTTP OPTIONS /api/feed/following responded 204 in 0.0753 ms
+2026-05-04 16:24:57.857 +05:30 [INF] Proxying to http://localhost:5001/api/feed/following HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:58.432 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:58.438 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 581.2344 ms
+2026-05-04 16:24:58.450 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/16?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:58.450 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/12?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:58.450 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/11?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:58.451 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/7?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:58.451 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/10?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:58.451 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/6?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:58.460 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:58.475 +05:30 [INF] HTTP GET /api/likes/has-liked/16 responded 200 in 26.1291 ms
+2026-05-04 16:24:58.466 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:58.469 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:58.473 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:58.463 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:58.476 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:58.479 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/5?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:24:58.480 +05:30 [INF] HTTP GET /api/likes/has-liked/11 responded 200 in 30.2265 ms
+2026-05-04 16:24:58.481 +05:30 [INF] HTTP GET /api/likes/has-liked/7 responded 200 in 30.1646 ms
+2026-05-04 16:24:58.483 +05:30 [INF] HTTP GET /api/likes/has-liked/10 responded 200 in 31.9483 ms
+2026-05-04 16:24:58.485 +05:30 [INF] HTTP GET /api/likes/has-liked/12 responded 200 in 35.6858 ms
+2026-05-04 16:24:58.487 +05:30 [INF] HTTP GET /api/likes/has-liked/6 responded 200 in 35.3800 ms
+2026-05-04 16:24:58.493 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:24:58.512 +05:30 [INF] HTTP GET /api/likes/has-liked/5 responded 200 in 32.6537 ms
+2026-05-04 16:25:05.142 +05:30 [INF] HTTP OPTIONS /api/feed/explore responded 204 in 0.0661 ms
+2026-05-04 16:25:05.152 +05:30 [INF] Proxying to http://localhost:5001/api/feed/explore HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:05.186 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:05.192 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 40.2260 ms
+2026-05-04 16:25:05.198 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/16 responded 204 in 0.0382 ms
+2026-05-04 16:25:05.200 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/12 responded 204 in 0.0354 ms
+2026-05-04 16:25:05.200 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/11 responded 204 in 0.0221 ms
+2026-05-04 16:25:05.200 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/10 responded 204 in 0.0216 ms
+2026-05-04 16:25:05.201 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/9 responded 204 in 0.0191 ms
+2026-05-04 16:25:05.201 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/8 responded 204 in 0.0129 ms
+2026-05-04 16:25:05.204 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/7 responded 204 in 0.0303 ms
+2026-05-04 16:25:05.209 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/6 responded 204 in 0.0313 ms
+2026-05-04 16:25:05.211 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/5 responded 204 in 0.0542 ms
+2026-05-04 16:25:05.214 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/16?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:05.220 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/12?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:05.223 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/11?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:05.227 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/10?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:05.232 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/9?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:05.236 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/8?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:05.246 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:05.250 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:05.255 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:05.260 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:05.265 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:05.270 +05:30 [INF] HTTP GET /api/likes/has-liked/16 responded 200 in 56.2530 ms
+2026-05-04 16:25:05.270 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:05.274 +05:30 [INF] HTTP GET /api/likes/has-liked/12 responded 200 in 54.1966 ms
+2026-05-04 16:25:05.276 +05:30 [INF] HTTP GET /api/likes/has-liked/11 responded 200 in 52.2233 ms
+2026-05-04 16:25:05.278 +05:30 [INF] HTTP GET /api/likes/has-liked/10 responded 200 in 51.0635 ms
+2026-05-04 16:25:05.281 +05:30 [INF] HTTP GET /api/likes/has-liked/9 responded 200 in 48.9187 ms
+2026-05-04 16:25:05.285 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/7?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:05.287 +05:30 [INF] HTTP GET /api/likes/has-liked/8 responded 200 in 51.5964 ms
+2026-05-04 16:25:05.293 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/6?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:05.298 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/5?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:05.365 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:05.471 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:05.519 +05:30 [INF] HTTP GET /api/likes/has-liked/7 responded 200 in 233.7456 ms
+2026-05-04 16:25:05.520 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:05.523 +05:30 [INF] HTTP GET /api/likes/has-liked/6 responded 200 in 229.3916 ms
+2026-05-04 16:25:05.530 +05:30 [INF] HTTP GET /api/likes/has-liked/5 responded 200 in 232.2978 ms
+2026-05-04 16:25:26.401 +05:30 [INF] HTTP OPTIONS /api/auth/users/get-user-by-id/5 responded 204 in 0.1871 ms
+2026-05-04 16:25:26.409 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/get-user-by-id/5 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:26.426 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:26.433 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 24.5522 ms
+2026-05-04 16:25:26.442 +05:30 [INF] HTTP OPTIONS /api/posts/user/5 responded 204 in 0.0378 ms
+2026-05-04 16:25:26.442 +05:30 [INF] HTTP OPTIONS /api/follows/5/follower-count responded 204 in 0.0327 ms
+2026-05-04 16:25:26.443 +05:30 [INF] HTTP OPTIONS /api/follows/5/following-count responded 204 in 0.0411 ms
+2026-05-04 16:25:26.444 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/5 responded 204 in 0.0256 ms
+2026-05-04 16:25:26.451 +05:30 [INF] Proxying to http://localhost:5296/api/posts/user/5 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:26.451 +05:30 [INF] Proxying to http://localhost:5177/api/follows/5/follower-count HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:26.454 +05:30 [INF] Proxying to http://localhost:5177/api/follows/5/following-count HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:26.458 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/5 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:26.494 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:26.504 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:26.509 +05:30 [INF] HTTP GET /api/follows/5/follower-count responded 200 in 57.6402 ms
+2026-05-04 16:25:26.521 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 63.5858 ms
+2026-05-04 16:25:26.540 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:26.544 +05:30 [INF] HTTP GET /api/posts/user/5 responded 200 in 92.9803 ms
+2026-05-04 16:25:26.554 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/16 responded 204 in 0.0546 ms
+2026-05-04 16:25:26.555 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/11 responded 204 in 0.0774 ms
+2026-05-04 16:25:26.555 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/10 responded 204 in 0.0175 ms
+2026-05-04 16:25:26.556 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/12 responded 204 in 1.3499 ms
+2026-05-04 16:25:26.556 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/7 responded 204 in 0.0059 ms
+2026-05-04 16:25:26.562 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/6 responded 204 in 0.0515 ms
+2026-05-04 16:25:26.564 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/5 responded 204 in 0.0500 ms
+2026-05-04 16:25:26.568 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/16?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:26.571 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/11?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:26.575 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/10?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:26.577 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/12?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:26.578 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:26.580 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/7?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:26.587 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:26.590 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:26.599 +05:30 [INF] HTTP GET /api/follows/5/following-count responded 200 in 144.4451 ms
+2026-05-04 16:25:26.599 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:26.600 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:26.606 +05:30 [INF] HTTP GET /api/likes/has-liked/16 responded 200 in 38.2639 ms
+2026-05-04 16:25:26.607 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:26.611 +05:30 [INF] HTTP GET /api/likes/has-liked/11 responded 200 in 39.9499 ms
+2026-05-04 16:25:26.625 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/6?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:26.630 +05:30 [INF] HTTP GET /api/likes/has-liked/10 responded 200 in 55.0587 ms
+2026-05-04 16:25:26.634 +05:30 [INF] HTTP GET /api/likes/has-liked/12 responded 200 in 56.6395 ms
+2026-05-04 16:25:26.636 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/5?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:25:26.637 +05:30 [INF] HTTP GET /api/likes/has-liked/7 responded 200 in 56.7192 ms
+2026-05-04 16:25:26.650 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:26.667 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:25:26.672 +05:30 [INF] HTTP GET /api/likes/has-liked/6 responded 200 in 48.5610 ms
+2026-05-04 16:25:26.678 +05:30 [INF] HTTP GET /api/likes/has-liked/5 responded 200 in 41.9485 ms
+2026-05-04 16:26:26.148 +05:30 [INF] HTTP OPTIONS /api/auth/users/search-users responded 204 in 0.0409 ms
+2026-05-04 16:26:26.157 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/search-users?q=lun HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:26.172 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:26.178 +05:30 [INF] HTTP GET /api/auth/users/search-users responded 200 in 21.2172 ms
+2026-05-04 16:26:26.185 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/4 responded 204 in 0.0522 ms
+2026-05-04 16:26:26.192 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/4 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:26.202 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:26.209 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 16.9402 ms
+2026-05-04 16:26:28.208 +05:30 [INF] HTTP OPTIONS /api/auth/users/get-user-by-id/4 responded 204 in 0.0482 ms
+2026-05-04 16:26:28.217 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/get-user-by-id/4 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:28.230 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:28.234 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 17.3796 ms
+2026-05-04 16:26:28.242 +05:30 [INF] HTTP OPTIONS /api/posts/user/4 responded 204 in 0.0349 ms
+2026-05-04 16:26:28.243 +05:30 [INF] HTTP OPTIONS /api/follows/4/following-count responded 204 in 0.0354 ms
+2026-05-04 16:26:28.243 +05:30 [INF] HTTP OPTIONS /api/follows/4/follower-count responded 204 in 0.0082 ms
+2026-05-04 16:26:28.244 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/4 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:28.251 +05:30 [INF] Proxying to http://localhost:5296/api/posts/user/4 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:28.256 +05:30 [INF] Proxying to http://localhost:5177/api/follows/4/following-count HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:28.260 +05:30 [INF] Proxying to http://localhost:5177/api/follows/4/follower-count HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:28.269 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:28.277 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:28.278 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 34.5467 ms
+2026-05-04 16:26:28.280 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:28.282 +05:30 [INF] HTTP GET /api/follows/4/following-count responded 200 in 25.9744 ms
+2026-05-04 16:26:28.292 +05:30 [INF] HTTP GET /api/follows/4/follower-count responded 200 in 31.9814 ms
+2026-05-04 16:26:28.306 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:28.312 +05:30 [INF] HTTP GET /api/posts/user/4 responded 200 in 61.0146 ms
+2026-05-04 16:26:32.952 +05:30 [INF] HTTP OPTIONS /api/follows/4 responded 204 in 0.0513 ms
+2026-05-04 16:26:32.964 +05:30 [INF] Proxying to http://localhost:5177/api/follows/4 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:33.051 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:33.057 +05:30 [INF] HTTP DELETE /api/follows/4 responded 200 in 92.7532 ms
+2026-05-04 16:26:33.068 +05:30 [INF] Proxying to http://localhost:5177/api/follows/4/follower-count HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:33.068 +05:30 [INF] Proxying to http://localhost:5177/api/follows/4/following-count HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:33.078 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:33.079 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:33.083 +05:30 [INF] HTTP GET /api/follows/4/follower-count responded 200 in 15.7767 ms
+2026-05-04 16:26:33.087 +05:30 [INF] HTTP GET /api/follows/4/following-count responded 200 in 19.6104 ms
+2026-05-04 16:26:45.758 +05:30 [INF] HTTP OPTIONS /api/feed/explore responded 204 in 0.4283 ms
+2026-05-04 16:26:45.765 +05:30 [INF] Proxying to http://localhost:5001/api/feed/explore HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:46.036 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:46.042 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 277.2032 ms
+2026-05-04 16:26:46.050 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/16 responded 204 in 0.0373 ms
+2026-05-04 16:26:46.052 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/12 responded 204 in 0.1597 ms
+2026-05-04 16:26:46.052 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/11 responded 204 in 0.0205 ms
+2026-05-04 16:26:46.052 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/10 responded 204 in 0.0162 ms
+2026-05-04 16:26:46.052 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/9 responded 204 in 0.0276 ms
+2026-05-04 16:26:46.053 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/8 responded 204 in 0.0392 ms
+2026-05-04 16:26:46.057 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/7 responded 204 in 0.0310 ms
+2026-05-04 16:26:46.060 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/6 responded 204 in 0.0505 ms
+2026-05-04 16:26:46.064 +05:30 [INF] HTTP OPTIONS /api/likes/has-liked/5 responded 204 in 0.0312 ms
+2026-05-04 16:26:46.085 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/16?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:46.133 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/12?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:46.140 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/11?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:46.144 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/10?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:46.148 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/9?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:46.151 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/8?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:46.165 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:46.168 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:46.174 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:46.178 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:46.184 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:46.188 +05:30 [INF] HTTP GET /api/likes/has-liked/16 responded 200 in 102.6710 ms
+2026-05-04 16:26:46.189 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:46.191 +05:30 [INF] HTTP GET /api/likes/has-liked/12 responded 200 in 57.9285 ms
+2026-05-04 16:26:46.194 +05:30 [INF] HTTP GET /api/likes/has-liked/11 responded 200 in 54.4529 ms
+2026-05-04 16:26:46.197 +05:30 [INF] HTTP GET /api/likes/has-liked/10 responded 200 in 53.6006 ms
+2026-05-04 16:26:46.201 +05:30 [INF] HTTP GET /api/likes/has-liked/9 responded 200 in 53.0565 ms
+2026-05-04 16:26:46.207 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/7?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:46.208 +05:30 [INF] HTTP GET /api/likes/has-liked/8 responded 200 in 57.6599 ms
+2026-05-04 16:26:46.214 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/6?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:46.218 +05:30 [INF] Proxying to http://localhost:5298/api/likes/has-liked/5?targetType=Post HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:46.229 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:46.237 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:46.240 +05:30 [INF] HTTP GET /api/likes/has-liked/7 responded 200 in 33.6404 ms
+2026-05-04 16:26:46.242 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:46.242 +05:30 [INF] HTTP GET /api/likes/has-liked/6 responded 200 in 28.1613 ms
+2026-05-04 16:26:46.249 +05:30 [INF] HTTP GET /api/likes/has-liked/5 responded 200 in 31.1591 ms
+2026-05-04 16:26:48.552 +05:30 [INF] HTTP OPTIONS /api/auth/users/get-user-by-id/8 responded 204 in 0.0555 ms
+2026-05-04 16:26:48.553 +05:30 [INF] HTTP OPTIONS /api/follows/pending responded 204 in 0.0432 ms
+2026-05-04 16:26:48.562 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/get-user-by-id/8 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:48.565 +05:30 [INF] Proxying to http://localhost:5177/api/follows/pending HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:48.580 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:48.585 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/8 responded 200 in 22.7820 ms
+2026-05-04 16:26:48.593 +05:30 [INF] HTTP OPTIONS /api/posts/user/8 responded 204 in 0.0518 ms
+2026-05-04 16:26:48.593 +05:30 [INF] HTTP OPTIONS /api/follows/8/follower-count responded 204 in 0.0592 ms
+2026-05-04 16:26:48.594 +05:30 [INF] HTTP OPTIONS /api/follows/8/following-count responded 204 in 0.0271 ms
+2026-05-04 16:26:48.598 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:48.601 +05:30 [INF] Proxying to http://localhost:5296/api/posts/user/8 HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:48.603 +05:30 [INF] Proxying to http://localhost:5177/api/follows/8/follower-count HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:48.605 +05:30 [INF] Proxying to http://localhost:5177/api/follows/8/following-count HTTP/2 RequestVersionOrLower 
+2026-05-04 16:26:48.606 +05:30 [INF] HTTP GET /api/follows/pending responded 200 in 41.2327 ms
+2026-05-04 16:26:48.619 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:48.619 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:48.627 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:26:48.632 +05:30 [INF] HTTP GET /api/posts/user/8 responded 200 in 31.7284 ms
+2026-05-04 16:26:48.634 +05:30 [INF] HTTP GET /api/follows/8/follower-count responded 200 in 31.4548 ms
+2026-05-04 16:26:48.636 +05:30 [INF] HTTP GET /api/follows/8/following-count responded 200 in 31.1331 ms
+2026-05-04 16:37:09.117 +05:30 [INF] Proxying to http://localhost:5295/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:37:09.183 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:37:09.187 +05:30 [INF] HTTP GET /swagger-auth/v1/swagger.json responded 200 in 83.6608 ms
+2026-05-04 16:37:13.196 +05:30 [INF] Proxying to http://localhost:5296/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:37:13.269 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:37:13.274 +05:30 [INF] HTTP GET /swagger-posts/v1/swagger.json responded 200 in 78.8727 ms
+2026-05-04 16:37:16.178 +05:30 [INF] Proxying to http://localhost:5299/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:37:16.244 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:37:16.253 +05:30 [INF] HTTP GET /swagger-comments/v1/swagger.json responded 200 in 75.7235 ms
+2026-05-04 16:37:19.022 +05:30 [INF] Proxying to http://localhost:5001/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:37:19.063 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:37:19.070 +05:30 [INF] HTTP GET /swagger-feed/v1/swagger.json responded 200 in 48.2305 ms
+2026-05-04 16:37:22.656 +05:30 [INF] Proxying to http://localhost:5177/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:37:22.708 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:37:22.713 +05:30 [INF] HTTP GET /swagger-follows/v1/swagger.json responded 200 in 57.4103 ms
+2026-05-04 16:37:28.808 +05:30 [INF] Proxying to http://localhost:5298/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:37:28.862 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:37:28.869 +05:30 [INF] HTTP GET /swagger-likes/v1/swagger.json responded 200 in 61.7596 ms
+2026-05-04 16:37:32.421 +05:30 [INF] Proxying to http://localhost:5295/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:37:32.445 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:37:32.450 +05:30 [INF] HTTP GET /swagger-auth/v1/swagger.json responded 200 in 29.6525 ms
+2026-05-04 16:37:35.663 +05:30 [INF] Proxying to http://localhost:5296/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:37:35.688 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:37:35.698 +05:30 [INF] HTTP GET /swagger-posts/v1/swagger.json responded 200 in 35.2095 ms
+2026-05-04 16:37:39.024 +05:30 [INF] Proxying to http://localhost:5299/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:37:39.040 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:37:39.044 +05:30 [INF] HTTP GET /swagger-comments/v1/swagger.json responded 200 in 20.8029 ms
+2026-05-04 16:37:42.543 +05:30 [INF] Proxying to http://localhost:5001/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:37:42.554 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:37:42.559 +05:30 [INF] HTTP GET /swagger-feed/v1/swagger.json responded 200 in 20.4063 ms
+2026-05-04 16:37:50.354 +05:30 [INF] Proxying to http://localhost:5177/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:37:50.369 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:37:50.376 +05:30 [INF] HTTP GET /swagger-follows/v1/swagger.json responded 200 in 22.7713 ms
+2026-05-04 16:37:54.186 +05:30 [INF] Proxying to http://localhost:5298/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:37:54.203 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:37:54.208 +05:30 [INF] HTTP GET /swagger-likes/v1/swagger.json responded 200 in 22.2036 ms
+2026-05-04 16:37:57.245 +05:30 [INF] Proxying to http://localhost:5295/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:37:57.265 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:37:57.267 +05:30 [INF] HTTP GET /swagger-auth/v1/swagger.json responded 200 in 22.7715 ms
+2026-05-04 16:37:59.960 +05:30 [INF] Proxying to http://localhost:5296/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:37:59.982 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:37:59.988 +05:30 [INF] HTTP GET /swagger-posts/v1/swagger.json responded 200 in 29.0542 ms
+2026-05-04 16:38:03.037 +05:30 [INF] Proxying to http://localhost:5299/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:38:03.051 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:38:03.056 +05:30 [INF] HTTP GET /swagger-comments/v1/swagger.json responded 200 in 19.8202 ms
+2026-05-04 16:38:06.273 +05:30 [INF] Proxying to http://localhost:5001/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:38:06.282 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:38:06.286 +05:30 [INF] HTTP GET /swagger-feed/v1/swagger.json responded 200 in 13.1734 ms
+2026-05-04 16:38:10.809 +05:30 [INF] Proxying to http://localhost:5177/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:38:10.825 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:38:10.828 +05:30 [INF] HTTP GET /swagger-follows/v1/swagger.json responded 200 in 18.9305 ms
+2026-05-04 16:38:17.969 +05:30 [INF] Proxying to http://localhost:5298/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:38:17.981 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:38:17.986 +05:30 [INF] HTTP GET /swagger-likes/v1/swagger.json responded 200 in 17.9144 ms
+2026-05-04 16:38:33.458 +05:30 [INF] Proxying to http://localhost:5295/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:38:33.481 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:38:33.487 +05:30 [INF] HTTP GET /swagger-auth/v1/swagger.json responded 200 in 30.2544 ms
+2026-05-04 16:38:37.986 +05:30 [INF] Proxying to http://localhost:5296/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:38:38.005 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:38:38.011 +05:30 [INF] HTTP GET /swagger-posts/v1/swagger.json responded 200 in 27.8709 ms
+2026-05-04 16:38:42.186 +05:30 [INF] Proxying to http://localhost:5299/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:38:42.203 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:38:42.208 +05:30 [INF] HTTP GET /swagger-comments/v1/swagger.json responded 200 in 22.6373 ms
+2026-05-04 16:38:50.724 +05:30 [INF] Proxying to http://localhost:5001/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:38:50.738 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:38:50.741 +05:30 [INF] HTTP GET /swagger-feed/v1/swagger.json responded 200 in 17.3523 ms
+2026-05-04 16:38:54.235 +05:30 [INF] Proxying to http://localhost:5177/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:38:54.250 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:38:54.255 +05:30 [INF] HTTP GET /swagger-follows/v1/swagger.json responded 200 in 20.2353 ms
+2026-05-04 16:38:58.600 +05:30 [INF] Proxying to http://localhost:5298/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:38:58.623 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:38:58.628 +05:30 [INF] HTTP GET /swagger-likes/v1/swagger.json responded 200 in 30.6533 ms
+2026-05-04 16:39:04.610 +05:30 [INF] Proxying to http://localhost:5295/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:39:04.626 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:39:04.632 +05:30 [INF] HTTP GET /swagger-auth/v1/swagger.json responded 200 in 36.2333 ms
+2026-05-04 16:39:07.350 +05:30 [INF] Proxying to http://localhost:5296/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:39:07.362 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:39:07.365 +05:30 [INF] HTTP GET /swagger-posts/v1/swagger.json responded 200 in 25.6128 ms
+2026-05-04 16:39:10.873 +05:30 [INF] Proxying to http://localhost:5299/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:39:10.890 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:39:10.895 +05:30 [INF] HTTP GET /swagger-comments/v1/swagger.json responded 200 in 22.3138 ms
+2026-05-04 16:39:14.475 +05:30 [INF] Proxying to http://localhost:5001/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:39:14.489 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:39:14.493 +05:30 [INF] HTTP GET /swagger-feed/v1/swagger.json responded 200 in 17.3477 ms
+2026-05-04 16:39:18.895 +05:30 [INF] Proxying to http://localhost:5177/swagger/v1/swagger.json HTTP/2 RequestVersionOrLower 
+2026-05-04 16:39:18.915 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-04 16:39:18.919 +05:30 [INF] HTTP GET /swagger-follows/v1/swagger.json responded 200 in 24.7841 ms

@@ -1,0 +1,89 @@
+2026-05-05 10:40:44.558 +05:30 [INF] HTTP OPTIONS /api/follows/pending responded 204 in 14.5895 ms
+2026-05-05 10:40:44.558 +05:30 [INF] HTTP OPTIONS /api/auth/users/get-user-by-id/8 responded 204 in 14.5835 ms
+2026-05-05 10:40:44.558 +05:30 [INF] HTTP OPTIONS /api/auth/users/recommendations responded 204 in 14.5787 ms
+2026-05-05 10:40:44.752 +05:30 [INF] Proxying to http://localhost:5177/api/follows/pending HTTP/2 RequestVersionOrLower 
+2026-05-05 10:40:44.752 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/recommendations HTTP/2 RequestVersionOrLower 
+2026-05-05 10:40:44.752 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/get-user-by-id/8 HTTP/2 RequestVersionOrLower 
+2026-05-05 10:40:45.462 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-05 10:40:45.462 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-05 10:40:45.624 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/8 responded 200 in 879.6687 ms
+2026-05-05 10:40:45.625 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 880.4671 ms
+2026-05-05 10:40:45.638 +05:30 [INF] HTTP OPTIONS /api/posts/user/8 responded 204 in 0.1282 ms
+2026-05-05 10:40:45.638 +05:30 [INF] HTTP OPTIONS /api/follows/8/follower-count responded 204 in 0.0298 ms
+2026-05-05 10:40:45.641 +05:30 [INF] HTTP OPTIONS /api/follows/8/following-count responded 204 in 0.0780 ms
+2026-05-05 10:40:45.648 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/6 responded 204 in 0.2177 ms
+2026-05-05 10:40:45.656 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/5 responded 204 in 0.8956 ms
+2026-05-05 10:40:45.663 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/3 responded 204 in 0.0481 ms
+2026-05-05 10:40:45.673 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/1 responded 204 in 0.0415 ms
+2026-05-05 10:40:45.684 +05:30 [INF] Proxying to http://localhost:5296/api/posts/user/8 HTTP/2 RequestVersionOrLower 
+2026-05-05 10:40:45.690 +05:30 [INF] Proxying to http://localhost:5177/api/follows/8/follower-count HTTP/2 RequestVersionOrLower 
+2026-05-05 10:40:45.695 +05:30 [INF] Proxying to http://localhost:5177/api/follows/8/following-count HTTP/2 RequestVersionOrLower 
+2026-05-05 10:40:45.695 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/6 HTTP/2 RequestVersionOrLower 
+2026-05-05 10:40:45.699 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/5 HTTP/2 RequestVersionOrLower 
+2026-05-05 10:40:46.321 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-05 10:40:46.322 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-05 10:40:46.324 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-05 10:40:46.479 +05:30 [INF] Received HTTP/1.1 response 204.
+2026-05-05 10:40:46.480 +05:30 [INF] HTTP GET /api/follows/8/following-count responded 200 in 784.8715 ms
+2026-05-05 10:40:46.480 +05:30 [INF] HTTP GET /api/follows/8/follower-count responded 200 in 789.7313 ms
+2026-05-05 10:40:46.480 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 781.4748 ms
+2026-05-05 10:40:46.510 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 204 in 815.5668 ms
+2026-05-05 10:40:46.514 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-05 10:40:46.523 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/3 HTTP/2 RequestVersionOrLower 
+2026-05-05 10:40:46.532 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/1 HTTP/2 RequestVersionOrLower 
+2026-05-05 10:40:46.576 +05:30 [INF] HTTP GET /api/follows/pending responded 200 in 1830.9855 ms
+2026-05-05 10:40:46.673 +05:30 [INF] Received HTTP/1.1 response 204.
+2026-05-05 10:40:46.676 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 204 in 144.4822 ms
+2026-05-05 10:40:46.677 +05:30 [INF] Received HTTP/1.1 response 204.
+2026-05-05 10:40:46.697 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 204 in 174.9484 ms
+2026-05-05 10:40:46.792 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-05 10:40:46.822 +05:30 [INF] HTTP GET /api/posts/user/8 responded 200 in 1142.0694 ms
+2026-05-05 11:16:56.093 +05:30 [INF] HTTP OPTIONS /api/auth/users/get-user-by-id/8 responded 204 in 16.1295 ms
+2026-05-05 11:16:56.093 +05:30 [INF] HTTP OPTIONS /api/auth/users/recommendations responded 204 in 16.1290 ms
+2026-05-05 11:16:56.093 +05:30 [INF] HTTP OPTIONS /api/follows/pending responded 204 in 16.1952 ms
+2026-05-05 11:16:56.162 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/get-user-by-id/8 HTTP/2 RequestVersionOrLower 
+2026-05-05 11:16:56.162 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/recommendations HTTP/2 RequestVersionOrLower 
+2026-05-05 11:16:56.162 +05:30 [INF] Proxying to http://localhost:5177/api/follows/pending HTTP/2 RequestVersionOrLower 
+2026-05-05 11:34:41.458 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 400 in 1065322.0361 ms
+2026-05-05 11:34:41.458 +05:30 [INF] HTTP GET /api/follows/pending responded 400 in 1065320.5013 ms
+2026-05-05 11:34:41.457 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/8 responded 400 in 1065321.3230 ms
+2026-05-05 11:34:50.586 +05:30 [INF] HTTP OPTIONS /api/auth/users/recommendations responded 204 in 0.2789 ms
+2026-05-05 11:34:50.597 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/recommendations HTTP/2 RequestVersionOrLower 
+2026-05-05 11:34:50.615 +05:30 [INF] HTTP OPTIONS /api/auth/users/get-user-by-id/8 responded 204 in 0.2617 ms
+2026-05-05 11:34:50.618 +05:30 [INF] HTTP OPTIONS /api/follows/pending responded 204 in 0.0348 ms
+2026-05-05 11:34:50.624 +05:30 [INF] Proxying to http://localhost:5295/api/auth/users/get-user-by-id/8 HTTP/2 RequestVersionOrLower 
+2026-05-05 11:34:50.632 +05:30 [INF] Proxying to http://localhost:5177/api/follows/pending HTTP/2 RequestVersionOrLower 
+2026-05-05 11:34:50.659 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-05 11:34:50.661 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 65.4101 ms
+2026-05-05 11:34:50.682 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-05 11:34:50.696 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/8 responded 200 in 71.9473 ms
+2026-05-05 11:34:50.735 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-05 11:34:50.742 +05:30 [INF] HTTP GET /api/follows/pending responded 200 in 109.9961 ms
+2026-05-05 11:34:51.151 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/6 responded 204 in 0.0408 ms
+2026-05-05 11:34:51.159 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/6 HTTP/2 RequestVersionOrLower 
+2026-05-05 11:34:51.162 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/5 responded 204 in 0.0484 ms
+2026-05-05 11:34:51.171 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/3 responded 204 in 0.0541 ms
+2026-05-05 11:34:51.177 +05:30 [INF] HTTP OPTIONS /api/follows/is-following/1 responded 204 in 0.0547 ms
+2026-05-05 11:34:51.180 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/5 HTTP/2 RequestVersionOrLower 
+2026-05-05 11:34:51.182 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/3 HTTP/2 RequestVersionOrLower 
+2026-05-05 11:34:51.188 +05:30 [INF] Proxying to http://localhost:5177/api/follows/is-following/1 HTTP/2 RequestVersionOrLower 
+2026-05-05 11:34:51.203 +05:30 [INF] Received HTTP/1.1 response 204.
+2026-05-05 11:34:51.207 +05:30 [INF] Received HTTP/1.1 response 204.
+2026-05-05 11:34:51.207 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 204 in 47.5821 ms
+2026-05-05 11:34:51.214 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 204 in 32.1272 ms
+2026-05-05 11:34:51.230 +05:30 [INF] Received HTTP/1.1 response 204.
+2026-05-05 11:34:51.232 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 204 in 44.8054 ms
+2026-05-05 11:34:51.238 +05:30 [INF] HTTP OPTIONS /api/posts/user/8 responded 204 in 0.0429 ms
+2026-05-05 11:34:51.239 +05:30 [INF] HTTP OPTIONS /api/follows/8/follower-count responded 204 in 0.0444 ms
+2026-05-05 11:34:51.250 +05:30 [INF] HTTP OPTIONS /api/follows/8/following-count responded 204 in 0.0371 ms
+2026-05-05 11:34:51.255 +05:30 [INF] Proxying to http://localhost:5296/api/posts/user/8 HTTP/2 RequestVersionOrLower 
+2026-05-05 11:34:51.256 +05:30 [INF] Proxying to http://localhost:5177/api/follows/8/follower-count HTTP/2 RequestVersionOrLower 
+2026-05-05 11:34:51.283 +05:30 [INF] Proxying to http://localhost:5177/api/follows/8/following-count HTTP/2 RequestVersionOrLower 
+2026-05-05 11:34:51.313 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-05 11:34:51.314 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-05 11:34:51.326 +05:30 [INF] HTTP GET /api/follows/8/follower-count responded 200 in 70.1001 ms
+2026-05-05 11:34:51.327 +05:30 [INF] HTTP GET /api/follows/8/following-count responded 200 in 44.7508 ms
+2026-05-05 11:34:51.339 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-05 11:34:51.351 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 171.6695 ms
+2026-05-05 11:34:52.369 +05:30 [INF] Received HTTP/1.1 response 200.
+2026-05-05 11:34:52.393 +05:30 [INF] HTTP GET /api/posts/user/8 responded 200 in 1137.8673 ms
