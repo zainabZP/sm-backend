@@ -36,7 +36,7 @@ try {
 
     // DEBUG ENDPOINT: Test if we can reach auth-service
     app.MapGet("/test-connection", async (IConfiguration config) => {
-        var authUrl = config["ReverseProxy:Clusters:auth-cluster:Destinations:auth-dest:Address"] ?? "Not Set";
+        var authUrl = config["ReverseProxy:Clusters:authcluster:Destinations:authdest:Address"] ?? "Not Set";
         try {
             using var client = new HttpClient();
             client.Timeout = TimeSpan.FromSeconds(5);
