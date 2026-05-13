@@ -1,0 +1,22 @@
+2026-04-29 10:37:50.226 +05:30 [INF] Now listening on: http://localhost:5299
+2026-04-29 10:37:50.274 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 10:37:50.276 +05:30 [INF] Hosting environment: Development
+2026-04-29 10:37:50.277 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\CommentService
+2026-04-29 10:40:05.106 +05:30 [INF] HTTP DELETE /api/comments/99999 responded 401 in 77.3774 ms
+2026-04-29 10:40:08.201 +05:30 [INF] HTTP GET /api/comments/post/99999 responded 200 in 3056.5665 ms
+2026-04-29 10:40:08.224 +05:30 [INF] HTTP POST /api/comments responded 401 in 2.5772 ms
+2026-04-29 10:41:12.413 +05:30 [INF] HTTP GET /api/comments/user/5 responded 200 in 545.5460 ms
+2026-04-29 10:41:20.560 +05:30 [INF] HTTP GET /api/comments/user/5 responded 200 in 230.8386 ms
+2026-04-29 10:41:23.081 +05:30 [INF] HTTP GET /api/comments/post/8 responded 200 in 262.1676 ms
+2026-04-29 10:51:31.610 +05:30 [INF] HTTP GET /api/comments/user/5 responded 200 in 72.7416 ms
+2026-04-29 10:51:40.893 +05:30 [INF] HTTP GET /api/comments/post/8 responded 200 in 22.1855 ms
+2026-04-29 11:56:48.966 +05:30 [INF] Application is shutting down...
+2026-04-29 11:57:02.785 +05:30 [INF] Now listening on: http://localhost:5299
+2026-04-29 11:57:02.820 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 11:57:02.833 +05:30 [INF] Hosting environment: Development
+2026-04-29 11:57:02.835 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\CommentService
+2026-04-29 12:01:34.712 +05:30 [INF] HTTP GET /api/comments/post/16 responded 200 in 2924.6011 ms
+2026-04-29 12:01:37.973 +05:30 [INF] HTTP POST /api/comments responded 200 in 582.6668 ms
+2026-04-29 12:01:44.056 +05:30 [INF] HTTP GET /api/comments/user/4 responded 200 in 112.2887 ms
+2026-04-29 12:01:47.571 +05:30 [INF] HTTP GET /api/comments/post/16 responded 200 in 20.0460 ms
+2026-04-29 12:02:08.051 +05:30 [INF] HTTP GET /api/comments/user/4 responded 200 in 6.2266 ms

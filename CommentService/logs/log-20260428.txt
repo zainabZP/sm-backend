@@ -1,0 +1,97 @@
+2026-04-28 01:22:09.139 +05:30 [INF] Now listening on: http://localhost:5299
+2026-04-28 01:22:09.172 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 01:22:09.174 +05:30 [INF] Hosting environment: Development
+2026-04-28 01:22:09.175 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\CommentService
+2026-04-28 01:55:06.275 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 336.0721 ms
+2026-04-28 01:59:58.871 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 11.0479 ms
+2026-04-28 02:10:30.479 +05:30 [INF] HTTP DELETE /api/comments/99999 responded 401 in 38.8048 ms
+2026-04-28 02:10:31.793 +05:30 [INF] HTTP GET /api/comments/post/99999 responded 200 in 1299.5755 ms
+2026-04-28 02:10:31.819 +05:30 [INF] HTTP POST /api/comments responded 401 in 2.7311 ms
+2026-04-28 02:12:47.080 +05:30 [INF] HTTP DELETE /api/comments/99999 responded 401 in 2.2495 ms
+2026-04-28 02:12:47.208 +05:30 [INF] HTTP GET /api/comments/post/99999 responded 200 in 39.0921 ms
+2026-04-28 02:12:47.222 +05:30 [INF] HTTP POST /api/comments responded 401 in 0.2892 ms
+2026-04-28 02:15:06.383 +05:30 [INF] HTTP DELETE /api/comments/99999 responded 401 in 0.3721 ms
+2026-04-28 02:15:06.478 +05:30 [INF] HTTP GET /api/comments/post/99999 responded 200 in 81.2145 ms
+2026-04-28 02:15:06.494 +05:30 [INF] HTTP POST /api/comments responded 401 in 0.2083 ms
+2026-04-28 02:15:42.104 +05:30 [INF] HTTP DELETE /api/comments/99999 responded 401 in 0.6168 ms
+2026-04-28 02:15:42.174 +05:30 [INF] HTTP GET /api/comments/post/99999 responded 200 in 57.5011 ms
+2026-04-28 02:15:42.191 +05:30 [INF] HTTP POST /api/comments responded 401 in 0.2689 ms
+2026-04-28 10:46:22.787 +05:30 [INF] Now listening on: http://localhost:5299
+2026-04-28 10:46:22.838 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 10:46:22.841 +05:30 [INF] Hosting environment: Development
+2026-04-28 10:46:22.842 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\CommentService
+2026-04-28 10:46:28.395 +05:30 [INF] HTTP GET / responded 302 in 4.2894 ms
+2026-04-28 10:46:28.753 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 315.4851 ms
+2026-04-28 10:46:28.785 +05:30 [INF] HTTP GET /swagger/index.js responded 200 in 5.2220 ms
+2026-04-28 10:46:30.092 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 261.0981 ms
+2026-04-28 10:49:18.918 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 14.0140 ms
+2026-04-28 11:19:32.422 +05:30 [INF] HTTP GET /api/comments/post/undefined responded 400 in 638.3125 ms
+2026-04-28 11:34:51.376 +05:30 [INF] HTTP GET /api/comments/post/7 responded 200 in 1816.1280 ms
+2026-04-28 11:34:57.331 +05:30 [INF] HTTP GET /api/comments/post/7 responded 200 in 44.6101 ms
+2026-04-28 11:35:02.838 +05:30 [INF] HTTP POST /api/comments responded 401 in 12.6130 ms
+2026-04-28 11:35:05.009 +05:30 [INF] HTTP POST /api/comments responded 401 in 4.6893 ms
+2026-04-28 11:39:56.315 +05:30 [INF] HTTP GET /api/comments/post/7 responded 200 in 111.4213 ms
+2026-04-28 11:40:01.127 +05:30 [INF] HTTP POST /api/comments responded 401 in 2.4121 ms
+2026-04-28 11:40:02.287 +05:30 [INF] HTTP POST /api/comments responded 401 in 0.5569 ms
+2026-04-28 11:42:12.986 +05:30 [INF] HTTP GET /api/comments/post/7 responded 200 in 6.6484 ms
+2026-04-28 11:44:33.385 +05:30 [INF] HTTP GET /api/comments/post/7 responded 200 in 5.7128 ms
+2026-04-28 11:46:25.846 +05:30 [INF] Now listening on: http://localhost:5299
+2026-04-28 11:46:25.879 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 11:46:25.881 +05:30 [INF] Hosting environment: Development
+2026-04-28 11:46:25.883 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\CommentService
+2026-04-28 11:49:42.239 +05:30 [INF] HTTP GET /api/comments/post/7 responded 200 in 1883.6474 ms
+2026-04-28 11:49:45.170 +05:30 [INF] HTTP POST /api/comments responded 401 in 17.7732 ms
+2026-04-28 11:49:46.431 +05:30 [INF] HTTP POST /api/comments responded 401 in 6.3364 ms
+2026-04-28 11:51:07.423 +05:30 [INF] HTTP GET /api/comments/post/7 responded 200 in 109.7439 ms
+2026-04-28 11:51:12.592 +05:30 [INF] HTTP POST /api/comments responded 200 in 659.8538 ms
+2026-04-28 12:38:15.580 +05:30 [INF] HTTP GET /api/comments/post/8 responded 200 in 180.8565 ms
+2026-04-28 12:38:20.643 +05:30 [INF] HTTP POST /api/comments responded 200 in 78.3792 ms
+2026-04-28 12:38:29.398 +05:30 [INF] HTTP POST /api/comments responded 200 in 20.4002 ms
+2026-04-28 13:32:13.759 +05:30 [INF] Now listening on: http://localhost:5299
+2026-04-28 13:32:13.812 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 13:32:13.814 +05:30 [INF] Hosting environment: Development
+2026-04-28 13:32:13.815 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\CommentService
+2026-04-28 14:00:33.542 +05:30 [INF] Application is shutting down...
+2026-04-28 14:00:42.991 +05:30 [INF] Now listening on: http://localhost:5299
+2026-04-28 14:00:43.047 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 14:00:43.050 +05:30 [INF] Hosting environment: Development
+2026-04-28 14:00:43.053 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\CommentService
+2026-04-28 14:01:58.263 +05:30 [INF] HTTP GET /api/comments/post/8 responded 200 in 4770.6665 ms
+2026-04-28 14:01:58.370 +05:30 [INF] HTTP GET /api/comments/post/8 responded 200 in 90.4606 ms
+2026-04-28 14:02:09.654 +05:30 [INF] HTTP GET /api/comments/post/7 responded 200 in 222.9142 ms
+2026-04-28 14:08:49.665 +05:30 [INF] HTTP GET /api/comments/post/8 responded 200 in 64.9659 ms
+2026-04-28 14:21:32.061 +05:30 [INF] HTTP GET /api/comments/post/8 responded 200 in 63.9220 ms
+2026-04-28 14:28:05.650 +05:30 [INF] HTTP GET /api/comments/post/10 responded 200 in 48.8142 ms
+2026-04-28 14:32:33.528 +05:30 [INF] HTTP GET /api/comments/post/9 responded 200 in 11.3700 ms
+2026-04-28 14:32:35.248 +05:30 [INF] HTTP GET /api/comments/post/8 responded 200 in 21.3291 ms
+2026-04-28 14:40:08.495 +05:30 [INF] HTTP GET /api/comments/user/5 responded 404 in 7.2600 ms
+2026-04-28 14:40:49.963 +05:30 [INF] HTTP GET /api/comments/post/8 responded 200 in 59.3117 ms
+2026-04-28 14:40:56.018 +05:30 [INF] HTTP POST /api/comments responded 200 in 409.8695 ms
+2026-04-28 14:41:02.698 +05:30 [INF] HTTP GET /api/comments/user/5 responded 404 in 1.1252 ms
+2026-04-28 14:41:44.952 +05:30 [INF] Application is shutting down...
+2026-04-28 14:41:52.077 +05:30 [INF] Now listening on: http://localhost:5299
+2026-04-28 14:41:52.106 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 14:41:52.109 +05:30 [INF] Hosting environment: Development
+2026-04-28 14:41:52.110 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\CommentService
+2026-04-28 14:42:14.178 +05:30 [INF] HTTP GET /api/comments/user/5 responded 200 in 2151.7935 ms
+2026-04-28 14:42:25.653 +05:30 [INF] HTTP GET /api/comments/user/5 responded 200 in 29.0157 ms
+2026-04-28 14:44:46.327 +05:30 [INF] HTTP GET /api/comments/user/5 responded 200 in 106.1568 ms
+2026-04-28 15:00:00.276 +05:30 [INF] HTTP GET /api/comments/post/11 responded 200 in 106.6672 ms
+2026-04-28 15:00:03.705 +05:30 [INF] HTTP GET /api/comments/post/8 responded 200 in 181.0262 ms
+2026-04-28 15:00:36.811 +05:30 [INF] HTTP GET /api/comments/user/5 responded 200 in 6.1446 ms
+2026-04-28 15:13:14.443 +05:30 [INF] Application is shutting down...
+2026-04-28 15:13:23.883 +05:30 [INF] Now listening on: http://localhost:5299
+2026-04-28 15:13:23.923 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 15:13:23.926 +05:30 [INF] Hosting environment: Development
+2026-04-28 15:13:23.927 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\CommentService
+2026-04-28 15:15:27.153 +05:30 [INF] HTTP GET /api/comments/post/8 responded 200 in 5126.4497 ms
+2026-04-28 15:15:27.255 +05:30 [INF] HTTP GET /api/comments/post/8 responded 200 in 87.1398 ms
+2026-04-28 15:34:10.601 +05:30 [INF] HTTP GET /api/comments/user/5 responded 200 in 293.7319 ms
+2026-04-28 15:40:20.028 +05:30 [INF] HTTP GET /api/comments/user/4 responded 200 in 80.1213 ms
+2026-04-28 15:40:49.104 +05:30 [INF] HTTP GET /api/comments/user/4 responded 200 in 8.2583 ms
+2026-04-28 15:40:53.665 +05:30 [INF] HTTP GET /api/comments/post/1 responded 200 in 56.2779 ms
+2026-04-28 15:40:59.241 +05:30 [INF] HTTP GET /api/comments/user/4 responded 200 in 6.0120 ms
+2026-04-28 15:41:03.701 +05:30 [INF] HTTP GET /api/comments/user/4 responded 200 in 4.1153 ms
+2026-04-28 15:41:06.357 +05:30 [INF] HTTP GET /api/comments/post/1 responded 200 in 15.0391 ms
+2026-04-28 15:41:30.145 +05:30 [INF] HTTP GET /api/comments/user/4 responded 200 in 4.1797 ms
+2026-04-28 15:41:42.265 +05:30 [INF] HTTP GET /api/comments/post/1 responded 200 in 14.7357 ms
