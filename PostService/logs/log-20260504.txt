@@ -1,0 +1,36 @@
+2026-05-04 16:18:09.378 +05:30 [INF] Now listening on: http://localhost:5296
+2026-05-04 16:18:09.419 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 16:18:09.420 +05:30 [INF] Hosting environment: Development
+2026-05-04 16:18:09.423 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\PostService
+2026-05-04 16:18:58.431 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 351.5674 ms
+2026-05-04 16:19:47.242 +05:30 [INF] HTTP GET /api/posts/public responded 200 in 5800.8103 ms
+2026-05-04 16:20:04.762 +05:30 [INF] HTTP GET /api/posts/feed responded 200 in 451.3083 ms
+2026-05-04 16:20:05.986 +05:30 [INF] HTTP GET /api/posts/public responded 200 in 217.2550 ms
+2026-05-04 16:20:19.671 +05:30 [INF] HTTP GET /api/posts/user/4 responded 200 in 257.2835 ms
+2026-05-04 16:20:50.647 +05:30 [INF] HTTP GET /api/posts/public responded 200 in 22.2374 ms
+2026-05-04 16:21:20.638 +05:30 [INF] HTTP GET /api/posts/user/6 responded 200 in 144.2523 ms
+2026-05-04 16:21:29.548 +05:30 [INF] HTTP GET /api/posts/public responded 200 in 31.6546 ms
+2026-05-04 16:21:38.449 +05:30 [INF] HTTP PUT /api/posts/10/increment-likes responded 200 in 87.5123 ms
+2026-05-04 16:21:41.106 +05:30 [INF] HTTP PUT /api/posts/10/decrement-likes responded 200 in 25.4569 ms
+2026-05-04 16:21:52.174 +05:30 [INF] HTTP PUT /api/posts/10/increment-comments responded 200 in 32.7116 ms
+2026-05-04 16:22:27.309 +05:30 [INF] HTTP GET /api/posts/feed responded 200 in 31.8604 ms
+2026-05-04 16:22:32.885 +05:30 [INF] HTTP GET /api/posts/public responded 200 in 42.4041 ms
+2026-05-04 16:23:11.034 +05:30 [INF] HTTP GET /api/posts/public responded 200 in 24.9869 ms
+2026-05-04 16:23:18.311 +05:30 [INF] HTTP GET /api/posts/feed responded 200 in 6.1156 ms
+2026-05-04 16:23:19.608 +05:30 [INF] HTTP GET /api/posts/public responded 200 in 16.0648 ms
+2026-05-04 16:23:41.732 +05:30 [INF] HTTP GET /api/posts/feed responded 200 in 7.2673 ms
+2026-05-04 16:24:02.942 +05:30 [INF] HTTP GET /api/posts/user/4 responded 200 in 41.9975 ms
+2026-05-04 16:24:37.160 +05:30 [INF] HTTP GET /api/posts/public responded 200 in 44.0503 ms
+2026-05-04 16:24:41.391 +05:30 [INF] HTTP GET /api/posts/user/8 responded 200 in 7.8149 ms
+2026-05-04 16:24:56.381 +05:30 [INF] HTTP GET /api/posts/public responded 200 in 181.8753 ms
+2026-05-04 16:24:57.915 +05:30 [INF] HTTP GET /api/posts/feed responded 200 in 19.0281 ms
+2026-05-04 16:25:05.177 +05:30 [INF] HTTP GET /api/posts/public responded 200 in 18.1952 ms
+2026-05-04 16:25:26.540 +05:30 [INF] HTTP GET /api/posts/user/5 responded 200 in 81.3678 ms
+2026-05-04 16:26:28.306 +05:30 [INF] HTTP GET /api/posts/user/4 responded 200 in 38.9503 ms
+2026-05-04 16:26:45.940 +05:30 [INF] HTTP GET /api/posts/public responded 200 in 155.7743 ms
+2026-05-04 16:26:48.618 +05:30 [INF] HTTP GET /api/posts/user/8 responded 200 in 8.6986 ms
+2026-05-04 16:37:13.268 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 53.6018 ms
+2026-05-04 16:37:35.688 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 14.6074 ms
+2026-05-04 16:37:59.981 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 13.6021 ms
+2026-05-04 16:38:38.004 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 12.4918 ms
+2026-05-04 16:39:07.361 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 7.6193 ms
