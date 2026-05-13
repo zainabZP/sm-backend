@@ -1,4 +1,5 @@
 using Serilog;
+using System.Net;
 
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
@@ -13,7 +14,11 @@ try {
         .Enrich.FromLogContext());
 
     builder.Services.AddReverseProxy()
-        .LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"));
+        .LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"))
+        .ConfigureHttpClient((context, handler) => {
+            // Disable SSL check for internal networking
+            handler.SslOptions.RemoteCertificateValidationCallback = (sender, certificate, chain, errors) => true;
+        });
 
     builder.Services.AddCors(options => {
         options.AddPolicy("AllowAll", builder => {
@@ -28,7 +33,23 @@ try {
     app.UseSerilogRequestLogging();
     app.UseCors("AllowAll");
 
-    // Add Swagger UI to Gateway
+    // DEBUG ENDPOINT: Test if we can reach auth-service
+    app.MapGet("/test-connection", async (IConfiguration config) => {
+        var authUrl = config["ReverseProxy:Clusters:auth-cluster:Destinations:auth-dest:Address"] ?? "Not Set";
+        try {
+            using var client = new HttpClient();
+            client.Timeout = TimeSpan.FromSeconds(5);
+            var response = await client.GetAsync(authUrl + "swagger/v1/swagger.json");
+            return Results.Ok(new { 
+                Target = authUrl, 
+                Status = response.StatusCode.ToString(), 
+                Success = response.IsSuccessStatusCode 
+            });
+        } catch (Exception ex) {
+            return Results.Problem($"Failed to reach {authUrl}. Error: {ex.Message}");
+        }
+    });
+
     app.UseSwaggerUI(c => {
         c.SwaggerEndpoint("/swagger-auth/v1/swagger.json", "AuthService API");
         c.SwaggerEndpoint("/swagger-posts/v1/swagger.json", "PostService API");
@@ -39,7 +60,6 @@ try {
         c.RoutePrefix = "swagger"; 
     });
 
-    // Make default route go to swagger
     app.Use(async (context, next) => {
         if (context.Request.Path == "/") {
             context.Response.Redirect("/swagger");
