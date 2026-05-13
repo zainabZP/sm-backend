@@ -19,11 +19,15 @@ namespace PostService.Services {
         private async Task Initialize() {
             if (_channel != null) return;
 
-            var factory = new ConnectionFactory {
-                HostName = _configuration["RabbitMQ:Host"] ?? "localhost",
-                UserName = _configuration["RabbitMQ:Username"] ?? "guest",
-                Password = _configuration["RabbitMQ:Password"] ?? "guest"
-            };
+            var factory = new ConnectionFactory();
+            
+            if (!string.IsNullOrEmpty(_configuration["RabbitMQ:Uri"])) {
+                factory.Uri = new Uri(_configuration["RabbitMQ:Uri"]!);
+            } else {
+                factory.HostName = _configuration["RabbitMQ:Host"] ?? "localhost";
+                factory.UserName = _configuration["RabbitMQ:Username"] ?? "guest";
+                factory.Password = _configuration["RabbitMQ:Password"] ?? "guest";
+            }
 
             _connection = await factory.CreateConnectionAsync();
             _channel = await _connection.CreateChannelAsync();

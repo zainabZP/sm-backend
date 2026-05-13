@@ -2,13 +2,14 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Restore dependencies (cached layer)
-COPY *.csproj .
-RUN dotnet restore
+# Copy csproj and restore as distinct layers
+COPY AuthService/AuthService.csproj AuthService/
+RUN dotnet restore AuthService/AuthService.csproj
 
-# Build and publish
-COPY . .
-RUN dotnet publish -c Release -o /app/publish --no-restore
+# Copy everything else and build app
+COPY AuthService/ AuthService/
+WORKDIR /src/AuthService
+RUN dotnet publish -c Release -o /app/publish
 
 # ---- Runtime Stage ----
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final

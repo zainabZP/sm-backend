@@ -2,11 +2,12 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-COPY *.csproj .
-RUN dotnet restore
+COPY LikeService/LikeService.csproj LikeService/
+RUN dotnet restore LikeService/LikeService.csproj
 
-COPY . .
-RUN dotnet publish -c Release -o /app/publish --no-restore
+COPY LikeService/ LikeService/
+WORKDIR /src/LikeService
+RUN dotnet publish -c Release -o /app/publish
 
 # ---- Runtime Stage ----
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final

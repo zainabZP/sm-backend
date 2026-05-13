@@ -2,11 +2,12 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-COPY *.csproj .
-RUN dotnet restore
+COPY FeedService/FeedService.csproj FeedService/
+RUN dotnet restore FeedService/FeedService.csproj
 
-COPY . .
-RUN dotnet publish -c Release -o /app/publish --no-restore
+COPY FeedService/ FeedService/
+WORKDIR /src/FeedService
+RUN dotnet publish -c Release -o /app/publish
 
 # ---- Runtime Stage ----
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
