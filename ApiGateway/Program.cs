@@ -13,12 +13,17 @@ try {
         .ReadFrom.Services(services)
         .Enrich.FromLogContext());
 
+    builder.Services.AddHttpForwarder();
     builder.Services.AddReverseProxy()
         .LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"))
         .ConfigureHttpClient((context, handler) => {
-            // Disable SSL check for internal networking
             handler.SslOptions.RemoteCertificateValidationCallback = (sender, certificate, chain, errors) => true;
         });
+
+    builder.Services.AddLogging(logging => {
+        logging.AddConsole();
+        logging.SetMinimumLevel(LogLevel.Debug);
+    });
 
     builder.Services.AddCors(options => {
         options.AddPolicy("AllowAll", builder => {
