@@ -1,0 +1,339 @@
+2026-04-28 11:47:16.515 +05:30 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5177: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-04-28 11:47:16.577 +05:30 [FTL] Application terminated unexpectedly
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5177: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\SocialMediaMiniBackend\ConnectSphere\Services\FollowService\Program.cs:line 95
+2026-04-28 12:09:47.405 +05:30 [INF] Now listening on: http://localhost:5177
+2026-04-28 12:09:47.454 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 12:09:47.457 +05:30 [INF] Hosting environment: Development
+2026-04-28 12:09:47.458 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\FollowService
+2026-04-28 12:10:01.416 +05:30 [INF] HTTP GET /api/follows/4/following responded 200 in 3667.2857 ms
+2026-04-28 12:10:01.552 +05:30 [INF] HTTP GET /api/follows/4/following responded 200 in 120.9193 ms
+2026-04-28 12:10:05.995 +05:30 [INF] HTTP GET /api/follows/4/following responded 200 in 201.3335 ms
+2026-04-28 12:10:13.730 +05:30 [INF] HTTP GET /api/follows/4/following responded 200 in 24.1438 ms
+2026-04-28 12:10:39.383 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 111.9130 ms
+2026-04-28 12:10:39.423 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 156.8786 ms
+2026-04-28 12:10:41.559 +05:30 [INF] HTTP POST /api/follows responded 200 in 436.6035 ms
+2026-04-28 12:11:03.307 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 6.4255 ms
+2026-04-28 12:11:03.307 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 4.2531 ms
+2026-04-28 12:11:05.478 +05:30 [INF] HTTP DELETE /api/follows/5 responded 200 in 117.8518 ms
+2026-04-28 12:11:24.417 +05:30 [INF] HTTP GET /api/follows/4/following responded 200 in 20.9907 ms
+2026-04-28 12:11:31.183 +05:30 [INF] HTTP GET /api/follows/4/following responded 200 in 184.0188 ms
+2026-04-28 12:17:10.448 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 71.8464 ms
+2026-04-28 12:17:10.462 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 59.5664 ms
+2026-04-28 12:17:12.399 +05:30 [INF] HTTP POST /api/follows responded 200 in 57.9134 ms
+2026-04-28 12:17:13.211 +05:30 [INF] HTTP DELETE /api/follows/5 responded 200 in 38.5135 ms
+2026-04-28 12:17:38.854 +05:30 [INF] HTTP GET /api/follows/4/following responded 200 in 15.2455 ms
+2026-04-28 12:20:02.953 +05:30 [INF] HTTP GET /api/follows/6/following responded 200 in 9.9782 ms
+2026-04-28 12:20:56.264 +05:30 [INF] HTTP GET /api/follows/6/following responded 200 in 7.0860 ms
+2026-04-28 12:22:03.372 +05:30 [INF] HTTP GET /api/follows/6/following responded 200 in 5.2900 ms
+2026-04-28 12:22:09.141 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 5.1381 ms
+2026-04-28 12:22:09.144 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 4.0607 ms
+2026-04-28 12:22:09.359 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 4.3008 ms
+2026-04-28 12:22:09.363 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 4.9234 ms
+2026-04-28 12:22:09.865 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 4.0993 ms
+2026-04-28 12:22:09.868 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 5.1916 ms
+2026-04-28 12:22:12.237 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 76.0547 ms
+2026-04-28 12:23:32.434 +05:30 [INF] HTTP GET /api/follows/6/following responded 200 in 7.1987 ms
+2026-04-28 12:29:07.817 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 66.7745 ms
+2026-04-28 12:29:07.817 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 65.4779 ms
+2026-04-28 12:29:08.089 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 6.7244 ms
+2026-04-28 12:29:08.090 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 7.1336 ms
+2026-04-28 12:29:10.086 +05:30 [INF] HTTP POST /api/follows responded 200 in 52.0913 ms
+2026-04-28 12:29:14.140 +05:30 [INF] HTTP GET /api/follows/6/following responded 200 in 14.8501 ms
+2026-04-28 12:29:30.086 +05:30 [INF] HTTP GET /api/follows/6/following responded 200 in 17.1825 ms
+2026-04-28 12:38:46.973 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 58.2327 ms
+2026-04-28 12:38:46.978 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 64.8014 ms
+2026-04-28 12:38:47.294 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 5.4613 ms
+2026-04-28 12:38:47.295 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 2.8394 ms
+2026-04-28 12:38:49.934 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 4.8200 ms
+2026-04-28 12:39:06.021 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 26.1408 ms
+2026-04-28 12:39:52.139 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 2.7753 ms
+2026-04-28 12:39:52.143 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 3.7045 ms
+2026-04-28 12:39:52.291 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 7.8225 ms
+2026-04-28 12:39:52.296 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 5.8441 ms
+2026-04-28 12:39:54.014 +05:30 [INF] HTTP POST /api/follows responded 200 in 40.9397 ms
+2026-04-28 12:39:58.405 +05:30 [INF] HTTP GET /api/follows/7/following responded 200 in 13.2439 ms
+2026-04-28 12:41:23.686 +05:30 [INF] HTTP GET /api/follows/7/following responded 200 in 27.0793 ms
+2026-04-28 12:41:27.387 +05:30 [INF] HTTP GET /api/follows/7/following responded 200 in 17.3411 ms
+2026-04-28 12:41:52.885 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 5.5170 ms
+2026-04-28 13:32:42.416 +05:30 [INF] Now listening on: http://localhost:5177
+2026-04-28 13:32:42.478 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 13:32:42.481 +05:30 [INF] Hosting environment: Development
+2026-04-28 13:32:42.482 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\FollowService
+2026-04-28 13:47:16.712 +05:30 [INF] HTTP GET /api/follows/5/followers responded 200 in 4270.8188 ms
+2026-04-28 13:47:16.709 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 1374.5005 ms
+2026-04-28 13:47:16.987 +05:30 [INF] HTTP GET /api/follows/5/followers responded 200 in 257.9846 ms
+2026-04-28 13:47:23.382 +05:30 [INF] HTTP GET /api/follows/5/followers responded 200 in 50.6668 ms
+2026-04-28 13:47:27.422 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 133.6065 ms
+2026-04-28 13:47:34.031 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 27.2591 ms
+2026-04-28 13:48:49.863 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 28.1697 ms
+2026-04-28 13:48:54.719 +05:30 [INF] HTTP GET /api/follows/5/followers responded 200 in 36.1906 ms
+2026-04-28 13:48:56.528 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 5.8192 ms
+2026-04-28 14:02:33.996 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 213.5046 ms
+2026-04-28 14:02:44.473 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 26.1025 ms
+2026-04-28 14:03:06.597 +05:30 [INF] HTTP GET /api/follows/5/followers responded 200 in 47.7593 ms
+2026-04-28 14:03:13.904 +05:30 [INF] HTTP GET /api/follows/5/followers responded 200 in 38.1117 ms
+2026-04-28 14:03:15.515 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 7.4461 ms
+2026-04-28 14:03:20.253 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 17.5390 ms
+2026-04-28 14:03:51.760 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 81.9504 ms
+2026-04-28 14:03:55.279 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 8.4307 ms
+2026-04-28 14:04:08.827 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 8.9254 ms
+2026-04-28 14:04:39.870 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 6.3854 ms
+2026-04-28 14:04:39.907 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 40.1697 ms
+2026-04-28 14:04:42.689 +05:30 [INF] HTTP POST /api/follows responded 200 in 519.9138 ms
+2026-04-28 14:04:48.547 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 26.9628 ms
+2026-04-28 14:04:51.202 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 3.3688 ms
+2026-04-28 14:05:04.756 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 4.1616 ms
+2026-04-28 14:05:04.761 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 6.4815 ms
+2026-04-28 14:05:07.395 +05:30 [INF] HTTP DELETE /api/follows/4 responded 200 in 106.5187 ms
+2026-04-28 14:05:10.557 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 2.1253 ms
+2026-04-28 14:05:20.834 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 22.2430 ms
+2026-04-28 14:05:20.837 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 22.6139 ms
+2026-04-28 14:05:22.880 +05:30 [INF] HTTP POST /api/follows responded 200 in 34.2008 ms
+2026-04-28 14:05:29.865 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 15.2094 ms
+2026-04-28 14:05:32.515 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 2.5642 ms
+2026-04-28 14:11:34.718 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 43.3716 ms
+2026-04-28 14:11:34.821 +05:30 [INF] HTTP GET /api/follows/is-following/7 responded 200 in 151.6833 ms
+2026-04-28 14:11:42.507 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 3.8123 ms
+2026-04-28 14:11:42.507 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 5.4847 ms
+2026-04-28 14:11:44.240 +05:30 [INF] HTTP POST /api/follows responded 200 in 67.3002 ms
+2026-04-28 14:11:53.149 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 3.5277 ms
+2026-04-28 14:11:53.151 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 1.9215 ms
+2026-04-28 14:11:55.046 +05:30 [INF] HTTP DELETE /api/follows/6 responded 200 in 26.1545 ms
+2026-04-28 14:12:01.459 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 20.8783 ms
+2026-04-28 14:12:11.796 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 10.0428 ms
+2026-04-28 14:12:13.454 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 2.9996 ms
+2026-04-28 14:12:13.454 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 1.5918 ms
+2026-04-28 14:12:18.758 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 14.4125 ms
+2026-04-28 14:12:48.016 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 16.8309 ms
+2026-04-28 14:15:13.788 +05:30 [INF] Application is shutting down...
+2026-04-28 14:15:26.440 +05:30 [INF] Now listening on: http://localhost:5177
+2026-04-28 14:15:26.478 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 14:15:26.482 +05:30 [INF] Hosting environment: Development
+2026-04-28 14:15:26.482 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\FollowService
+2026-04-28 14:15:35.765 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 2001.5433 ms
+2026-04-28 14:15:35.818 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 41.6352 ms
+2026-04-28 14:15:50.232 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 120.0158 ms
+2026-04-28 14:17:09.948 +05:30 [INF] Application is shutting down...
+2026-04-28 14:18:02.108 +05:30 [INF] Now listening on: http://localhost:5177
+2026-04-28 14:18:02.161 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 14:18:02.164 +05:30 [INF] Hosting environment: Development
+2026-04-28 14:18:02.166 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\FollowService
+2026-04-28 14:18:37.710 +05:30 [INF] HTTP GET /api/follows/5/followers responded 200 in 3709.0444 ms
+2026-04-28 14:18:41.878 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 451.2156 ms
+2026-04-28 14:19:31.042 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 88.9164 ms
+2026-04-28 14:19:43.100 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 10.9775 ms
+2026-04-28 14:20:06.765 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 12.1312 ms
+2026-04-28 14:20:48.860 +05:30 [INF] HTTP GET /api/follows/5/followers responded 200 in 23.5367 ms
+2026-04-28 14:20:50.269 +05:30 [INF] HTTP GET /api/follows/is-following/7 responded 200 in 39.4799 ms
+2026-04-28 14:20:50.306 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 74.2953 ms
+2026-04-28 14:21:15.812 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 10.7039 ms
+2026-04-28 14:21:52.913 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 3.4139 ms
+2026-04-28 14:21:52.914 +05:30 [INF] HTTP GET /api/follows/is-following/7 responded 200 in 3.2521 ms
+2026-04-28 14:23:09.190 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 5.8635 ms
+2026-04-28 14:23:09.191 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 8.0032 ms
+2026-04-28 14:23:12.638 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 8.1971 ms
+2026-04-28 14:23:12.656 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 3.2110 ms
+2026-04-28 14:29:17.135 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 53.7318 ms
+2026-04-28 14:33:18.206 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 14.7442 ms
+2026-04-28 14:33:51.379 +05:30 [INF] HTTP GET /api/follows/is-following/7 responded 200 in 3.0428 ms
+2026-04-28 14:33:51.412 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 35.8388 ms
+2026-04-28 14:37:34.147 +05:30 [INF] HTTP GET /api/follows/is-following/7 responded 200 in 6.7203 ms
+2026-04-28 14:37:34.202 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 2.4587 ms
+2026-04-28 14:37:49.897 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 3.6914 ms
+2026-04-28 14:37:49.951 +05:30 [INF] HTTP GET /api/follows/is-following/7 responded 200 in 57.9619 ms
+2026-04-28 14:37:58.819 +05:30 [INF] HTTP GET /api/follows/is-following/7 responded 200 in 3.6902 ms
+2026-04-28 14:37:58.820 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 6.1278 ms
+2026-04-28 14:38:04.910 +05:30 [INF] HTTP GET /api/follows/is-following/7 responded 200 in 4.0126 ms
+2026-04-28 14:38:04.914 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 7.1452 ms
+2026-04-28 14:38:30.555 +05:30 [INF] HTTP GET /api/follows/is-following/7 responded 200 in 2.7187 ms
+2026-04-28 14:38:30.555 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 2.3099 ms
+2026-04-28 14:39:10.755 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 4.6431 ms
+2026-04-28 14:39:10.756 +05:30 [INF] HTTP GET /api/follows/is-following/7 responded 200 in 5.8980 ms
+2026-04-28 14:39:19.585 +05:30 [INF] HTTP GET /api/follows/is-following/7 responded 200 in 2.4556 ms
+2026-04-28 14:39:19.632 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 49.4102 ms
+2026-04-28 14:43:32.018 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 21.9839 ms
+2026-04-28 14:54:47.499 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 126.7479 ms
+2026-04-28 14:54:47.503 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 4.8622 ms
+2026-04-28 14:54:47.506 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 3.3498 ms
+2026-04-28 14:54:47.518 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 145.8560 ms
+2026-04-28 14:54:52.699 +05:30 [INF] HTTP POST /api/follows responded 200 in 537.5803 ms
+2026-04-28 14:56:38.603 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 5.3013 ms
+2026-04-28 14:56:38.618 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 6.7246 ms
+2026-04-28 14:56:38.619 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 3.1670 ms
+2026-04-28 14:56:38.653 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 3.0584 ms
+2026-04-28 14:56:45.502 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 2.5042 ms
+2026-04-28 14:56:45.502 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 6.7501 ms
+2026-04-28 14:56:45.506 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 2.0985 ms
+2026-04-28 14:56:45.506 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 3.4387 ms
+2026-04-28 14:56:52.610 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 3.0449 ms
+2026-04-28 14:56:52.612 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 3.6268 ms
+2026-04-28 14:56:52.616 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 6.4014 ms
+2026-04-28 14:56:52.616 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 3.7847 ms
+2026-04-28 14:58:41.697 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 5.2702 ms
+2026-04-28 14:58:43.601 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 6.3692 ms
+2026-04-28 14:58:43.609 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 2.2963 ms
+2026-04-28 15:00:07.933 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 36.1933 ms
+2026-04-28 15:00:07.934 +05:30 [INF] HTTP GET /api/follows/is-following/7 responded 200 in 40.2872 ms
+2026-04-28 15:01:55.699 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 2.8996 ms
+2026-04-28 15:01:55.702 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 4.5251 ms
+2026-04-28 15:02:03.508 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 2.7279 ms
+2026-04-28 15:02:03.509 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 1.9021 ms
+2026-04-28 15:04:23.912 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 10.5595 ms
+2026-04-28 15:04:23.929 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 5.8711 ms
+2026-04-28 15:04:23.929 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 13.8885 ms
+2026-04-28 15:04:23.956 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 2.1373 ms
+2026-04-28 15:06:35.716 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 51.3517 ms
+2026-04-28 15:06:35.726 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 59.0690 ms
+2026-04-28 15:06:35.726 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 62.1552 ms
+2026-04-28 15:06:35.816 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 153.4809 ms
+2026-04-28 15:06:41.638 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 2.3967 ms
+2026-04-28 15:06:41.639 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 1.8787 ms
+2026-04-28 15:06:41.642 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 3.6723 ms
+2026-04-28 15:06:41.642 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 2.8573 ms
+2026-04-28 15:06:48.648 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 3.1326 ms
+2026-04-28 15:06:48.648 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 2.5605 ms
+2026-04-28 15:06:48.649 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 1.7329 ms
+2026-04-28 15:06:48.651 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 2.0233 ms
+2026-04-28 15:07:03.301 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 2.6868 ms
+2026-04-28 15:07:03.304 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 3.7566 ms
+2026-04-28 15:07:03.306 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 2.3117 ms
+2026-04-28 15:07:03.310 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 3.2170 ms
+2026-04-28 15:08:31.983 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 3.4085 ms
+2026-04-28 15:08:31.985 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 2.7950 ms
+2026-04-28 15:08:31.990 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 3.6615 ms
+2026-04-28 15:08:31.995 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 2.9345 ms
+2026-04-28 15:13:43.418 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 72.4760 ms
+2026-04-28 15:13:43.420 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 75.0797 ms
+2026-04-28 15:13:43.427 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 76.8725 ms
+2026-04-28 15:13:43.430 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 74.1773 ms
+2026-04-28 15:14:59.329 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 5.2104 ms
+2026-04-28 15:15:33.958 +05:30 [INF] HTTP GET /api/follows/is-following/7 responded 200 in 4.6399 ms
+2026-04-28 15:15:33.976 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 3.3416 ms
+2026-04-28 15:33:32.467 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 57.4613 ms
+2026-04-28 15:33:38.398 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 3.5515 ms
+2026-04-28 15:33:38.416 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 2.7310 ms
+2026-04-28 15:34:48.681 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 38.2925 ms
+2026-04-28 15:39:15.591 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 92.4065 ms
+2026-04-28 15:39:15.611 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 100.8983 ms
+2026-04-28 15:39:15.688 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 194.1743 ms
+2026-04-28 15:39:30.727 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 2.8928 ms
+2026-04-28 15:39:30.730 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 7.7558 ms
+2026-04-28 15:39:30.756 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 27.3687 ms
+2026-04-28 15:40:38.911 +05:30 [INF] HTTP GET /api/follows/4/following responded 200 in 29.0135 ms
+2026-04-28 15:40:40.552 +05:30 [INF] HTTP GET /api/follows/is-following/2 responded 200 in 4.7270 ms
+2026-04-28 15:40:40.560 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 3.3565 ms
+2026-04-28 15:40:42.081 +05:30 [INF] HTTP DELETE /api/follows/2 responded 200 in 194.0672 ms
+2026-04-28 15:41:01.373 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 7.4149 ms
+2026-04-28 15:41:01.378 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 3.1764 ms
+2026-04-28 15:41:01.381 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 3.1965 ms
+2026-04-28 15:43:35.044 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 13.8378 ms
+2026-04-28 15:43:35.045 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 48.7784 ms
+2026-04-28 15:43:35.045 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 38.2373 ms
+2026-04-28 15:43:35.152 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 127.8749 ms
+2026-04-28 15:43:49.675 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 3.4103 ms
+2026-04-28 15:43:49.681 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 6.1289 ms
+2026-04-28 15:43:49.682 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 4.8126 ms
+2026-04-28 15:43:49.688 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 5.8154 ms
+2026-04-28 15:44:07.376 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 3.3585 ms
+2026-04-28 15:44:07.389 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 7.6248 ms
+2026-04-28 15:44:24.365 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 4.2655 ms
+2026-04-28 15:44:24.375 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 6.0945 ms
+2026-04-28 15:44:24.378 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 4.3344 ms
+2026-04-28 15:44:33.383 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 37.7464 ms
+2026-04-28 15:44:33.408 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 14.5644 ms
+2026-04-28 15:44:33.444 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 5.7330 ms
+2026-04-28 15:44:42.486 +05:30 [INF] HTTP GET /api/follows/4/followers responded 200 in 38.4789 ms
+2026-04-28 15:44:58.672 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 4.3084 ms
+2026-04-28 15:44:58.687 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 14.4135 ms
+2026-04-28 15:44:58.721 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 45.5754 ms
+2026-04-28 15:45:03.336 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 5.5318 ms
+2026-04-28 15:45:03.339 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 3.4610 ms
+2026-04-28 15:45:03.340 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 3.0393 ms
+2026-04-28 15:45:20.884 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 5.0218 ms
+2026-04-28 15:45:20.892 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 5.8978 ms
+2026-04-28 15:45:20.976 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 94.1313 ms
+2026-04-28 15:45:57.831 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 3.3659 ms
+2026-04-28 15:45:57.867 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 19.4486 ms
+2026-04-28 15:45:57.874 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 41.4190 ms
+2026-04-28 15:46:21.351 +05:30 [INF] HTTP GET /api/follows/2/following responded 200 in 19.0790 ms
+2026-04-28 16:11:11.306 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 205.0566 ms
+2026-04-28 16:11:11.306 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 205.0350 ms
+2026-04-28 16:11:11.306 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 205.2274 ms
+2026-04-28 16:13:06.041 +05:30 [INF] HTTP GET /api/follows/2/following responded 200 in 309.3517 ms
+2026-04-28 16:15:05.803 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 8.3789 ms
+2026-04-28 16:15:05.811 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 8.4068 ms
+2026-04-28 16:15:05.813 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 3.4011 ms
+2026-04-28 16:15:11.637 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 53.4619 ms
+2026-04-28 16:15:26.235 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 25.8975 ms
+2026-04-28 16:15:48.998 +05:30 [INF] HTTP GET /api/follows/is-following/2 responded 200 in 4.1378 ms
+2026-04-28 16:15:50.333 +05:30 [INF] HTTP GET /api/follows/is-following/2 responded 200 in 3.0040 ms
+2026-04-28 16:15:50.363 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 5.6099 ms
+2026-04-28 16:15:55.618 +05:30 [INF] HTTP POST /api/follows responded 200 in 134.4573 ms
+2026-04-28 16:15:57.615 +05:30 [INF] HTTP DELETE /api/follows/2 responded 200 in 18.4713 ms
+2026-04-28 17:10:12.815 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 348.2833 ms
+2026-04-28 17:10:12.815 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 200 in 348.2833 ms
+2026-04-28 17:10:12.815 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 200 in 348.2872 ms
+2026-04-28 17:10:40.652 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 98.2560 ms
+2026-04-28 17:10:49.338 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 34.8194 ms
+2026-04-28 17:10:54.866 +05:30 [INF] HTTP GET /api/follows/5/followers responded 200 in 22.9108 ms
+2026-04-28 17:11:06.177 +05:30 [INF] HTTP GET /api/follows/5/following responded 200 in 17.4268 ms
+2026-04-28 17:11:07.550 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 200 in 3.6533 ms
+2026-04-28 17:11:07.565 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 3.3052 ms
+2026-04-28 17:11:09.727 +05:30 [INF] HTTP DELETE /api/follows/3 responded 200 in 163.3623 ms
+2026-04-28 17:11:15.379 +05:30 [INF] HTTP GET /api/follows/5/followers responded 200 in 22.2396 ms
+2026-04-28 17:11:16.994 +05:30 [INF] HTTP GET /api/follows/is-following/7 responded 200 in 2.5161 ms
+2026-04-28 17:11:17.004 +05:30 [INF] HTTP GET /api/follows/check responded 200 in 6.4023 ms

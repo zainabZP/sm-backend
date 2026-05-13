@@ -1,0 +1,16 @@
+2026-05-05 10:40:46.305 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 204 in 525.2768 ms
+2026-05-05 10:40:46.319 +05:30 [INF] HTTP GET /api/follows/8/follower-count responded 200 in 545.0668 ms
+2026-05-05 10:40:46.319 +05:30 [INF] HTTP GET /api/follows/8/following-count responded 200 in 545.5369 ms
+2026-05-05 10:40:46.323 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 549.4219 ms
+2026-05-05 10:40:46.514 +05:30 [INF] HTTP GET /api/follows/pending responded 200 in 740.3433 ms
+2026-05-05 10:40:46.654 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 204 in 18.1893 ms
+2026-05-05 10:40:46.660 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 204 in 26.7420 ms
+2026-05-05 11:34:42.510 +05:30 [INF] HTTP GET /api/follows/pending responded 200 in 1065982.9813 ms
+2026-05-05 11:34:50.736 +05:30 [INF] HTTP GET /api/follows/pending responded 200 in 60.2672 ms
+2026-05-05 11:34:51.194 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 204 in 27.5073 ms
+2026-05-05 11:34:51.200 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 204 in 6.6628 ms
+2026-05-05 11:34:51.214 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 204 in 13.0730 ms
+2026-05-05 11:34:51.311 +05:30 [INF] HTTP GET /api/follows/8/follower-count responded 200 in 28.1920 ms
+2026-05-05 11:34:51.311 +05:30 [INF] HTTP GET /api/follows/8/following-count responded 200 in 8.5751 ms
+2026-05-05 11:34:51.337 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 143.8360 ms
+2026-05-05 15:36:56.919 +05:30 [WRN] As of ""2026-05-05T10:06:55.1752576+00:00"", the heartbeat has been running for ""00:00:01.1239732"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.

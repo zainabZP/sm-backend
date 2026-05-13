@@ -1,0 +1,8 @@
+2026-05-12 12:03:57.555 +05:30 [INF] Now listening on: http://localhost:5177
+2026-05-12 12:03:57.600 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-12 12:03:57.602 +05:30 [INF] Hosting environment: Development
+2026-05-12 12:03:57.603 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\FollowService
+2026-05-12 15:17:37.796 +05:30 [INF] Now listening on: http://localhost:5177
+2026-05-12 15:17:37.832 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-12 15:17:37.833 +05:30 [INF] Hosting environment: Development
+2026-05-12 15:17:37.834 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\FollowService

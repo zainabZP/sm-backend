@@ -1,0 +1,56 @@
+2026-05-04 16:17:40.091 +05:30 [INF] Now listening on: http://localhost:5177
+2026-05-04 16:17:40.125 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 16:17:40.128 +05:30 [INF] Hosting environment: Development
+2026-05-04 16:17:40.129 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\FollowService
+2026-05-04 16:19:06.825 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 324.6605 ms
+2026-05-04 16:19:50.072 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 204 in 5359.7351 ms
+2026-05-04 16:19:50.072 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 204 in 5359.5894 ms
+2026-05-04 16:19:50.072 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 204 in 5356.3697 ms
+2026-05-04 16:19:50.362 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 5649.7057 ms
+2026-05-04 16:20:04.277 +05:30 [INF] HTTP GET /api/follows/4/following responded 200 in 700.4162 ms
+2026-05-04 16:20:19.376 +05:30 [INF] HTTP GET /api/follows/pending responded 200 in 250.1888 ms
+2026-05-04 16:20:19.609 +05:30 [INF] HTTP GET /api/follows/4/follower-count responded 200 in 185.3090 ms
+2026-05-04 16:20:19.609 +05:30 [INF] HTTP GET /api/follows/4/following-count responded 200 in 188.2973 ms
+2026-05-04 16:21:20.500 +05:30 [INF] HTTP GET /api/follows/6/follower-count responded 200 in 14.5672 ms
+2026-05-04 16:21:20.500 +05:30 [INF] HTTP GET /api/follows/6/following-count responded 200 in 6.6780 ms
+2026-05-04 16:21:20.513 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 204 in 5.2379 ms
+2026-05-04 16:21:20.526 +05:30 [INF] HTTP GET /api/follows/check responded 405 in 0.7682 ms
+2026-05-04 16:22:27.264 +05:30 [INF] HTTP GET /api/follows/4/following responded 200 in 41.1724 ms
+2026-05-04 16:23:11.231 +05:30 [INF] HTTP GET /api/follows/is-following/1 responded 204 in 10.0962 ms
+2026-05-04 16:23:11.235 +05:30 [INF] HTTP GET /api/follows/is-following/6 responded 204 in 4.6114 ms
+2026-05-04 16:23:11.242 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 204 in 7.2162 ms
+2026-05-04 16:23:11.248 +05:30 [INF] HTTP GET /api/follows/is-following/3 responded 204 in 7.6417 ms
+2026-05-04 16:23:18.291 +05:30 [INF] HTTP GET /api/follows/8/following responded 200 in 39.7651 ms
+2026-05-04 16:23:41.715 +05:30 [INF] HTTP GET /api/follows/8/following responded 200 in 20.7284 ms
+2026-05-04 16:23:57.964 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 204 in 6.0170 ms
+2026-05-04 16:24:01.076 +05:30 [INF] HTTP POST /api/follows responded 200 in 357.4847 ms
+2026-05-04 16:24:02.900 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 7.8737 ms
+2026-05-04 16:24:02.907 +05:30 [INF] HTTP GET /api/follows/4/follower-count responded 200 in 7.1325 ms
+2026-05-04 16:24:02.910 +05:30 [INF] HTTP GET /api/follows/4/following-count responded 200 in 5.2065 ms
+2026-05-04 16:24:02.913 +05:30 [INF] HTTP GET /api/follows/check responded 405 in 0.2715 ms
+2026-05-04 16:24:08.932 +05:30 [INF] HTTP GET /api/follows/4/followers responded 200 in 44.5790 ms
+2026-05-04 16:24:41.369 +05:30 [INF] HTTP GET /api/follows/pending responded 200 in 30.1993 ms
+2026-05-04 16:24:41.394 +05:30 [INF] HTTP GET /api/follows/8/follower-count responded 200 in 6.2230 ms
+2026-05-04 16:24:41.397 +05:30 [INF] HTTP GET /api/follows/8/following-count responded 200 in 5.7974 ms
+2026-05-04 16:24:52.121 +05:30 [INF] HTTP POST /api/follows responded 200 in 358.4871 ms
+2026-05-04 16:24:57.888 +05:30 [INF] HTTP GET /api/follows/8/following responded 200 in 17.1672 ms
+2026-05-04 16:25:26.488 +05:30 [INF] HTTP GET /api/follows/5/follower-count responded 200 in 6.3291 ms
+2026-05-04 16:25:26.497 +05:30 [INF] HTTP GET /api/follows/check responded 405 in 0.2204 ms
+2026-05-04 16:25:26.504 +05:30 [INF] HTTP GET /api/follows/is-following/5 responded 200 in 5.3513 ms
+2026-05-04 16:25:26.577 +05:30 [INF] HTTP GET /api/follows/5/following-count responded 200 in 94.7245 ms
+2026-05-04 16:26:26.202 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 5.4728 ms
+2026-05-04 16:26:28.268 +05:30 [INF] HTTP GET /api/follows/is-following/4 responded 200 in 6.9336 ms
+2026-05-04 16:26:28.277 +05:30 [INF] HTTP GET /api/follows/4/following-count responded 200 in 5.3108 ms
+2026-05-04 16:26:28.279 +05:30 [INF] HTTP GET /api/follows/check responded 405 in 0.3480 ms
+2026-05-04 16:26:28.280 +05:30 [INF] HTTP GET /api/follows/4/follower-count responded 200 in 4.9600 ms
+2026-05-04 16:26:33.051 +05:30 [INF] HTTP DELETE /api/follows/4 responded 200 in 81.2901 ms
+2026-05-04 16:26:33.078 +05:30 [INF] HTTP GET /api/follows/4/follower-count responded 200 in 5.4889 ms
+2026-05-04 16:26:33.079 +05:30 [INF] HTTP GET /api/follows/4/following-count responded 200 in 4.3267 ms
+2026-05-04 16:26:48.598 +05:30 [INF] HTTP GET /api/follows/pending responded 200 in 23.7158 ms
+2026-05-04 16:26:48.619 +05:30 [INF] HTTP GET /api/follows/8/follower-count responded 200 in 5.4875 ms
+2026-05-04 16:26:48.625 +05:30 [INF] HTTP GET /api/follows/8/following-count responded 200 in 4.5406 ms
+2026-05-04 16:37:22.707 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 33.6874 ms
+2026-05-04 16:37:50.369 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 10.0380 ms
+2026-05-04 16:38:10.824 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 8.1437 ms
+2026-05-04 16:38:54.250 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 8.6982 ms
+2026-05-04 16:39:18.914 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 9.6346 ms
