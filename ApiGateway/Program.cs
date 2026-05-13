@@ -30,6 +30,7 @@ try {
 
     var app = builder.Build();
 
+    app.UseForwardedHeaders();
     app.UseSerilogRequestLogging();
     app.UseCors("AllowAll");
 
