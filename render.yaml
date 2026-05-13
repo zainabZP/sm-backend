@@ -1,0 +1,176 @@
+services:
+  # AuthService
+  - type: web
+    name: auth-service
+    runtime: docker
+    dockerContext: .
+    dockerfilePath: AuthService/Dockerfile
+    envVars:
+      - key: ConnectionStrings__DefaultConnection
+        sync: false
+      - key: Jwt__Secret
+        value: ThisIsAVeryStrongSecretKeyForJwtTokenGeneration2024!
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+
+  # FollowService
+  - type: web
+    name: follow-service
+    runtime: docker
+    dockerContext: .
+    dockerfilePath: FollowService/Dockerfile
+    envVars:
+      - key: ConnectionStrings__DefaultConnection
+        sync: false
+      - key: Jwt__Secret
+        value: ThisIsAVeryStrongSecretKeyForJwtTokenGeneration2024!
+      - key: AuthService__BaseUrl
+        fromService:
+          name: auth-service
+          type: web
+          property: host
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+
+  # PostService
+  - type: web
+    name: post-service
+    runtime: docker
+    dockerContext: .
+    dockerfilePath: PostService/Dockerfile
+    envVars:
+      - key: ConnectionStrings__DefaultConnection
+        sync: false
+      - key: Jwt__Secret
+        value: ThisIsAVeryStrongSecretKeyForJwtTokenGeneration2024!
+      - key: ServiceUrls__FollowService
+        fromService:
+          name: follow-service
+          type: web
+          property: host
+      - key: ServiceUrls__AuthService
+        fromService:
+          name: auth-service
+          type: web
+          property: host
+      - key: RabbitMQ__Host
+        sync: false
+      - key: RabbitMQ__Username
+        sync: false
+      - key: RabbitMQ__Password
+        sync: false
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+
+  # CommentService
+  - type: web
+    name: comment-service
+    runtime: docker
+    dockerContext: .
+    dockerfilePath: CommentService/Dockerfile
+    envVars:
+      - key: ConnectionStrings__DefaultConnection
+        sync: false
+      - key: Jwt__Secret
+        value: ThisIsAVeryStrongSecretKeyForJwtTokenGeneration2024!
+      - key: PostService__BaseUrl
+        fromService:
+          name: post-service
+          type: web
+          property: host
+      - key: AuthService__BaseUrl
+        fromService:
+          name: auth-service
+          type: web
+          property: host
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+
+  # LikeService
+  - type: web
+    name: like-service
+    runtime: docker
+    dockerContext: .
+    dockerfilePath: LikeService/Dockerfile
+    envVars:
+      - key: ConnectionStrings__DefaultConnection
+        sync: false
+      - key: Jwt__Secret
+        value: ThisIsAVeryStrongSecretKeyForJwtTokenGeneration2024!
+      - key: PostService__BaseUrl
+        fromService:
+          name: post-service
+          type: web
+          property: host
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+
+  # FeedService
+  - type: web
+    name: feed-service
+    runtime: docker
+    dockerContext: .
+    dockerfilePath: FeedService/Dockerfile
+    envVars:
+      - key: ConnectionStrings__DefaultConnection
+        sync: false
+      - key: Jwt__Secret
+        value: ThisIsAVeryStrongSecretKeyForJwtTokenGeneration2024!
+      - key: ServiceUrls__FollowService
+        fromService:
+          name: follow-service
+          type: web
+          property: host
+      - key: ServiceUrls__PostService
+        fromService:
+          name: post-service
+          type: web
+          property: host
+      - key: RabbitMQ__Host
+        sync: false
+      - key: RabbitMQ__Username
+        sync: false
+      - key: RabbitMQ__Password
+        sync: false
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+
+  # ApiGateway
+  - type: web
+    name: api-gateway
+    runtime: docker
+    dockerContext: .
+    dockerfilePath: ApiGateway/Dockerfile
+    envVars:
+      - key: ReverseProxy__Clusters__auth-cluster__Destinations__auth-dest__Address
+        fromService:
+          name: auth-service
+          type: web
+          property: host
+      - key: ReverseProxy__Clusters__posts-cluster__Destinations__posts-dest__Address
+        fromService:
+          name: post-service
+          type: web
+          property: host
+      - key: ReverseProxy__Clusters__comments-cluster__Destinations__comments-dest__Address
+        fromService:
+          name: comment-service
+          type: web
+          property: host
+      - key: ReverseProxy__Clusters__feed-cluster__Destinations__feed-dest__Address
+        fromService:
+          name: feed-service
+          type: web
+          property: host
+      - key: ReverseProxy__Clusters__follows-cluster__Destinations__follows-dest__Address
+        fromService:
+          name: follow-service
+          type: web
+          property: host
+      - key: ReverseProxy__Clusters__likes-cluster__Destinations__likes-dest__Address
+        fromService:
+          name: like-service
+          type: web
+          property: host
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
