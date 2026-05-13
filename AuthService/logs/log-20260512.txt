@@ -1,0 +1,4 @@
+2026-05-12 15:16:47.940 +05:30 [INF] Now listening on: http://localhost:5295
+2026-05-12 15:16:47.980 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-12 15:16:47.982 +05:30 [INF] Hosting environment: Development
+2026-05-12 15:16:47.983 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\AuthService

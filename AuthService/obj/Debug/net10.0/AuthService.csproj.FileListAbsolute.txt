@@ -1,0 +1,7 @@
+C:\SocialMediaMiniBackend\ConnectSphere\Services\AuthService\obj\Debug\net10.0\AuthService.csproj.AssemblyReference.cache
+C:\SocialMediaMiniBackend\ConnectSphere\Services\AuthService\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\SocialMediaMiniBackend\ConnectSphere\Services\AuthService\obj\Debug\net10.0\AuthService.GeneratedMSBuildEditorConfig.editorconfig
+C:\SocialMediaMiniBackend\ConnectSphere\Services\AuthService\obj\Debug\net10.0\AuthService.AssemblyInfoInputs.cache
+C:\SocialMediaMiniBackend\ConnectSphere\Services\AuthService\obj\Debug\net10.0\AuthService.AssemblyInfo.cs
+C:\SocialMediaMiniBackend\ConnectSphere\Services\AuthService\obj\Debug\net10.0\AuthService.csproj.CoreCompileInputs.cache
+C:\SocialMediaMiniBackend\ConnectSphere\Services\AuthService\obj\Debug\net10.0\AuthService.MvcApplicationPartsAssemblyInfo.cache

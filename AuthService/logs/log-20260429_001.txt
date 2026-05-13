@@ -1,0 +1,475 @@
+2026-04-29 11:05:58.141 +05:30 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5295: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-04-29 11:05:58.192 +05:30 [FTL] Application terminated unexpectedly
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5295: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\SocialMediaMiniBackend\ConnectSphere\Services\AuthService\Program.cs:line 92
+2026-04-29 11:10:58.400 +05:30 [INF] Now listening on: http://localhost:5295
+2026-04-29 11:10:58.441 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 11:10:58.443 +05:30 [INF] Hosting environment: Development
+2026-04-29 11:10:58.445 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\AuthService
+2026-04-29 11:11:18.201 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-04-29 11:11:18.799 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 683.0285 ms
+2026-04-29 11:11:18.802 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 2723.1877 ms
+2026-04-29 11:11:18.802 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 2723.1846 ms
+2026-04-29 11:11:18.855 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 11.7640 ms
+2026-04-29 11:11:20.363 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 74.4496 ms
+2026-04-29 11:11:21.502 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 7.8518 ms
+2026-04-29 11:11:22.772 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 5.5663 ms
+2026-04-29 11:11:22.957 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 4.9663 ms
+2026-04-29 11:11:23.170 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 3.1332 ms
+2026-04-29 11:11:23.906 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 7.4288 ms
+2026-04-29 11:11:24.085 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 5.2249 ms
+2026-04-29 11:11:24.317 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 7.7112 ms
+2026-04-29 11:11:30.299 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 3.5498 ms
+2026-04-29 11:11:30.894 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 3.9367 ms
+2026-04-29 11:11:31.102 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 2.9859 ms
+2026-04-29 11:11:31.710 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 3.9135 ms
+2026-04-29 11:11:31.973 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 7.0861 ms
+2026-04-29 11:11:32.187 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 4.6028 ms
+2026-04-29 11:11:51.823 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 7.8057 ms
+2026-04-29 11:11:51.873 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.4861 ms
+2026-04-29 11:11:54.353 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.1294 ms
+2026-04-29 11:11:54.353 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 3.5276 ms
+2026-04-29 11:11:54.388 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 5.9325 ms
+2026-04-29 11:11:56.264 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 4.3991 ms
+2026-04-29 11:11:57.806 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 4.5707 ms
+2026-04-29 11:11:59.890 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 7.0669 ms
+2026-04-29 11:12:03.409 +05:30 [INF] HTTP PUT /api/auth/users/4/set-follow-counts responded 200 in 4.0431 ms
+2026-04-29 11:12:06.684 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.2223 ms
+2026-04-29 11:12:08.953 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 210.1988 ms
+2026-04-29 11:12:09.098 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 3.7545 ms
+2026-04-29 11:12:18.820 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 449.5324 ms
+2026-04-29 11:12:18.957 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 5.0498 ms
+2026-04-29 11:12:18.968 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.1812 ms
+2026-04-29 11:12:21.049 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 3.6050 ms
+2026-04-29 11:12:21.056 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.7704 ms
+2026-04-29 11:12:21.076 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.4141 ms
+2026-04-29 11:12:23.203 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.9449 ms
+2026-04-29 11:12:28.626 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.1226 ms
+2026-04-29 11:12:33.429 +05:30 [INF] HTTP PUT /api/auth/users/5/set-follow-counts responded 200 in 3.7971 ms
+2026-04-29 11:12:38.593 +05:30 [INF] HTTP PUT /api/auth/users/5/set-follow-counts responded 200 in 5.8543 ms
+2026-04-29 11:12:38.778 +05:30 [INF] HTTP PUT /api/auth/users/5/set-follow-counts responded 200 in 3.9224 ms
+2026-04-29 11:12:38.996 +05:30 [INF] HTTP PUT /api/auth/users/5/set-follow-counts responded 200 in 2.3907 ms
+2026-04-29 11:12:41.871 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 4.2031 ms
+2026-04-29 11:12:41.886 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 3.6036 ms
+2026-04-29 11:12:41.889 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.2557 ms
+2026-04-29 11:12:42.067 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.1336 ms
+2026-04-29 11:15:16.518 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 3.3507 ms
+2026-04-29 11:15:16.553 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 2.0891 ms
+2026-04-29 11:15:16.566 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.6312 ms
+2026-04-29 11:15:16.637 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.6456 ms
+2026-04-29 11:15:24.084 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 3.3487 ms
+2026-04-29 11:15:24.100 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 2.4129 ms
+2026-04-29 11:15:24.105 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.5847 ms
+2026-04-29 11:15:24.136 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.5752 ms
+2026-04-29 11:15:44.950 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 3.2173 ms
+2026-04-29 11:15:44.979 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 4.1607 ms
+2026-04-29 11:15:44.982 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.2574 ms
+2026-04-29 11:15:45.337 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.6240 ms
+2026-04-29 11:17:27.440 +05:30 [INF] Application is shutting down...
+2026-04-29 11:17:32.453 +05:30 [INF] Now listening on: http://localhost:5295
+2026-04-29 11:17:32.493 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 11:17:32.494 +05:30 [INF] Hosting environment: Development
+2026-04-29 11:17:32.495 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\AuthService
+2026-04-29 11:17:57.006 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-04-29 11:17:57.611 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 1663.9777 ms
+2026-04-29 11:17:57.611 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1663.9932 ms
+2026-04-29 11:17:59.759 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 100.6625 ms
+2026-04-29 11:17:59.793 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 10.4564 ms
+2026-04-29 11:17:59.900 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 8.3701 ms
+2026-04-29 11:18:02.608 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.9022 ms
+2026-04-29 11:18:06.393 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 9.5401 ms
+2026-04-29 11:18:06.484 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 31.5538 ms
+2026-04-29 11:18:06.493 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.4419 ms
+2026-04-29 11:18:08.686 +05:30 [INF] HTTP PUT /api/auth/users/4/decrement-followers responded 200 in 50.5500 ms
+2026-04-29 11:18:08.716 +05:30 [INF] HTTP PUT /api/auth/users/5/decrement-following responded 200 in 19.4250 ms
+2026-04-29 11:18:10.926 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 6.6637 ms
+2026-04-29 11:18:10.937 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.2749 ms
+2026-04-29 11:18:10.993 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.6528 ms
+2026-04-29 11:18:18.395 +05:30 [INF] HTTP GET /api/auth/users/search-users responded 200 in 46.4420 ms
+2026-04-29 11:18:22.330 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 3.7900 ms
+2026-04-29 11:18:24.798 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 3.2120 ms
+2026-04-29 11:18:24.838 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 4.9627 ms
+2026-04-29 11:18:44.012 +05:30 [INF] HTTP GET /api/auth/users/search-users responded 200 in 7.4191 ms
+2026-04-29 11:19:33.086 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 7.1661 ms
+2026-04-29 11:19:33.095 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.7366 ms
+2026-04-29 11:19:33.124 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.4853 ms
+2026-04-29 11:22:49.073 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 8.1599 ms
+2026-04-29 11:22:49.151 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.1640 ms
+2026-04-29 11:22:51.602 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 4.8762 ms
+2026-04-29 11:22:51.610 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.9870 ms
+2026-04-29 11:22:51.642 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.9509 ms
+2026-04-29 11:22:57.612 +05:30 [INF] HTTP GET /api/auth/users/search-users responded 200 in 38.7213 ms
+2026-04-29 11:23:00.920 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 4.5670 ms
+2026-04-29 11:23:04.370 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 5.6207 ms
+2026-04-29 11:23:04.375 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.2506 ms
+2026-04-29 11:23:04.399 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.7030 ms
+2026-04-29 11:23:07.493 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 264.1945 ms
+2026-04-29 11:23:07.704 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 6.7203 ms
+2026-04-29 11:23:20.593 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 387.9547 ms
+2026-04-29 11:23:20.810 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 2.7038 ms
+2026-04-29 11:23:20.832 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.9839 ms
+2026-04-29 11:23:23.526 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 3.2905 ms
+2026-04-29 11:23:23.530 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.1128 ms
+2026-04-29 11:23:23.560 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.8668 ms
+2026-04-29 11:23:27.473 +05:30 [INF] HTTP PUT /api/auth/users/4/increment-followers responded 200 in 10.6044 ms
+2026-04-29 11:23:27.488 +05:30 [INF] HTTP PUT /api/auth/users/5/increment-following responded 200 in 9.5519 ms
+2026-04-29 11:23:35.432 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 3.8072 ms
+2026-04-29 11:23:35.441 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 2.3776 ms
+2026-04-29 11:23:35.490 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 51.3329 ms
+2026-04-29 11:23:35.537 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 5.6258 ms
+2026-04-29 11:23:40.063 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.3475 ms
+2026-04-29 11:25:36.188 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 4.3514 ms
+2026-04-29 11:26:02.117 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 3.9438 ms
+2026-04-29 11:26:08.035 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 5.2289 ms
+2026-04-29 11:26:17.072 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 3.3457 ms
+2026-04-29 11:27:41.495 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 4.7518 ms
+2026-04-29 11:27:41.544 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.4286 ms
+2026-04-29 11:27:55.706 +05:30 [INF] HTTP GET /api/auth/users/search-users responded 200 in 2.5594 ms
+2026-04-29 11:27:59.894 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 34.0699 ms
+2026-04-29 11:28:08.041 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 3.0851 ms
+2026-04-29 11:28:08.051 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.7704 ms
+2026-04-29 11:28:08.076 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.7029 ms
+2026-04-29 11:28:10.117 +05:30 [INF] HTTP PUT /api/auth/users/toggle-privacy responded 200 in 45.2652 ms
+2026-04-29 11:29:05.989 +05:30 [INF] HTTP GET /api/auth/users/search-users responded 200 in 3.4906 ms
+2026-04-29 11:29:17.405 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.5230 ms
+2026-04-29 11:29:36.148 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.6890 ms
+2026-04-29 11:29:43.940 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 3.5637 ms
+2026-04-29 11:29:43.944 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.3198 ms
+2026-04-29 11:29:43.971 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.6380 ms
+2026-04-29 11:29:50.471 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.8238 ms
+2026-04-29 11:29:57.074 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 3.5200 ms
+2026-04-29 11:29:57.080 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.2399 ms
+2026-04-29 11:29:57.122 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.8102 ms
+2026-04-29 11:30:29.532 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.5411 ms
+2026-04-29 11:30:41.901 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.1945 ms
+2026-04-29 11:30:50.905 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 4.5365 ms
+2026-04-29 11:30:50.915 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 6.3573 ms
+2026-04-29 11:30:50.931 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.8818 ms
+2026-04-29 11:30:52.270 +05:30 [INF] HTTP PUT /api/auth/users/toggle-privacy responded 200 in 7.8175 ms
+2026-04-29 11:30:56.139 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.7921 ms
+2026-04-29 11:31:12.040 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 2.9860 ms
+2026-04-29 11:31:12.046 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.5107 ms
+2026-04-29 11:31:12.067 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.2651 ms
+2026-04-29 11:31:14.730 +05:30 [INF] HTTP PUT /api/auth/users/toggle-privacy responded 200 in 8.4499 ms
+2026-04-29 11:31:16.558 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.9207 ms
+2026-04-29 11:31:19.607 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 3.5033 ms
+2026-04-29 11:31:19.611 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.0782 ms
+2026-04-29 11:31:19.633 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.1688 ms
+2026-04-29 11:33:07.722 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 33.9954 ms
+2026-04-29 11:33:09.796 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 9.5716 ms
+2026-04-29 11:33:10.084 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 0.7033 ms
+2026-04-29 11:33:20.339 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 261.1653 ms
+2026-04-29 11:33:20.537 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 2.7800 ms
+2026-04-29 11:33:20.568 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 5.0288 ms
+2026-04-29 11:33:25.449 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 2.7721 ms
+2026-04-29 11:33:25.456 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.6582 ms
+2026-04-29 11:33:25.477 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.5030 ms
+2026-04-29 11:33:29.883 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.6412 ms
+2026-04-29 11:33:31.907 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 3.2623 ms
+2026-04-29 11:33:31.944 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 2.2115 ms
+2026-04-29 11:33:31.949 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.8240 ms
+2026-04-29 11:33:33.985 +05:30 [INF] HTTP PUT /api/auth/users/4/decrement-followers responded 200 in 2.5728 ms
+2026-04-29 11:33:33.990 +05:30 [INF] HTTP PUT /api/auth/users/5/decrement-following responded 200 in 1.6872 ms
+2026-04-29 11:33:39.600 +05:30 [INF] HTTP GET /api/auth/users/search-users responded 200 in 3.1728 ms
+2026-04-29 11:33:41.649 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 3.2558 ms
+2026-04-29 11:33:41.660 +05:30 [INF] HTTP PUT /api/auth/users/4/increment-followers responded 200 in 2.1260 ms
+2026-04-29 11:33:41.667 +05:30 [INF] HTTP PUT /api/auth/users/5/increment-following responded 200 in 2.6385 ms
+2026-04-29 11:33:45.053 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 2.1895 ms
+2026-04-29 11:33:45.082 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 2.3737 ms
+2026-04-29 11:33:45.086 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.6957 ms
+2026-04-29 11:33:50.475 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 6.8854 ms
+2026-04-29 11:33:50.685 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 0.1701 ms
+2026-04-29 11:34:00.623 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 214.9791 ms
+2026-04-29 11:34:00.854 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 2.7220 ms
+2026-04-29 11:34:00.873 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.0601 ms
+2026-04-29 11:34:02.237 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 2.0010 ms
+2026-04-29 11:34:02.248 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.9139 ms
+2026-04-29 11:34:02.271 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.8565 ms
+2026-04-29 11:34:03.989 +05:30 [INF] HTTP PUT /api/auth/users/toggle-privacy responded 200 in 7.1346 ms
+2026-04-29 11:34:08.152 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.7019 ms
+2026-04-29 11:34:10.516 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 6.7506 ms
+2026-04-29 11:34:10.740 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 0.1702 ms
+2026-04-29 11:34:23.252 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 241.2724 ms
+2026-04-29 11:34:23.468 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 2.4524 ms
+2026-04-29 11:34:23.488 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.3861 ms
+2026-04-29 11:34:26.814 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.7850 ms
+2026-04-29 11:34:26.835 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.4460 ms
+2026-04-29 11:34:28.878 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.4045 ms
+2026-04-29 11:34:34.188 +05:30 [INF] HTTP GET /api/auth/users/search-users responded 200 in 3.0141 ms
+2026-04-29 11:34:37.135 +05:30 [INF] HTTP PUT /api/auth/users/4/decrement-followers responded 200 in 2.5388 ms
+2026-04-29 11:34:37.144 +05:30 [INF] HTTP PUT /api/auth/users/5/decrement-following responded 200 in 2.3827 ms
+2026-04-29 11:34:38.204 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 3.3053 ms
+2026-04-29 11:34:42.182 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 2.5005 ms
+2026-04-29 11:34:42.216 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 1.6132 ms
+2026-04-29 11:34:44.084 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 2.9065 ms
+2026-04-29 11:34:44.088 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.6038 ms
+2026-04-29 11:34:44.110 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.7937 ms
+2026-04-29 11:34:46.661 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 4.6619 ms
+2026-04-29 11:34:46.842 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 0.2813 ms
+2026-04-29 11:34:57.929 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 235.4668 ms
+2026-04-29 11:34:58.069 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 2.2408 ms
+2026-04-29 11:34:58.079 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.5754 ms
+2026-04-29 11:34:59.967 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 2.1403 ms
+2026-04-29 11:34:59.973 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.8262 ms
+2026-04-29 11:34:59.999 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.7764 ms
+2026-04-29 11:35:03.870 +05:30 [INF] HTTP PUT /api/auth/users/4/increment-followers responded 200 in 2.9246 ms
+2026-04-29 11:35:03.878 +05:30 [INF] HTTP PUT /api/auth/users/5/increment-following responded 200 in 2.2022 ms
+2026-04-29 11:35:11.355 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 3.5504 ms
+2026-04-29 11:35:11.362 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 3.4191 ms
+2026-04-29 11:35:11.402 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 42.7450 ms
+2026-04-29 11:35:11.446 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.4818 ms
+2026-04-29 11:35:41.776 +05:30 [INF] Application is shutting down...
+2026-04-29 11:35:47.308 +05:30 [INF] Now listening on: http://localhost:5295
+2026-04-29 11:35:47.346 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 11:35:47.349 +05:30 [INF] Hosting environment: Development
+2026-04-29 11:35:47.349 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\AuthService
+2026-04-29 11:36:38.326 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-04-29 11:36:38.951 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1700.6620 ms
+2026-04-29 11:36:38.951 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 1700.7257 ms
+2026-04-29 11:36:40.297 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 111.9328 ms
+2026-04-29 11:36:40.333 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 9.9037 ms
+2026-04-29 11:36:40.612 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.8335 ms
+2026-04-29 11:36:42.780 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 6.7905 ms
+2026-04-29 11:36:45.307 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 222.4635 ms
+2026-04-29 11:36:45.502 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 7.9553 ms
+2026-04-29 11:36:56.096 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 424.8593 ms
+2026-04-29 11:36:56.317 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 7.1763 ms
+2026-04-29 11:36:56.324 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.9187 ms
+2026-04-29 11:36:59.019 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 9.1961 ms
+2026-04-29 11:36:59.023 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.9693 ms
+2026-04-29 11:36:59.049 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.8301 ms
+2026-04-29 11:37:00.988 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.9777 ms
+2026-04-29 11:37:02.400 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 4.8599 ms
+2026-04-29 11:37:02.488 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 30.3463 ms
+2026-04-29 11:37:02.497 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.2553 ms
+2026-04-29 11:37:04.121 +05:30 [INF] HTTP PUT /api/auth/users/4/decrement-followers responded 200 in 47.4742 ms
+2026-04-29 11:37:04.141 +05:30 [INF] HTTP PUT /api/auth/users/5/decrement-following responded 200 in 13.4730 ms
+2026-04-29 11:37:08.937 +05:30 [INF] HTTP GET /api/auth/users/search-users responded 200 in 34.0645 ms
+2026-04-29 11:37:11.018 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 4.6263 ms
+2026-04-29 11:37:13.688 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 11.4041 ms
+2026-04-29 11:37:13.888 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 0.4905 ms
+2026-04-29 11:37:25.221 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 196.2088 ms
+2026-04-29 11:37:25.420 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 3.5507 ms
+2026-04-29 11:37:25.439 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.3520 ms
+2026-04-29 11:37:27.863 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 6.4238 ms
+2026-04-29 11:37:27.874 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.4273 ms
+2026-04-29 11:37:27.890 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.9548 ms
+2026-04-29 11:37:32.639 +05:30 [INF] HTTP PUT /api/auth/users/4/increment-followers responded 200 in 11.5584 ms
+2026-04-29 11:37:32.660 +05:30 [INF] HTTP PUT /api/auth/users/5/increment-following responded 200 in 14.9239 ms
+2026-04-29 11:37:45.179 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 4.3153 ms
+2026-04-29 11:37:45.187 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 5.2270 ms
+2026-04-29 11:37:45.192 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.7017 ms
+2026-04-29 11:37:45.255 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.2019 ms
+2026-04-29 11:40:28.114 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 5.6126 ms
+2026-04-29 11:40:28.133 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 3.4265 ms
+2026-04-29 11:40:28.151 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.1037 ms
+2026-04-29 11:40:28.479 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.0373 ms
+2026-04-29 11:40:46.142 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 5.2419 ms
+2026-04-29 11:40:46.161 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 8.4329 ms
+2026-04-29 11:40:46.166 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.5483 ms
+2026-04-29 11:40:46.466 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.3045 ms
+2026-04-29 11:44:30.342 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 43.2718 ms
+2026-04-29 11:44:30.410 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 152.3605 ms
+2026-04-29 11:44:33.889 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 5.2186 ms
+2026-04-29 11:44:33.897 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.4112 ms
+2026-04-29 11:44:33.923 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.6948 ms
+2026-04-29 11:44:36.944 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.0144 ms
+2026-04-29 11:44:44.208 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.4670 ms
+2026-04-29 11:44:46.419 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 9.7735 ms
+2026-04-29 11:44:46.603 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 0.3839 ms
+2026-04-29 11:44:57.131 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 194.7390 ms
+2026-04-29 11:44:57.351 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 3.2090 ms
+2026-04-29 11:44:57.364 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.1349 ms
+2026-04-29 11:44:59.304 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 3.9041 ms
+2026-04-29 11:44:59.312 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.9612 ms
+2026-04-29 11:44:59.333 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.0138 ms
+2026-04-29 11:45:01.281 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.6404 ms
+2026-04-29 11:45:02.996 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 2.4178 ms
+2026-04-29 11:45:03.035 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 2.3449 ms
+2026-04-29 11:45:03.041 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.5006 ms
+2026-04-29 11:45:04.817 +05:30 [INF] HTTP PUT /api/auth/users/4/decrement-followers responded 200 in 3.8191 ms
+2026-04-29 11:45:04.825 +05:30 [INF] HTTP PUT /api/auth/users/5/decrement-following responded 200 in 2.6231 ms
+2026-04-29 11:45:05.920 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 3.0432 ms
+2026-04-29 11:45:09.426 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.6372 ms
+2026-04-29 11:45:11.003 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 4.7987 ms
+2026-04-29 11:45:11.186 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 0.1538 ms
+2026-04-29 11:45:23.756 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 210.1814 ms
+2026-04-29 11:45:23.965 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 3.5034 ms
+2026-04-29 11:45:23.981 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.2032 ms
+2026-04-29 11:45:26.805 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 4.2683 ms
+2026-04-29 11:45:26.809 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.5628 ms
+2026-04-29 11:45:26.835 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.6415 ms
+2026-04-29 11:45:32.222 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.3855 ms
+2026-04-29 11:45:35.538 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 6.0842 ms
+2026-04-29 11:45:35.542 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.7661 ms
+2026-04-29 11:45:35.585 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.7393 ms
+2026-04-29 11:45:36.951 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 8.2428 ms
+2026-04-29 11:45:37.155 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 0.2399 ms
+2026-04-29 11:45:48.674 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 209.9892 ms
+2026-04-29 11:45:48.901 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 2.3823 ms
+2026-04-29 11:45:48.914 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.2818 ms
+2026-04-29 11:45:50.662 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 1.9718 ms
+2026-04-29 11:45:50.669 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.5735 ms
+2026-04-29 11:45:50.692 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.5457 ms
+2026-04-29 11:45:55.255 +05:30 [INF] HTTP PUT /api/auth/users/4/increment-followers responded 200 in 2.3123 ms
+2026-04-29 11:45:55.262 +05:30 [INF] HTTP PUT /api/auth/users/5/increment-following responded 200 in 1.7502 ms
+2026-04-29 11:46:11.668 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 2.4520 ms
+2026-04-29 11:46:11.678 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 4.3822 ms
+2026-04-29 11:46:11.680 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.4647 ms
+2026-04-29 11:46:11.748 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.8909 ms
+2026-04-29 11:46:33.798 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 3.3977 ms
+2026-04-29 11:46:33.833 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.6732 ms
+2026-04-29 11:46:36.145 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 8.4159 ms
+2026-04-29 11:46:36.273 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 0.2843 ms
+2026-04-29 11:46:45.684 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 233.6220 ms
+2026-04-29 11:46:45.900 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 2.2591 ms
+2026-04-29 11:46:45.914 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.1089 ms
+2026-04-29 11:46:47.979 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 2.2202 ms
+2026-04-29 11:46:47.989 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.9221 ms
+2026-04-29 11:46:48.011 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.9770 ms
+2026-04-29 11:46:49.298 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.5446 ms
+2026-04-29 11:46:50.731 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 3.3302 ms
+2026-04-29 11:46:50.768 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 2.9268 ms
+2026-04-29 11:46:50.773 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.9093 ms
+2026-04-29 11:46:52.068 +05:30 [INF] HTTP PUT /api/auth/users/4/decrement-followers responded 200 in 1.8998 ms
+2026-04-29 11:46:52.073 +05:30 [INF] HTTP PUT /api/auth/users/5/decrement-following responded 200 in 1.8670 ms
+2026-04-29 11:46:52.958 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 2.9092 ms
+2026-04-29 11:46:54.870 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.4757 ms
+2026-04-29 11:46:56.564 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 4.4765 ms
+2026-04-29 11:46:56.766 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 0.1753 ms
+2026-04-29 11:47:19.619 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 265.5503 ms
+2026-04-29 11:47:19.813 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 2.4737 ms
+2026-04-29 11:47:19.833 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.8796 ms
+2026-04-29 11:47:21.420 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 2.1027 ms
+2026-04-29 11:47:21.427 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.9204 ms
+2026-04-29 11:47:21.448 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.5447 ms
+2026-04-29 11:47:26.646 +05:30 [INF] HTTP PUT /api/auth/users/4/increment-followers responded 200 in 1.7057 ms
+2026-04-29 11:47:26.651 +05:30 [INF] HTTP PUT /api/auth/users/5/increment-following responded 200 in 1.7046 ms
+2026-04-29 11:47:33.681 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 2.3510 ms
+2026-04-29 11:47:33.691 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 4.7485 ms
+2026-04-29 11:47:33.696 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.8194 ms
+2026-04-29 11:47:33.758 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.7026 ms
+2026-04-29 11:56:35.899 +05:30 [INF] Application is shutting down...
+2026-04-29 11:56:45.637 +05:30 [INF] Now listening on: http://localhost:5295
+2026-04-29 11:56:45.675 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 11:56:45.677 +05:30 [INF] Hosting environment: Development
+2026-04-29 11:56:45.677 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\AuthService
+2026-04-29 11:58:17.844 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-04-29 11:58:18.716 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 158.0767 ms
+2026-04-29 11:58:18.716 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 2230.5228 ms
+2026-04-29 11:58:20.707 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 341.1814 ms
+2026-04-29 11:58:20.708 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 342.0992 ms
+2026-04-29 11:58:20.787 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.9827 ms
+2026-04-29 11:58:26.645 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 5.6075 ms
+2026-04-29 11:58:28.476 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 293.7839 ms
+2026-04-29 11:58:28.652 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 8.0879 ms
+2026-04-29 11:58:40.157 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 411.4629 ms
+2026-04-29 11:58:40.302 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 8.6696 ms
+2026-04-29 11:58:40.316 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.8430 ms
+2026-04-29 11:58:43.668 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 11.3432 ms
+2026-04-29 11:58:43.673 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.1466 ms
+2026-04-29 11:58:43.702 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.5966 ms
+2026-04-29 11:58:45.486 +05:30 [INF] HTTP PUT /api/auth/users/toggle-privacy responded 200 in 49.2705 ms
+2026-04-29 11:58:47.355 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.4885 ms
+2026-04-29 12:00:06.817 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 6.1494 ms
+2026-04-29 12:00:14.027 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 8.4151 ms
+2026-04-29 12:00:14.220 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 0.5383 ms
+2026-04-29 12:00:24.966 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 305.8519 ms
+2026-04-29 12:00:25.166 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 6.9165 ms
+2026-04-29 12:00:25.193 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.9965 ms
+2026-04-29 12:00:30.001 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.4377 ms
+2026-04-29 12:00:35.572 +05:30 [INF] HTTP GET /api/auth/users/search-users responded 200 in 38.4745 ms
+2026-04-29 12:00:45.426 +05:30 [INF] HTTP GET /api/auth/users/5/is-private responded 200 in 30.8883 ms
+2026-04-29 12:00:45.753 +05:30 [INF] HTTP PUT /api/auth/users/5/increment-followers responded 200 in 45.5167 ms
+2026-04-29 12:00:45.770 +05:30 [INF] HTTP PUT /api/auth/users/4/increment-following responded 200 in 12.1424 ms
+2026-04-29 12:00:50.104 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 7.6675 ms
+2026-04-29 12:00:50.108 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.9502 ms
+2026-04-29 12:00:50.133 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.8208 ms
+2026-04-29 12:00:52.609 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.8488 ms
+2026-04-29 12:00:58.934 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.0326 ms
+2026-04-29 12:01:06.758 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.8383 ms
+2026-04-29 12:01:06.934 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.6486 ms
+2026-04-29 12:01:37.928 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 6.0407 ms
+2026-04-29 12:01:42.215 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 10.8567 ms
+2026-04-29 12:01:42.222 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.6931 ms
+2026-04-29 12:01:42.253 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.7617 ms
+2026-04-29 12:01:44.098 +05:30 [INF] HTTP GET /api/auth/users/5/is-private responded 200 in 2.8161 ms
+2026-04-29 12:01:44.107 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 1.7632 ms
+2026-04-29 12:01:47.564 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.8131 ms
+2026-04-29 12:01:50.464 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 2.5243 ms
+2026-04-29 12:01:54.429 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 5.0520 ms
+2026-04-29 12:02:03.208 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 3.2550 ms
+2026-04-29 12:02:03.210 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.7486 ms
+2026-04-29 12:02:03.257 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.8368 ms
+2026-04-29 12:02:05.939 +05:30 [INF] HTTP GET /api/auth/users/7/is-private responded 200 in 1.8948 ms
+2026-04-29 12:02:05.945 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.5269 ms
+2026-04-29 12:02:05.952 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 1.9852 ms
+2026-04-29 12:02:08.069 +05:30 [INF] HTTP GET /api/auth/users/5/is-private responded 200 in 2.0366 ms
+2026-04-29 12:02:08.074 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.2568 ms
+2026-04-29 12:02:10.529 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.2448 ms
+2026-04-29 12:10:19.492 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 121.7396 ms
+2026-04-29 12:10:19.492 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 134.3747 ms
+2026-04-29 12:10:19.502 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 5.1358 ms
+2026-04-29 12:10:19.965 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 6.7269 ms
+2026-04-29 12:10:21.261 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 6.1159 ms
+2026-04-29 12:10:21.285 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 2.8359 ms
+2026-04-29 12:10:21.294 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.6756 ms
+2026-04-29 12:10:22.204 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 5.0592 ms
+2026-04-29 12:10:22.228 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 3.8212 ms
+2026-04-29 12:10:22.236 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 5.8375 ms
+2026-04-29 12:10:23.126 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 5.8614 ms
+2026-04-29 12:10:23.154 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 3.5500 ms
+2026-04-29 12:10:23.162 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.9765 ms

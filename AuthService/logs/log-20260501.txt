@@ -1,0 +1,20 @@
+2026-05-01 11:18:39.218 +05:30 [INF] Now listening on: http://localhost:5295
+2026-05-01 11:18:39.268 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-01 11:18:39.272 +05:30 [INF] Hosting environment: Development
+2026-05-01 11:18:39.273 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\AuthService
+2026-05-01 11:19:50.821 +05:30 [INF] HTTP GET / responded 302 in 6.0702 ms
+2026-05-01 11:19:50.922 +05:30 [INF] HTTP GET /swagger responded 301 in 54.7839 ms
+2026-05-01 11:19:51.218 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 280.2564 ms
+2026-05-01 11:19:51.244 +05:30 [INF] HTTP GET /swagger/index.js responded 200 in 1.6484 ms
+2026-05-01 11:19:51.261 +05:30 [INF] HTTP GET /swagger/index.css responded 200 in 21.1938 ms
+2026-05-01 11:19:51.299 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 57.1439 ms
+2026-05-01 11:19:51.299 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 60.9897 ms
+2026-05-01 11:19:51.333 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 91.1685 ms
+2026-05-01 11:19:51.579 +05:30 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.9173 ms
+2026-05-01 11:19:51.958 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 418.2909 ms
+2026-05-01 11:20:47.912 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 5293.2943 ms
+2026-05-01 11:21:23.174 +05:30 [INF] HTTP GET /api/auth/validate-token responded 200 in 247.7175 ms
+2026-05-01 11:21:48.194 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 567.8062 ms
+2026-05-01 11:22:04.611 +05:30 [INF] HTTP GET /api/auth/validate-token responded 401 in 18.3883 ms
+2026-05-01 11:22:41.423 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 67.0801 ms
+2026-05-01 11:23:01.297 +05:30 [INF] HTTP GET /api/auth/validate-token responded 401 in 15.0250 ms

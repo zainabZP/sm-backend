@@ -1,0 +1,64 @@
+2026-05-04 16:16:06.228 +05:30 [INF] Application is shutting down...
+2026-05-04 16:16:40.417 +05:30 [INF] Now listening on: http://localhost:5295
+2026-05-04 16:16:40.470 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 16:16:40.472 +05:30 [INF] Hosting environment: Development
+2026-05-04 16:16:40.474 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\AuthService
+2026-05-04 16:18:54.055 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 327.5411 ms
+2026-05-04 16:19:44.158 +05:30 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-05-04 16:19:44.645 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 5328.9096 ms
+2026-05-04 16:19:47.015 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 461.8619 ms
+2026-05-04 16:20:04.197 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 205.8330 ms
+2026-05-04 16:20:04.747 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 5.6913 ms
+2026-05-04 16:20:05.978 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 6.9339 ms
+2026-05-04 16:20:13.556 +05:30 [INF] HTTP GET /api/auth/users/search-users responded 200 in 113.2551 ms
+2026-05-04 16:20:19.162 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 42.4400 ms
+2026-05-04 16:20:19.179 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 10.3443 ms
+2026-05-04 16:20:19.662 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 5.3401 ms
+2026-05-04 16:20:44.330 +05:30 [INF] HTTP PUT /api/auth/users/toggle-privacy responded 200 in 309.9398 ms
+2026-05-04 16:20:46.040 +05:30 [INF] HTTP PUT /api/auth/users/toggle-privacy responded 200 in 17.9635 ms
+2026-05-04 16:20:50.640 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 6.0613 ms
+2026-05-04 16:21:20.444 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/6 responded 200 in 14.5233 ms
+2026-05-04 16:21:20.600 +05:30 [INF] HTTP GET /api/auth/users/6/is-private responded 200 in 66.4128 ms
+2026-05-04 16:21:20.631 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.1397 ms
+2026-05-04 16:21:29.533 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 8.4541 ms
+2026-05-04 16:21:52.247 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 7.5561 ms
+2026-05-04 16:22:27.254 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 5.4730 ms
+2026-05-04 16:22:27.300 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 5.7528 ms
+2026-05-04 16:22:32.856 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 6.4818 ms
+2026-05-04 16:22:35.021 +05:30 [INF] HTTP POST /api/auth/logout responded 200 in 211.1348 ms
+2026-05-04 16:22:35.374 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 401 in 7.5235 ms
+2026-05-04 16:23:10.682 +05:30 [INF] HTTP POST /api/auth/register responded 200 in 1121.5940 ms
+2026-05-04 16:23:11.010 +05:30 [INF] HTTP GET /api/auth/users/recommendations responded 200 in 14.4507 ms
+2026-05-04 16:23:11.029 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 5.0625 ms
+2026-05-04 16:23:18.265 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 8.0968 ms
+2026-05-04 16:23:19.602 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 5.0446 ms
+2026-05-04 16:23:41.707 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.8125 ms
+2026-05-04 16:23:57.929 +05:30 [INF] HTTP GET /api/auth/users/search-users responded 200 in 9.3032 ms
+2026-05-04 16:24:00.782 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 8.3110 ms
+2026-05-04 16:24:02.864 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 6.1952 ms
+2026-05-04 16:24:02.934 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 4.6304 ms
+2026-05-04 16:24:08.922 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 5.4558 ms
+2026-05-04 16:24:37.149 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 5.6199 ms
+2026-05-04 16:24:41.351 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/8 responded 200 in 5.5170 ms
+2026-05-04 16:24:41.364 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.8184 ms
+2026-05-04 16:24:51.985 +05:30 [INF] HTTP GET /api/auth/users/5/is-private responded 200 in 54.6692 ms
+2026-05-04 16:24:52.081 +05:30 [INF] HTTP PUT /api/auth/users/5/increment-followers responded 200 in 77.4002 ms
+2026-05-04 16:24:52.113 +05:30 [INF] HTTP PUT /api/auth/users/8/increment-following responded 200 in 22.0871 ms
+2026-05-04 16:24:56.376 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.6028 ms
+2026-05-04 16:24:57.881 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 2.8846 ms
+2026-05-04 16:24:57.906 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.9611 ms
+2026-05-04 16:25:05.168 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 5.5165 ms
+2026-05-04 16:25:26.425 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/5 responded 200 in 9.5693 ms
+2026-05-04 16:25:26.519 +05:30 [INF] HTTP GET /api/auth/users/5/is-private responded 200 in 4.0913 ms
+2026-05-04 16:25:26.531 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 3.7118 ms
+2026-05-04 16:26:26.172 +05:30 [INF] HTTP GET /api/auth/users/search-users responded 200 in 7.7688 ms
+2026-05-04 16:26:28.229 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/4 responded 200 in 5.5176 ms
+2026-05-04 16:26:28.297 +05:30 [INF] HTTP GET /api/auth/users/4/is-private responded 200 in 4.9794 ms
+2026-05-04 16:26:45.801 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 9.0212 ms
+2026-05-04 16:26:48.579 +05:30 [INF] HTTP GET /api/auth/users/get-user-by-id/8 responded 200 in 8.8670 ms
+2026-05-04 16:26:48.591 +05:30 [INF] HTTP POST /api/auth/users/get-users-by-ids responded 200 in 4.0832 ms
+2026-05-04 16:37:09.182 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 46.5673 ms
+2026-05-04 16:37:32.445 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 17.9384 ms
+2026-05-04 16:37:57.264 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 11.5493 ms
+2026-05-04 16:38:33.480 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 16.0227 ms
+2026-05-04 16:39:04.626 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 11.2993 ms
