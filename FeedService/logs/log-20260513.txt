@@ -1,0 +1,7 @@
+2026-05-13 11:58:26.188 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 7035.9942 ms
+2026-05-13 11:58:29.025 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 202.7737 ms
+2026-05-13 11:58:42.541 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 1971.9568 ms
+2026-05-13 11:59:46.208 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 21.2312 ms
+2026-05-13 12:01:29.274 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 301.2357 ms
+2026-05-13 12:01:36.546 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 639.7149 ms
+2026-05-13 12:36:49.856 +05:30 [WRN] As of ""2026-05-13T07:06:49.3043501+00:00"", the heartbeat has been running for ""00:00:01.7532075"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.

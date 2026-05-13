@@ -1,0 +1,249 @@
+2026-04-28 01:22:23.854 +05:30 [INF] Now listening on: http://localhost:5001
+2026-04-28 01:22:23.887 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 01:22:23.890 +05:30 [INF] Hosting environment: Development
+2026-04-28 01:22:23.891 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\FeedService
+2026-04-28 01:55:10.803 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 206.0783 ms
+2026-04-28 02:10:31.888 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 45.3217 ms
+2026-04-28 02:10:31.903 +05:30 [INF] HTTP GET /api/feed/ping responded 404 in 2.6725 ms
+2026-04-28 02:10:31.920 +05:30 [INF] HTTP GET /api/feed/following responded 404 in 2.6975 ms
+2026-04-28 02:12:47.240 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 0.5692 ms
+2026-04-28 02:12:47.253 +05:30 [INF] HTTP GET /api/feed/ping responded 404 in 0.2759 ms
+2026-04-28 02:12:47.264 +05:30 [INF] HTTP GET /api/feed/following responded 404 in 0.2661 ms
+2026-04-28 02:15:06.510 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 0.3089 ms
+2026-04-28 02:15:06.523 +05:30 [INF] HTTP GET /api/feed/ping responded 404 in 0.2971 ms
+2026-04-28 02:15:06.564 +05:30 [INF] HTTP GET /api/feed/following responded 404 in 0.2518 ms
+2026-04-28 02:15:42.211 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 0.4060 ms
+2026-04-28 02:15:42.227 +05:30 [INF] HTTP GET /api/feed/ping responded 404 in 0.4845 ms
+2026-04-28 02:15:42.245 +05:30 [INF] HTTP GET /api/feed/following responded 404 in 0.2632 ms
+2026-04-28 02:31:59.818 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 15.5344 ms
+2026-04-28 02:32:31.516 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 0.9839 ms
+2026-04-28 02:39:26.316 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 2.9963 ms
+2026-04-28 02:59:03.068 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 328.1134 ms
+2026-04-28 02:59:30.085 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 2.8865 ms
+2026-04-28 03:05:15.765 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 4.3120 ms
+2026-04-28 03:05:37.557 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 2.1975 ms
+2026-04-28 03:05:46.367 +05:30 [INF] HTTP GET /api/feed/following responded 404 in 1.4170 ms
+2026-04-28 03:06:11.315 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 5.0051 ms
+2026-04-28 03:06:15.142 +05:30 [INF] HTTP GET /api/feed/following responded 404 in 1.6231 ms
+2026-04-28 03:06:17.046 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 0.9747 ms
+2026-04-28 03:07:35.858 +05:30 [INF] HTTP GET /api/feed/following responded 404 in 1.2151 ms
+2026-04-28 03:07:38.868 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 1.2970 ms
+2026-04-28 03:12:26.455 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 1.8724 ms
+2026-04-28 03:12:37.875 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 3.6768 ms
+2026-04-28 03:15:55.672 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 1.6302 ms
+2026-04-28 03:15:57.638 +05:30 [INF] HTTP GET /api/feed/following responded 404 in 4.1168 ms
+2026-04-28 03:16:03.037 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 2.1645 ms
+2026-04-28 03:16:43.034 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 1.4310 ms
+2026-04-28 03:19:34.031 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 1.5249 ms
+2026-04-28 03:19:44.116 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 1.8584 ms
+2026-04-28 03:25:57.853 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 2.0455 ms
+2026-04-28 03:29:49.203 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 0.7389 ms
+2026-04-28 03:33:16.177 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 0.6711 ms
+2026-04-28 03:34:51.535 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 1.4035 ms
+2026-04-28 03:41:47.187 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 0.3743 ms
+2026-04-28 03:42:01.992 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 13.3129 ms
+2026-04-28 03:42:09.031 +05:30 [INF] HTTP GET /api/feed/explore responded 404 in 2.8123 ms
+2026-04-28 10:46:51.419 +05:30 [INF] Now listening on: http://localhost:5001
+2026-04-28 10:46:51.465 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 10:46:51.468 +05:30 [INF] Hosting environment: Development
+2026-04-28 10:46:51.471 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\FeedService
+2026-04-28 10:49:15.754 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 213.3095 ms
+2026-04-28 11:08:48.124 +05:30 [INF] Application is shutting down...
+2026-04-28 11:09:01.888 +05:30 [INF] Now listening on: http://localhost:5001
+2026-04-28 11:09:01.932 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 11:09:01.934 +05:30 [INF] Hosting environment: Development
+2026-04-28 11:09:01.936 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\FeedService
+2026-04-28 11:09:11.045 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 113.3818 ms
+2026-04-28 11:10:59.966 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 3118.7448 ms
+2026-04-28 11:11:15.517 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 188.8367 ms
+2026-04-28 11:11:37.697 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 125.2529 ms
+2026-04-28 11:11:44.107 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 1547.7484 ms
+2026-04-28 11:11:46.120 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 8.8193 ms
+2026-04-28 11:14:24.081 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 19.3544 ms
+2026-04-28 11:14:26.662 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 138.8320 ms
+2026-04-28 11:14:28.449 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 14.0790 ms
+2026-04-28 11:15:30.120 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 13.0081 ms
+2026-04-28 11:15:32.601 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 92.4509 ms
+2026-04-28 11:15:34.234 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 14.8398 ms
+2026-04-28 11:19:18.688 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 46.6181 ms
+2026-04-28 11:19:27.687 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 10.5942 ms
+2026-04-28 11:19:38.418 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 7.9506 ms
+2026-04-28 11:21:56.834 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 13.4312 ms
+2026-04-28 11:22:04.014 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 9.0525 ms
+2026-04-28 11:22:12.953 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 12.8652 ms
+2026-04-28 11:22:20.032 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 9.5569 ms
+2026-04-28 11:22:27.021 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 12.7396 ms
+2026-04-28 11:22:34.168 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 7.8173 ms
+2026-04-28 11:23:35.797 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 17.3773 ms
+2026-04-28 11:23:36.894 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 8.2723 ms
+2026-04-28 11:23:39.561 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 115.7133 ms
+2026-04-28 11:23:41.184 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 23.5941 ms
+2026-04-28 11:24:13.373 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 11.3863 ms
+2026-04-28 11:24:44.842 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 151.5885 ms
+2026-04-28 11:25:42.738 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 13.5404 ms
+2026-04-28 11:34:45.692 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 65.5130 ms
+2026-04-28 11:35:33.985 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 7.8723 ms
+2026-04-28 11:35:52.876 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 10.3451 ms
+2026-04-28 11:39:53.202 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 49.8808 ms
+2026-04-28 11:42:10.887 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 12.8407 ms
+2026-04-28 11:44:30.830 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 13.2866 ms
+2026-04-28 11:46:43.318 +05:30 [INF] Now listening on: http://localhost:5001
+2026-04-28 11:46:43.360 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 11:46:43.362 +05:30 [INF] Hosting environment: Development
+2026-04-28 11:46:43.363 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\FeedService
+2026-04-28 11:49:32.317 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 2424.7283 ms
+2026-04-28 11:50:33.648 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 52.2621 ms
+2026-04-28 11:51:04.164 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 171.8388 ms
+2026-04-28 11:53:26.770 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 42.1749 ms
+2026-04-28 11:53:42.055 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 3545.1545 ms
+2026-04-28 11:53:45.804 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 19.2714 ms
+2026-04-28 11:55:16.067 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 36.6942 ms
+2026-04-28 11:55:50.126 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 21.3656 ms
+2026-04-28 11:57:15.221 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 20.6196 ms
+2026-04-28 11:57:18.633 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 15.6806 ms
+2026-04-28 11:57:20.659 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 150.2835 ms
+2026-04-28 12:10:28.363 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 31.2336 ms
+2026-04-28 12:10:43.998 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 16.5392 ms
+2026-04-28 12:11:06.909 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 13.1406 ms
+2026-04-28 12:11:08.993 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 12.5801 ms
+2026-04-28 12:11:29.582 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 17.1204 ms
+2026-04-28 12:11:31.562 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 573.4772 ms
+2026-04-28 12:17:05.564 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 29.9956 ms
+2026-04-28 12:17:19.144 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 10.7832 ms
+2026-04-28 12:19:46.244 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 22.4252 ms
+2026-04-28 12:20:22.023 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 14.9675 ms
+2026-04-28 12:20:34.214 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 11.7405 ms
+2026-04-28 12:20:56.388 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 138.2008 ms
+2026-04-28 12:21:00.145 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 14.9323 ms
+2026-04-28 12:22:03.409 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 51.7266 ms
+2026-04-28 12:22:56.892 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 65.3831 ms
+2026-04-28 12:23:32.461 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 43.7574 ms
+2026-04-28 12:23:33.389 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 13.7763 ms
+2026-04-28 12:25:27.437 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 19.4524 ms
+2026-04-28 12:29:26.637 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 19.3477 ms
+2026-04-28 12:29:30.178 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 116.6648 ms
+2026-04-28 12:29:32.247 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 12.8219 ms
+2026-04-28 12:37:41.939 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 79.7796 ms
+2026-04-28 12:38:06.949 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 11.0150 ms
+2026-04-28 12:41:17.188 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 23.4821 ms
+2026-04-28 12:41:23.773 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 120.9276 ms
+2026-04-28 12:41:26.449 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 10.7490 ms
+2026-04-28 12:41:27.413 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 47.0853 ms
+2026-04-28 12:42:04.060 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 13.9467 ms
+2026-04-28 12:42:48.252 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 69.5416 ms
+2026-04-28 12:43:48.345 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 19.9794 ms
+2026-04-28 12:44:05.874 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 13.4535 ms
+2026-04-28 12:44:55.339 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 11.8388 ms
+2026-04-28 12:45:20.707 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 14.1717 ms
+2026-04-28 13:32:23.711 +05:30 [INF] Now listening on: http://localhost:5001
+2026-04-28 13:32:23.883 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 13:32:23.886 +05:30 [INF] Hosting environment: Development
+2026-04-28 13:32:23.887 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\FeedService
+2026-04-28 13:34:11.162 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 5542.4203 ms
+2026-04-28 13:46:01.558 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 100.4142 ms
+2026-04-28 13:46:42.285 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 39.5652 ms
+2026-04-28 14:00:42.081 +05:30 [INF] Application is shutting down...
+2026-04-28 14:00:51.498 +05:30 [INF] Now listening on: http://localhost:5001
+2026-04-28 14:00:51.560 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 14:00:51.564 +05:30 [INF] Hosting environment: Development
+2026-04-28 14:00:51.567 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\FeedService
+2026-04-28 14:01:35.150 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 14432.8558 ms
+2026-04-28 14:01:46.559 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 311.8831 ms
+2026-04-28 14:02:37.305 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 3628.1776 ms
+2026-04-28 14:03:02.215 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 35.3731 ms
+2026-04-28 14:03:47.161 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 31.4106 ms
+2026-04-28 14:04:17.491 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 17.7850 ms
+2026-04-28 14:08:46.455 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 38.6073 ms
+2026-04-28 14:08:47.976 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 70.9965 ms
+2026-04-28 14:08:57.982 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 31.2538 ms
+2026-04-28 14:11:31.893 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 31.7219 ms
+2026-04-28 14:11:39.964 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 16.4233 ms
+2026-04-28 14:11:48.945 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 16.5140 ms
+2026-04-28 14:15:46.034 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 19.9106 ms
+2026-04-28 14:18:30.087 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 37.4574 ms
+2026-04-28 14:19:08.762 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 30.2930 ms
+2026-04-28 14:19:25.923 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 54.7373 ms
+2026-04-28 14:19:29.003 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 21.5007 ms
+2026-04-28 14:19:31.606 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 663.4743 ms
+2026-04-28 14:19:37.449 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 16.3972 ms
+2026-04-28 14:19:43.202 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 117.0665 ms
+2026-04-28 14:19:49.085 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 19.2171 ms
+2026-04-28 14:20:06.786 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 34.4102 ms
+2026-04-28 14:20:13.181 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 19.3748 ms
+2026-04-28 14:20:59.162 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 16.5650 ms
+2026-04-28 14:21:15.836 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 41.5893 ms
+2026-04-28 14:21:21.380 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 13.3487 ms
+2026-04-28 14:21:56.939 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 15.1846 ms
+2026-04-28 14:23:45.642 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 22.9811 ms
+2026-04-28 14:25:01.667 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 20.8589 ms
+2026-04-28 14:25:25.647 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 13.2609 ms
+2026-04-28 14:27:00.359 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 237.9062 ms
+2026-04-28 14:27:48.019 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 14.9748 ms
+2026-04-28 14:29:17.207 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 133.4190 ms
+2026-04-28 14:30:27.570 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 20.9967 ms
+2026-04-28 14:30:34.491 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 10.3323 ms
+2026-04-28 14:32:30.326 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 85.6293 ms
+2026-04-28 14:33:16.015 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 18.6005 ms
+2026-04-28 14:33:18.226 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 40.3927 ms
+2026-04-28 14:33:25.856 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 12.0318 ms
+2026-04-28 14:33:49.038 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 12.7268 ms
+2026-04-28 14:40:01.636 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 22.3951 ms
+2026-04-28 14:40:14.957 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 15.2302 ms
+2026-04-28 14:40:26.602 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 34.3435 ms
+2026-04-28 14:40:46.272 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 11.7288 ms
+2026-04-28 14:42:07.466 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 2084.0271 ms
+2026-04-28 14:43:29.483 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 57.5100 ms
+2026-04-28 14:43:32.234 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 245.4179 ms
+2026-04-28 14:43:33.436 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 35.3687 ms
+2026-04-28 14:44:03.520 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 9.8195 ms
+2026-04-28 14:44:42.172 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 26.1697 ms
+2026-04-28 14:47:43.363 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 57.4901 ms
+2026-04-28 14:48:38.662 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 52.8884 ms
+2026-04-28 14:54:47.349 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 2123.1334 ms
+2026-04-28 14:57:49.506 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 29.9036 ms
+2026-04-28 14:59:05.602 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 23.2644 ms
+2026-04-28 14:59:49.953 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 18.3548 ms
+2026-04-28 15:02:13.867 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 17.4511 ms
+2026-04-28 15:04:23.908 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 27.9916 ms
+2026-04-28 15:07:09.745 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 21.1570 ms
+2026-04-28 15:08:31.969 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 29.6231 ms
+2026-04-28 15:13:44.129 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 5958.5395 ms
+2026-04-28 15:13:46.088 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 237.4869 ms
+2026-04-28 15:14:29.806 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 41.9676 ms
+2026-04-28 15:15:06.044 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 36.3813 ms
+2026-04-28 15:28:53.008 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 132.3155 ms
+2026-04-28 15:33:45.051 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 33.9446 ms
+2026-04-28 15:34:34.176 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 27.0973 ms
+2026-04-28 15:34:49.107 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 472.5232 ms
+2026-04-28 15:39:15.520 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 105.8852 ms
+2026-04-28 15:39:36.058 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 28.2211 ms
+2026-04-28 15:41:36.952 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 30.3487 ms
+2026-04-28 15:43:35.015 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 104.1753 ms
+2026-04-28 15:44:03.104 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 83.4984 ms
+2026-04-28 15:44:24.351 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 83.1273 ms
+2026-04-28 15:44:31.319 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 31.5354 ms
+2026-04-28 15:44:33.212 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 24.7916 ms
+2026-04-28 15:44:58.563 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 20.3487 ms
+2026-04-28 15:45:03.291 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 27.6302 ms
+2026-04-28 15:45:20.788 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 22.5855 ms
+2026-04-28 15:45:29.337 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 25.5998 ms
+2026-04-28 15:45:57.723 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 32.5414 ms
+2026-04-28 15:46:19.447 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 34.5204 ms
+2026-04-28 15:46:21.445 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 118.6865 ms
+2026-04-28 15:46:23.046 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 25.4692 ms
+2026-04-28 15:53:47.273 +05:30 [INF] Application is shutting down...
+2026-04-28 15:53:57.360 +05:30 [INF] Now listening on: http://localhost:5001
+2026-04-28 15:53:57.403 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-28 15:53:57.405 +05:30 [INF] Hosting environment: Development
+2026-04-28 15:53:57.406 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\FeedService
+2026-04-28 16:11:15.301 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 8720.6897 ms
+2026-04-28 16:13:09.721 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 4057.3839 ms
+2026-04-28 16:15:06.024 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 324.9662 ms
+2026-04-28 16:15:12.405 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 837.9775 ms
+2026-04-28 16:15:23.772 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 59.0268 ms
+2026-04-28 16:15:26.493 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 288.3048 ms
+2026-04-28 16:15:37.584 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 54.8430 ms
+2026-04-28 16:16:00.804 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 35.4179 ms
+2026-04-28 17:10:13.260 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 1566.8222 ms
+2026-04-28 17:10:33.662 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 30.5728 ms
+2026-04-28 17:10:40.875 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 335.1730 ms

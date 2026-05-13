@@ -1,0 +1,26 @@
+2026-05-04 16:17:14.042 +05:30 [INF] Now listening on: http://localhost:5001
+2026-05-04 16:17:14.105 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-04 16:17:14.107 +05:30 [INF] Hosting environment: Development
+2026-05-04 16:17:14.108 +05:30 [INF] Content root path: C:\SocialMediaMiniBackend\ConnectSphere\Services\FeedService
+2026-05-04 16:19:03.533 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 250.5959 ms
+2026-05-04 16:19:47.639 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 8322.3916 ms
+2026-05-04 16:20:05.996 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 246.2922 ms
+2026-05-04 16:20:08.087 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 4575.3164 ms
+2026-05-04 16:20:50.656 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 37.4414 ms
+2026-05-04 16:21:29.647 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 136.1264 ms
+2026-05-04 16:22:27.376 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 167.8966 ms
+2026-05-04 16:22:32.890 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 50.6085 ms
+2026-05-04 16:23:11.043 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 38.8493 ms
+2026-05-04 16:23:18.517 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 269.2578 ms
+2026-05-04 16:23:19.617 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 27.8948 ms
+2026-05-04 16:23:41.744 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 52.9597 ms
+2026-05-04 16:24:37.168 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 67.1003 ms
+2026-05-04 16:24:56.388 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 193.0501 ms
+2026-05-04 16:24:58.431 +05:30 [INF] HTTP GET /api/feed/following responded 200 in 567.3747 ms
+2026-05-04 16:25:05.186 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 29.3338 ms
+2026-05-04 16:26:46.035 +05:30 [INF] HTTP GET /api/feed/explore responded 200 in 261.8236 ms
+2026-05-04 16:37:19.062 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 23.8148 ms
+2026-05-04 16:37:42.552 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 4.2982 ms
+2026-05-04 16:38:06.281 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 3.0864 ms
+2026-05-04 16:38:50.737 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 7.0543 ms
+2026-05-04 16:39:14.488 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 4.6028 ms
