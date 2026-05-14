@@ -26,10 +26,14 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped<IPostRepository, PostRepository>();
 builder.Services.AddHttpClient<FollowServiceClient>(client => {
-    client.BaseAddress = new Uri(builder.Configuration["ServiceUrls:FollowService"]!);
+    var url = builder.Configuration["ServiceUrls:FollowService"] ?? builder.Configuration["ServiceUrls__FollowService"];
+    if (string.IsNullOrEmpty(url) || url == "SET_BY_ENV") url = "http://placeholder"; 
+    client.BaseAddress = new Uri(url);
 });
 builder.Services.AddHttpClient<AuthServiceClient>(client => {
-    client.BaseAddress = new Uri(builder.Configuration["ServiceUrls:AuthService"]!);
+    var url = builder.Configuration["ServiceUrls:AuthService"] ?? builder.Configuration["ServiceUrls__AuthService"];
+    if (string.IsNullOrEmpty(url) || url == "SET_BY_ENV") url = "http://placeholder";
+    client.BaseAddress = new Uri(url);
 });
 builder.Services.AddScoped<IPostService, PostService.Services.PostService>();
 builder.Services.AddSingleton<IRabbitMQPublisher, PostService.Services.RabbitMQPublisher>();

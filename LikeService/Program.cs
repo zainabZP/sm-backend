@@ -25,8 +25,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddHttpClient<PostServiceClient>(client => {
-    client.BaseAddress = new Uri(builder.Configuration["PostService:BaseUrl"]
-        ?? throw new Exception("PostService BaseUrl not configured"));
+    var url = builder.Configuration["PostService:BaseUrl"] ?? builder.Configuration["PostService__BaseUrl"];
+    if (string.IsNullOrEmpty(url) || url == "SET_BY_ENV") url = "http://placeholder";
+    client.BaseAddress = new Uri(url);
 });
 
 builder.Services.AddScoped<ILikeRepository, LikeRepository>();

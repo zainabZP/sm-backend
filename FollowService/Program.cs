@@ -25,8 +25,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddHttpClient<AuthServiceClient>(client => {
-    client.BaseAddress = new Uri(builder.Configuration["AuthService:BaseUrl"]
-        ?? throw new Exception("AuthService BaseUrl not configured"));
+    var url = builder.Configuration["AuthService:BaseUrl"] ?? builder.Configuration["AuthService__BaseUrl"];
+    if (string.IsNullOrEmpty(url) || url == "SET_BY_ENV") url = "http://placeholder";
+    client.BaseAddress = new Uri(url);
 });
 
 builder.Services.AddScoped<IFollowRepository, FollowRepository>();
