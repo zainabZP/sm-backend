@@ -42,14 +42,17 @@ try {
     // DEBUG ENDPOINT: Test if we can reach auth-service
     app.MapGet("/test-connection", async (IConfiguration config) => {
         var authUrl = config["ReverseProxy:Clusters:authcluster:Destinations:authdest:Address"] ?? "Not Set";
+        if (!authUrl.EndsWith("/")) authUrl += "/";
+        
         try {
             using var client = new HttpClient();
-            client.Timeout = TimeSpan.FromSeconds(5);
+            client.Timeout = TimeSpan.FromSeconds(10);
             var response = await client.GetAsync(authUrl + "swagger/v1/swagger.json");
             return Results.Ok(new { 
                 Target = authUrl, 
                 Status = response.StatusCode.ToString(), 
-                Success = response.IsSuccessStatusCode 
+                Success = response.IsSuccessStatusCode,
+                TestedUrl = authUrl + "swagger/v1/swagger.json"
             });
         } catch (Exception ex) {
             return Results.Problem($"Failed to reach {authUrl}. Error: {ex.Message}");
