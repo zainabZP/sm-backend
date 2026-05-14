@@ -7,7 +7,13 @@ namespace FeedService.Clients {
 
         public PostServiceClient(HttpClient httpClient, IConfiguration configuration) {
             _httpClient = httpClient;
-            _httpClient.BaseAddress = new Uri(configuration["ServiceUrls:PostService"]!);
+            var url = configuration["ServiceUrls:PostService"] ?? configuration["ServiceUrls__PostService"];
+
+            if (string.IsNullOrEmpty(url) || url == "SET_BY_ENV") {
+                throw new Exception($"PostService URL is not configured. Key: ServiceUrls:PostService. Value received: '{url}'");
+            }
+
+            _httpClient.BaseAddress = new Uri(url);
         }
 
         public async Task<List<PostResponseDto>> GetFeedPosts(List<int> followingIds) {

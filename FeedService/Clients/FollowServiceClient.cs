@@ -7,7 +7,14 @@ namespace FeedService.Clients {
 
         public FollowServiceClient(HttpClient httpClient, IConfiguration configuration) {
             _httpClient = httpClient;
-            _httpClient.BaseAddress = new Uri(configuration["ServiceUrls:FollowService"]!);
+            var url = configuration["ServiceUrls:FollowService"] ?? configuration["ServiceUrls__FollowService"];
+            
+            if (string.IsNullOrEmpty(url) || url == "SET_BY_ENV") {
+                // Fallback to a default if absolutely necessary, but better to throw a clear error
+                throw new Exception($"FollowService URL is not configured. Key: ServiceUrls:FollowService. Value received: '{url}'");
+            }
+
+            _httpClient.BaseAddress = new Uri(url);
         }
 
         public async Task<List<int>> GetFollowingUserIds(int userId) {
